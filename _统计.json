@@ -1,0 +1,527 @@
+[
+ {
+  "project": "DETOUR",
+  "type": "official",
+  "author": "aist",
+  "url": "https://higgsfield.ai/@aist/projects/detour",
+  "theme": "街头赛车动作片（导航故障引发的公路竞速），v2-final 三轮对账 6161 件",
+  "lang": "中英双语（资产层英文/分镜层中文）",
+  "prompts": 2172,
+  "byType": {
+   "video": 799,
+   "image": 1373
+  },
+  "byModel": {
+   "seedance_2_5": 785,
+   "seedance_2_0": 12,
+   "seedream_v5_pro": 710,
+   "nano_banana_2": 282,
+   "gpt_image_2": 331,
+   "cinematic_studio_video_4_0": 1,
+   "nano_banana_flash": 20,
+   "soul_cinematic": 9,
+   "soul_cinema_studio": 18,
+   "kling3_0": 1,
+   "text2image_soul_v2": 2,
+   "hf_mult_replace_object": 1
+  },
+  "categories": 90
+ },
+ {
+  "project": "ZEPHYR",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/zephyr-special",
+  "theme": "K-pop 偶像打怪 MV 特辑，IMAX 质感",
+  "lang": "英文",
+  "prompts": 471,
+  "byType": {
+   "image": 116,
+   "video": 355
+  },
+  "byModel": {
+   "gpt_image_2": 30,
+   "seedance_2_0": 344,
+   "soul_cinematic": 31,
+   "text2image_soul_v2": 29,
+   "nano_banana_2": 26,
+   "cinematic_studio_video_3_5": 1,
+   "seedance_2_5": 10
+  },
+  "categories": 1
+ },
+ {
+  "project": "RED_FLAG",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/red-flag",
+  "theme": "港式黑帮爱情，正向颜色分配体系",
+  "lang": "英文",
+  "prompts": 616,
+  "byType": {
+   "image": 313,
+   "video": 303
+  },
+  "byModel": {
+   "soul_cinematic": 109,
+   "cinematic_studio_video_3_5": 4,
+   "gpt_image_2": 11,
+   "nano_banana_flash": 8,
+   "nano_banana_2": 55,
+   "seedream_v5_pro": 107,
+   "soul_cinema_studio": 10,
+   "text2image_soul_v2": 3,
+   "seedance_2_0": 83,
+   "cinematic_studio_3_0_image_edit": 9,
+   "seedance_2_5": 217
+  },
+  "categories": 6
+ },
+ {
+  "project": "KOK_BORU",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/kok-boru",
+  "theme": "中亚马背叼羊，手绘 EN 风格",
+  "lang": "英文",
+  "prompts": 218,
+  "byType": {
+   "video": 213,
+   "image": 5
+  },
+  "byModel": {
+   "seedance_2_0": 212,
+   "gpt_image_2": 3,
+   "cinematic_studio_video_3_5": 1,
+   "nano_banana_flash": 2
+  },
+  "categories": 11
+ },
+ {
+  "project": "KOK_BORU_FILM",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/kok-boru-film",
+  "theme": "同题材成片版，中文【标签】体系+反光滑铁律",
+  "lang": "中文",
+  "prompts": 2421,
+  "byType": {
+   "video": 2390,
+   "image": 31
+  },
+  "byModel": {
+   "seedance_2_0": 2382,
+   "imagegen_2_0": 3,
+   "nano_banana_flash": 16,
+   "text2image_soul_v2": 5,
+   "seedream_v5_pro": 6,
+   "seedream_v4_5": 1,
+   "seedance_2_5": 8
+  },
+  "categories": 18
+ },
+ {
+  "project": "ONEIRIC",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/oneiric",
+  "theme": "梦境家庭剧，GLOBAL LOCK 特性工程学",
+  "lang": "英文",
+  "prompts": 3247,
+  "byType": {
+   "video": 2091,
+   "image": 1156
+  },
+  "byModel": {
+   "seedance_2_0": 2083,
+   "soul_cinematic": 337,
+   "gpt_image_2": 245,
+   "seedream_v4_5": 133,
+   "text2image_soul_v2": 100,
+   "recraft_v4_1": 1,
+   "nano_banana_2": 114,
+   "soul_cinema_studio": 3,
+   "seedream_v5_pro": 221,
+   "nano_banana_flash": 1,
+   "cinematic_studio_image": 1,
+   "cinematic_studio_3_0": 1,
+   "gemini_omni": 3,
+   "kling3_0": 1,
+   "seedance_2_5": 3
+  },
+  "categories": 123
+ },
+ {
+  "project": "ADILIADA",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/adiliada",
+  "theme": "类型模仿语法（黑帮片致敬）",
+  "lang": "英文",
+  "prompts": 1692,
+  "byType": {
+   "image": 1040,
+   "video": 652
+  },
+  "byModel": {
+   "nano_banana_2": 532,
+   "seedance_2_0": 651,
+   "gpt_image_2": 51,
+   "soul_cinematic": 418,
+   "soul_cinema_studio": 17,
+   "nano_banana_flash": 4,
+   "seedream_v4_5": 1,
+   "seedream_v5_pro": 14,
+   "text2image_soul_v2": 2,
+   "cinematic_studio_image": 1,
+   "minimax_h3": 1
+  },
+  "categories": 148
+ },
+ {
+  "project": "CULLY_HILL_BOYS",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/cully-hill-boys",
+  "theme": "音乐犯罪喜剧，五件套表演法（OBJECTIVE-TACTIC-SUBTEXT-STATUS-FACS）",
+  "lang": "英文",
+  "prompts": 3174,
+  "byType": {
+   "image": 1633,
+   "video": 1541
+  },
+  "byModel": {
+   "soul_cinema_studio": 21,
+   "seedream_v4_5": 646,
+   "nano_banana_2": 612,
+   "seedance_2_0": 1337,
+   "gpt_image_2": 154,
+   "soul_cinematic": 118,
+   "nano_banana_flash": 15,
+   "recraft_v4_1": 18,
+   "cinematic_studio_video_3_5": 21,
+   "text2image_soul_v2": 23,
+   "grok_image": 10,
+   "image_auto": 3,
+   "seedream_v5_pro": 13,
+   "gemini_omni": 9,
+   "seedance_2_5": 174
+  },
+  "categories": 72
+ },
+ {
+  "project": "HELL_GRIND",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/hell-grind",
+  "theme": "奇幻悲剧，生物五件套设计法",
+  "lang": "英文",
+  "prompts": 1861,
+  "byType": {
+   "video": 1271,
+   "image": 590
+  },
+  "byModel": {
+   "seedance_2_0": 1264,
+   "imagegen_2_0": 103,
+   "nano_banana_2": 279,
+   "soul_cinematic": 59,
+   "text2image_soul_v2": 60,
+   "nano_banana_flash": 37,
+   "image_auto": 22,
+   "cinematic_studio_video_3_5": 7,
+   "gpt_image_2": 30
+  },
+  "categories": 41
+ },
+ {
+  "project": "IF_YOU_STOP_LOVING_ME",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/if-you-stop-loving-me-ill-die",
+  "theme": "混合媒介（Kran 材质宪法：两世界永不光学交互）",
+  "lang": "英文",
+  "prompts": 749,
+  "byType": {
+   "image": 229,
+   "video": 520
+  },
+  "byModel": {
+   "seedream_v5_pro": 104,
+   "gpt_image_2": 12,
+   "text2image_soul_v2": 16,
+   "recraft_v4_1": 2,
+   "nano_banana_2": 95,
+   "seedance_2_0": 477,
+   "seedance_2_5": 15,
+   "minimax_h3": 28
+  },
+  "categories": 48
+ },
+ {
+  "project": "THE_TRIGGER",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/trigger",
+  "theme": "双时间线写实，调度图三安全规则+ACTING TASK",
+  "lang": "英文",
+  "prompts": 773,
+  "byType": {
+   "image": 259,
+   "video": 514
+  },
+  "byModel": {
+   "text2image_soul_v2": 32,
+   "seedream_v5_pro": 149,
+   "soul_cinematic": 72,
+   "gpt_image_2": 3,
+   "soul_cinema_studio": 3,
+   "seedance_2_0": 27,
+   "seedance_2_5": 484,
+   "flux_2": 1,
+   "cinematic_studio_3_0": 1,
+   "kling3_0": 1
+  },
+  "categories": 25
+ },
+ {
+  "project": "HUNTRESS_TALE",
+  "type": "community",
+  "author": "@ailaa",
+  "url": "https://higgsfield.ai/@ailaa/projects/huntress-s-tale",
+  "theme": "猎魔女战巨蛇奇幻动作（SHOT1-5 分镜结构）",
+  "lang": "英文",
+  "likes": "289",
+  "prompts": 70,
+  "byType": {
+   "image": 22,
+   "video": 48
+  },
+  "byModel": {
+   "text2image_soul_v2": 4,
+   "seedance_2_0": 48,
+   "gpt_image_2": 3,
+   "nano_banana_2": 15
+  },
+  "categories": 9
+ },
+ {
+  "project": "ANIME_PRODUCTION",
+  "type": "community",
+  "author": "@mixingburrito1329",
+  "url": "https://higgsfield.ai/@mixingburrito1329/projects/anime-production",
+  "theme": "图库先行动画生产（seedream 图→seedance 动画化）",
+  "lang": "英文",
+  "likes": "844",
+  "prompts": 136,
+  "byType": {
+   "video": 5,
+   "image": 131
+  },
+  "byModel": {
+   "seedance_2_0": 5,
+   "seedream_v5_pro": 110,
+   "soul_cinematic": 1,
+   "text2image_soul_v2": 20
+  },
+  "categories": 6
+ },
+ {
+  "project": "HIGGSFIELD_ACADEMY_PROJECT",
+  "type": "community",
+  "author": "@askar_yedil",
+  "url": "https://higgsfield.ai/@askar_yedil/projects/higgsfield-academy",
+  "theme": "教学演示项目",
+  "lang": "英文",
+  "likes": "273",
+  "prompts": 42,
+  "byType": {
+   "image": 10,
+   "video": 32
+  },
+  "byModel": {
+   "soul_cinematic": 2,
+   "seedance_2_0": 32,
+   "nano_banana_2": 3,
+   "text2image_soul_v2": 4,
+   "soul_cinema_studio": 1
+  },
+  "categories": 1
+ },
+ {
+  "project": "THE_NEW_GIRL",
+  "type": "community",
+  "author": "@alishaqantaar",
+  "url": "https://higgsfield.ai/@alishaqantaar/projects/the-new-girl",
+  "theme": "双线叙事剧集（FINAL 版次管理）",
+  "lang": "英文",
+  "likes": "221",
+  "prompts": 131,
+  "byType": {
+   "image": 60,
+   "video": 71
+  },
+  "byModel": {
+   "nano_banana_2": 32,
+   "seedance_2_0": 71,
+   "seedream_v5_pro": 9,
+   "text2image_soul_v2": 19
+  },
+  "categories": 7
+ },
+ {
+  "project": "DUSK",
+  "type": "community",
+  "author": "@merumeru",
+  "url": "https://higgsfield.ai/@merumeru/projects/dusk",
+  "theme": "三集剧集（seedance_2.5 全锁链 16 段式）",
+  "lang": "英文",
+  "likes": "152",
+  "prompts": 214,
+  "byType": {
+   "image": 56,
+   "video": 158
+  },
+  "byModel": {
+   "gpt_image_2": 8,
+   "seedance_2_5": 79,
+   "text2image_soul_v2": 16,
+   "seedream_v5_pro": 13,
+   "seedream_v4_5": 2,
+   "nano_banana_2": 9,
+   "seedance_2_0": 79,
+   "soul_cinematic": 7,
+   "cinematic_studio_3_0": 1
+  },
+  "categories": 5
+ },
+ {
+  "project": "SOUL_CAROUSELS",
+  "type": "community",
+  "author": "@skxqw",
+  "url": "https://higgsfield.ai/@skxqw/projects/soul-carousels",
+  "theme": "栏目制轮播美学（短 prompt 氛围堆叠）",
+  "lang": "英文",
+  "likes": "146",
+  "prompts": 136,
+  "byType": {
+   "image": 136
+  },
+  "byModel": {
+   "text2image_soul_v2": 129,
+   "gpt_image_2": 6,
+   "nano_banana_2": 1
+  },
+  "categories": 21
+ },
+ {
+  "project": "ONE_MORE_TIME",
+  "type": "community",
+  "author": "@sadiesfaction",
+  "url": "https://higgsfield.ai/@sadiesfaction/projects/one-more-time",
+  "theme": "音乐片一条流（handheld+hard cut）",
+  "lang": "英文",
+  "likes": "125",
+  "prompts": 85,
+  "byType": {
+   "video": 79,
+   "image": 6
+  },
+  "byModel": {
+   "seedance_2_0": 79,
+   "nano_banana_2": 6
+  },
+  "categories": 2
+ },
+ {
+  "project": "TOP_UP_AD",
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/top-up",
+  "theme": "机甲实拍广告拆解（官方教程句式实战迁移）",
+  "lang": "英文",
+  "likes": "105",
+  "prompts": 74,
+  "byType": {
+   "video": 64,
+   "image": 10
+  },
+  "byModel": {
+   "seedance_2_0": 64,
+   "soul_cinematic": 4,
+   "gpt_image_2": 4,
+   "seedream_v4_5": 2
+  },
+  "categories": 15
+ },
+ {
+  "project": "NALA_HEADS_DROP",
+  "type": "community",
+  "author": "@higgscreator",
+  "url": "https://higgsfield.ai/@higgscreator/projects/nala-heads-drop",
+  "theme": "音乐 MV（21:9+Vision3 胶片宪法）",
+  "lang": "英文",
+  "likes": "884",
+  "prompts": 151,
+  "byType": {
+   "video": 139,
+   "image": 12
+  },
+  "byModel": {
+   "seedance_2_0": 139,
+   "nano_banana_2": 8,
+   "soul_cinematic": 4
+  },
+  "categories": 2
+ },
+ {
+  "project": "TV_4K",
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/tv-4k",
+  "theme": "超写实短片拆解（uuid 锚+教学 folder 学）",
+  "lang": "英文",
+  "likes": "18",
+  "prompts": 254,
+  "byType": {
+   "image": 74,
+   "video": 180
+  },
+  "byModel": {
+   "soul_cinematic": 40,
+   "nano_banana_flash": 3,
+   "seedance_2_0": 180,
+   "gpt_image_2": 25,
+   "nano_banana_2": 2,
+   "soul_cinema_studio": 4
+  },
+  "categories": 34
+ },
+ {
+  "project": "4K_BLOCKBUSTER_BREAKDOWN",
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/4k-blockbuster-breakdown",
+  "theme": "片中片循环大片（场景×分辨率×版本矩阵，全站最大 13491 件）",
+  "lang": "英文",
+  "likes": "0",
+  "prompts": 1076,
+  "byType": {
+   "image": 326,
+   "video": 750
+  },
+  "byModel": {
+   "soul_cinematic": 144,
+   "nano_banana_flash": 12,
+   "nano_banana_2": 70,
+   "seedance_2_0": 750,
+   "soul_cinema_studio": 9,
+   "gpt_image_2": 63,
+   "seedream_v4_5": 1,
+   "cinematic_studio_3_0": 1,
+   "nano_banana_2_lite": 3,
+   "text2image_soul_v2": 23
+  },
+  "categories": 79
+ }
+]

@@ -1,0 +1,167 @@
+{
+ "DETOUR": {
+  "type": "official",
+  "author": "aist",
+  "url": "https://higgsfield.ai/@aist/projects/detour",
+  "theme": "街头赛车动作片（导航故障引发的公路竞速），v2-final 三轮对账 6161 件",
+  "lang": "中英双语（资产层英文/分镜层中文）"
+ },
+ "ZEPHYR": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/zephyr-special",
+  "theme": "K-pop 偶像打怪 MV 特辑，IMAX 质感",
+  "lang": "英文"
+ },
+ "RED_FLAG": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/red-flag",
+  "theme": "港式黑帮爱情，正向颜色分配体系",
+  "lang": "英文"
+ },
+ "KOK_BORU": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/kok-boru",
+  "theme": "中亚马背叼羊，手绘 EN 风格",
+  "lang": "英文"
+ },
+ "KOK_BORU_FILM": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/kok-boru-film",
+  "theme": "同题材成片版，中文【标签】体系+反光滑铁律",
+  "lang": "中文"
+ },
+ "ONEIRIC": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/oneiric",
+  "theme": "梦境家庭剧，GLOBAL LOCK 特性工程学",
+  "lang": "英文"
+ },
+ "ADILIADA": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/adiliada",
+  "theme": "类型模仿语法（黑帮片致敬）",
+  "lang": "英文"
+ },
+ "CULLY_HILL_BOYS": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/cully-hill-boys",
+  "theme": "音乐犯罪喜剧，五件套表演法（OBJECTIVE-TACTIC-SUBTEXT-STATUS-FACS）",
+  "lang": "英文"
+ },
+ "HELL_GRIND": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/hell-grind",
+  "theme": "奇幻悲剧，生物五件套设计法",
+  "lang": "英文"
+ },
+ "IF_YOU_STOP_LOVING_ME": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/if-you-stop-loving-me-ill-die",
+  "theme": "混合媒介（Kran 材质宪法：两世界永不光学交互）",
+  "lang": "英文"
+ },
+ "THE_TRIGGER": {
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/trigger",
+  "theme": "双时间线写实，调度图三安全规则+ACTING TASK",
+  "lang": "英文"
+ },
+ "HUNTRESS_TALE": {
+  "type": "community",
+  "author": "@ailaa",
+  "url": "https://higgsfield.ai/@ailaa/projects/huntress-s-tale",
+  "theme": "猎魔女战巨蛇奇幻动作（SHOT1-5 分镜结构）",
+  "lang": "英文",
+  "likes": "289"
+ },
+ "ANIME_PRODUCTION": {
+  "type": "community",
+  "author": "@mixingburrito1329",
+  "url": "https://higgsfield.ai/@mixingburrito1329/projects/anime-production",
+  "theme": "图库先行动画生产（seedream 图→seedance 动画化）",
+  "lang": "英文",
+  "likes": "844"
+ },
+ "HIGGSFIELD_ACADEMY_PROJECT": {
+  "type": "community",
+  "author": "@askar_yedil",
+  "url": "https://higgsfield.ai/@askar_yedil/projects/higgsfield-academy",
+  "theme": "教学演示项目",
+  "lang": "英文",
+  "likes": "273"
+ },
+ "THE_NEW_GIRL": {
+  "type": "community",
+  "author": "@alishaqantaar",
+  "url": "https://higgsfield.ai/@alishaqantaar/projects/the-new-girl",
+  "theme": "双线叙事剧集（FINAL 版次管理）",
+  "lang": "英文",
+  "likes": "221"
+ },
+ "DUSK": {
+  "type": "community",
+  "author": "@merumeru",
+  "url": "https://higgsfield.ai/@merumeru/projects/dusk",
+  "theme": "三集剧集（seedance_2.5 全锁链 16 段式）",
+  "lang": "英文",
+  "likes": "152"
+ },
+ "SOUL_CAROUSELS": {
+  "type": "community",
+  "author": "@skxqw",
+  "url": "https://higgsfield.ai/@skxqw/projects/soul-carousels",
+  "theme": "栏目制轮播美学（短 prompt 氛围堆叠）",
+  "lang": "英文",
+  "likes": "146"
+ },
+ "ONE_MORE_TIME": {
+  "type": "community",
+  "author": "@sadiesfaction",
+  "url": "https://higgsfield.ai/@sadiesfaction/projects/one-more-time",
+  "theme": "音乐片一条流（handheld+hard cut）",
+  "lang": "英文",
+  "likes": "125"
+ },
+ "TOP_UP_AD": {
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/top-up",
+  "theme": "机甲实拍广告拆解（官方教程句式实战迁移）",
+  "lang": "英文",
+  "likes": "105"
+ },
+ "NALA_HEADS_DROP": {
+  "type": "community",
+  "author": "@higgscreator",
+  "url": "https://higgsfield.ai/@higgscreator/projects/nala-heads-drop",
+  "theme": "音乐 MV（21:9+Vision3 胶片宪法）",
+  "lang": "英文",
+  "likes": "884"
+ },
+ "TV_4K": {
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/tv-4k",
+  "theme": "超写实短片拆解（uuid 锚+教学 folder 学）",
+  "lang": "英文",
+  "likes": "18"
+ },
+ "4K_BLOCKBUSTER_BREAKDOWN": {
+  "type": "community",
+  "author": "@adilinthewild",
+  "url": "https://higgsfield.ai/@adilinthewild/projects/4k-blockbuster-breakdown",
+  "theme": "片中片循环大片（场景×分辨率×版本矩阵，全站最大 13491 件）",
+  "lang": "英文",
+  "likes": "0"
+ }
+}
