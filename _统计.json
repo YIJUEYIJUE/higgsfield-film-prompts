@@ -523,5 +523,31 @@
    "text2image_soul_v2": 23
   },
   "categories": 79
+ },
+ {
+  "project": "PASSPORT_RUSH",
+  "type": "official",
+  "author": "higgsfield.studio",
+  "url": "https://higgsfield.ai/@higgsfield.studio/projects/passport-rush",
+  "theme": "官方追逐喜剧（全站最大 14612 件）",
+  "lang": "英文",
+  "likes": "—",
+  "prompts": 1193,
+  "byType": {
+   "video": 891,
+   "image": 302
+  },
+  "byModel": {
+   "seedance_2_5": 879,
+   "text2image_soul_v2": 182,
+   "minimax_h3_max": 1,
+   "seedream_v5_pro": 114,
+   "minimax_h3": 8,
+   "gpt_image_2": 1,
+   "seedance_2_0": 3,
+   "nano_banana_2": 4,
+   "nano_banana_flash": 1
+  },
+  "categories": 56
  }
 ]

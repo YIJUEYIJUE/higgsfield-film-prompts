@@ -1,10 +1,10 @@
 # 学习的影片全部提示词 · 主索引
 
-> **AI 从这里开始**：本仓收录 22 个 Higgsfield 影片项目的全部提示词（去重后共 19,763 条，逐字未截断）。
+> **AI 从这里开始**：本仓收录 23 个 Higgsfield 影片项目的全部提示词（去重后共 20,956 条，逐字未截断）。
 > 每个项目一个文件夹，每个文件夹内 `prompts_all.jsonl` 单文件即该项目全部提示词（每行一个 JSON）。
 > 字段统一：`project / category / result_type / model / prompt / prompt_length / source_id`。
 
-## 官方开源项目（11）
+## 官方开源项目（12）
 
 | 项目 | 提示词数 | 主题一句话 | 文件夹 |
 |---|---|---|---|
@@ -18,6 +18,7 @@
 | CULLY_HILL_BOYS | 3174 | 音乐犯罪喜剧，五件套表演法（OBJECTIVE-TACTIC | [CULLY_HILL_BOYS/](./CULLY_HILL_BOYS/) |
 | HELL_GRIND | 1861 | 奇幻悲剧，生物五件套设计法 | [HELL_GRIND/](./HELL_GRIND/) |
 | IF_YOU_STOP_LOVING_ME | 749 | 混合媒介（Kran 材质宪法：两世界永不光学交互） | [IF_YOU_STOP_LOVING_ME/](./IF_YOU_STOP_LOVING_ME/) |
+| PASSPORT_RUSH | 1193 | 官方新片·全站最大工程（护照追逐喜剧） | [PASSPORT_RUSH/](./PASSPORT_RUSH/) |
 | THE_TRIGGER | 773 | 双时间线写实，调度图三安全规则+ACTING TASK | [THE_TRIGGER/](./THE_TRIGGER/) |
 
 ## 社区高赞项目（11）
