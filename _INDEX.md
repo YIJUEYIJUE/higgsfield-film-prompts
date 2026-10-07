@@ -1,6 +1,6 @@
 # 学习的影片全部提示词 · 主索引
 
-> **AI 从这里开始**：本仓收录 23 个 Higgsfield 影片项目的全部提示词（去重后共 20,956 条，逐字未截断）。
+> **AI 从这里开始**：本仓收录 23 个 Higgsfield 影片项目的全部提示词（去重后共 20,957 条，逐字未截断）。
 > 每个项目一个文件夹，每个文件夹内 `prompts_all.jsonl` 单文件即该项目全部提示词（每行一个 JSON）。
 > 字段统一：`project / category / result_type / model / prompt / prompt_length / source_id`。
 
@@ -8,7 +8,7 @@
 
 | 项目 | 提示词数 | 主题一句话 | 文件夹 |
 |---|---|---|---|
-| DETOUR | 2172 | 街头赛车动作片（导航故障引发的公路竞速），v2-final  | [DETOUR/](./DETOUR/) |
+| DETOUR | 2173 | 街头赛车动作片（导航故障引发的公路竞速），v2-final  | [DETOUR/](./DETOUR/) |
 | ZEPHYR | 471 | K-pop 偶像打怪 MV 特辑，IMAX 质感 | [ZEPHYR/](./ZEPHYR/) |
 | RED_FLAG | 616 | 港式黑帮爱情，正向颜色分配体系 | [RED_FLAG/](./RED_FLAG/) |
 | KOK_BORU | 218 | 中亚马背叼羊，手绘 EN 风格 | [KOK_BORU/](./KOK_BORU/) |
