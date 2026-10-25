@@ -1,10 +1,10 @@
 # 学习的影片全部提示词 · 主索引
 
-> **AI 从这里开始**：23 个 Higgsfield 影片项目的全部提示词完整包（共 21,018 条去重提示词）。
-> 每个项目文件夹 = `prompts_all.jsonl`（全部去重提示词，主入口）+ 分类文件（图片/视频/角色/场景/道具/分镜）+ `brief.txt`（官方简报）+ `official_skills/`（官方 Skill 原件，仅 4 项目有）+ `assets_full.jsonl`（全量含重跑，小项目）。
-> 字段统一：`project / category / folder / result_type / model / prompt / prompt_length / source_id`。
+> **AI 从这里开始**：24 个 Higgsfield 影片项目的全部提示词完整包（共 21,322 条去重提示词）。
+> 每项目 = `prompts_all.jsonl`（主入口）+ 分类文件 + `brief.txt` + `official_skills/`（有则含）+ `assets_full.jsonl`（≤45MB）。
+> 字段：`project / category / folder / result_type / model / prompt / prompt_length / source_id`。
 
-| 项目 | 去重提示词 | 分类文件数 | 附加内容 |
+| 项目 | 去重提示词 | 分类文件数 | 附加 |
 |---|---|---|---|
 | [4K_BLOCKBUSTER_BREAKDOWN](./4K_BLOCKBUSTER_BREAKDOWN/) | 1076 | 6 | brief |
 | [ADILIADA](./ADILIADA/) | 1698 | 4 | brief |
@@ -18,6 +18,7 @@
 | [IF_YOU_STOP_LOVING_ME](./IF_YOU_STOP_LOVING_ME/) | 749 | 6 | brief+全量 |
 | [KOK_BORU](./KOK_BORU/) | 218 | 2 | brief+全量 |
 | [KOK_BORU_FILM](./KOK_BORU_FILM/) | 2436 | 3 | brief |
+| [MR_OTTER](./MR_OTTER/) | 304 | 4 | brief+全量 |
 | [NALA_HEADS_DROP](./NALA_HEADS_DROP/) | 151 | 3 | brief+全量 |
 | [ONEIRIC](./ONEIRIC/) | 3247 | 6 | brief+skill |
 | [ONE_MORE_TIME](./ONE_MORE_TIME/) | 91 | 2 | 全量 |
@@ -32,7 +33,7 @@
 
 ## 使用法
 
-1. 读全部 → `prompts_all.jsonl` 逐行
-2. 只要视频/图片 → `prompts_video.jsonl` / `prompts_image.jsonl`
-3. 只要角色/场景/道具/分镜 → 对应 `prompts_*.jsonl`
-4. 官方简报 → `brief.txt`；官方 Skill → `official_skills/`
+1. 全部 → `prompts_all.jsonl`
+2. 图/视 → `prompts_video|image.jsonl`
+3. 角/场/道/镜 → 对应文件
+4. 简报 → `brief.txt`；官方 Skill → `official_skills/`
