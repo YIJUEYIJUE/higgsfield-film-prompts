@@ -9,7 +9,7 @@
 |---|---|---|
 | prompts_all.jsonl | 全部去重提示词（**主入口**） | 145 |
 | prompts_image.jsonl | 图片提示词 | 145 |
-| prompts_video.jsonl | 视频提示词 | 0 |
+| prompts_video.jsonl | 视频提示词 | 0（**纯图项目，无视频提示词**，故无此文件） |
 | assets_full.jsonl | 全量资产（含重跑批次） | 0MB |
 | brief.txt | 官方项目简报正文 | 有 |
 | official_skills/ | 官方 Skill 附件原件 | 无 |
