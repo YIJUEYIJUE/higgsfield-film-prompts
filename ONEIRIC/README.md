@@ -1,25 +1,27 @@
-# ONEIRIC — 全部提示词（AI 直读仓）
+# ONEIRIC — 全部提示词完整包
 
-> **AI 读取方式**：打开本目录 `prompts_all.jsonl`——每行一个 JSON，共 **3247 条去重提示词**，逐字未截断。
-> 字段：`project / category(工程内文件夹) / result_type(image|video|unknown) / model(生成模型) / prompt(提示词全文) / prompt_length / source_id(资产id，可溯源)`。
-> 单文件即全部内容，无需其他文件。逐条读完 = 读完该项目全部提示词。
+> **AI 读取**：`prompts_all.jsonl` = 本项目全部去重提示词（每行一个 JSON，逐行读完即全部读完）。
+> 已按 图片/视频/角色/场景/道具/分镜 拆分分类文件；全量资产、官方 brief、官方 Skill 同目录归档。
 
-- **类型**：官方开源项目
-- **作者**：higgsfield.studio
-- **链接**：https://higgsfield.ai/@higgsfield.studio/projects/oneiric
-- **主题**：梦境家庭剧，GLOBAL LOCK 特性工程学
-- **语言**：英文
-- **提示词总数**：3247 条（去重后，2026-10-26 增量同步）
-- **result_type 分布**：video 2091 / image 1156
-- **模型分布**：seedance_2_0×2083、 soul_cinematic×337、 gpt_image_2×245、 seedream_v5_pro×221、 seedream_v4_5×133、 nano_banana_2×114、 text2image_soul_v2×100、 soul_cinema_studio×3、 gemini_omni×3、 seedance_2_5×3、 recraft_v4_1×1、 nano_banana_flash×1、 cinematic_studio_image×1、 cinematic_studio_3_0×1、 kling3_0×1
-- **category 数**：123 个工程内文件夹
+## 文件一览
 
-## 按 result_type 取用
+| 文件 | 内容 | 条数/状态 |
+|---|---|---|
+| prompts_all.jsonl | 全部去重提示词（**主入口**） | 3247 |
+| prompts_image.jsonl | 图片提示词 | 1156 |
+| prompts_video.jsonl | 视频提示词 | 2091 |
+| prompts_characters.jsonl | 角色类提示词 | 377 |
+| prompts_locations.jsonl | 场景类提示词 | 560 |
+| prompts_props.jsonl | 道具类提示词 | 95 |
+| prompts_scenes.jsonl | 分镜/镜头类提示词 | 1942 |
+| assets_full.jsonl | 全量资产（含重跑批次） | 超限未含（本机02区有259MB完整版） |
+| brief.txt | 官方项目简报正文 | 有 |
+| official_skills/ | 官方 Skill 附件原件 | 有 |
 
-- 只要图像提示词：过滤 `result_type:"image"`
-- 只要视频提示词：过滤 `result_type:"video"`
-- 只要某 category：过滤 `category` 字段
+## 字段
 
-## 体系一句话（方法论详见 03 区）
+`project / category(characters|locations|props|scenes|assets) / folder(工程内原目录) / result_type(image|video) / model / prompt / prompt_length / source_id`
 
-梦境家庭剧，GLOBAL LOCK 特性工程学
+## 模型分布
+
+seedance_2_0×2083、soul_cinematic×337、gpt_image_2×245、seedream_v5_pro×221、seedream_v4_5×133、nano_banana_2×114、text2image_soul_v2×100、soul_cinema_studio×3、gemini_omni×3、seedance_2_5×3、recraft_v4_1×1、nano_banana_flash×1、cinematic_studio_image×1、cinematic_studio_3_0×1、kling3_0×1

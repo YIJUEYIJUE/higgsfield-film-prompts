@@ -1,0 +1,155 @@
+This is the project brief for "PASPORT RUSH", our animated shortfilm, that was made by using a combination of Blender and generative AI!
+
+
+Logline: Minutes from boarding, a young woman realizes her passport is across town. Ahead: a mad dash through an absurd apocalypse to make her flight.
+
+
+About the project
+
+Check-in counter. A girl who forgot her passport at home on the day of her flight races through explosions and crazy races on the highway, acrobatic battles against ninjas, marathon cyclists, and an ancient chariot to make her flight on time.
+
+The core idea of the film was to combine AI-driven production with classical animation in Blender. Alongside the 3D work, we also used storyboards for individual scene blocks. These tools were needed first and foremost for greater control over what was happening on screen, since the film's main emphasis was on dynamic action scenes and the 'cartoony' movement of the characters and objects. 
+
+Work pipeline
+Pre-Production
+
+Pre-Production, as usual, starts with an idea and a script, storyboards, and assets. For this movie, we wanted to test how 3D previs and AI could work together in an action scene.
+
+
+For this project, we combined stylized 3D characters with watercolor-inspired backgrounds. Blending these two distinct aesthetics within a traditional pipeline was challenging, but also incredibly rewarding. We designed the characters to feel charming and playful, with exaggerated proportions that supported the dynamic movement we envisioned. It was important for the humor to come through not only in their performances, but also in the character designs themselves. 
+
+
+One of the early versions. She looks very funny here, and her body proportions work well—especially the thin legs, slender neck, and rounded head. However, she feels a little too goofy, and the planned action would have made her look even more ridiculous. Our goal was to maintain a balance between humor and a sense of “coolness.”
+
+
+This is the final version we settled on. Overall, she has a comfy airport look. The stylized character design comes through mainly in her face and ears, which give her just the right slightly awkward charm.
+
+Now she looks like someone who might leave her passport at home.
+
+Next came the manual refinement: adjusting the color grading, adding details, and fixing generation artifacts. We also added pencil-like lines to emphasize the character’s shape and silhouette. The most important aspect of manual work is the sense of logic and intention behind every detail.
+
+
+Instead of a traditional character sheet, we used a 360-degree character turnaround video that also included facial expressions and voice. This helped us maintain visual consistency across generations.
+
+
+The environments taught us some of the most valuable lessons about the project’s visual style, largely because they were so difficult to get right. Our initial goal was to create a pure watercolor look, but the early tests often felt messy, muddy, and lacking in character. After repeatedly reaching a dead end, we even considered abandoning watercolor altogether and moving the film toward a more fully 3D aesthetic.
+
+Instead, we continued exploring both approaches until we found a balance that felt unique to the project. It took plenty of trial and error, but sometimes the wrong choices are what ultimately reveal the right direction.
+
+We tested many different versions along the way. Even the ideas that never made it into the final film were valuable: they helped us eliminate weaker options, define the art direction earlier, and move into the rest of production with a much clearer visual language.
+
+
+In our early tests, the car had a very pronounced watercolor aesthetic. Once animated, however, the textures did not sit naturally on its 3D form, making it feel less polished—almost as if a flat PNG had been stretched over the geometry.
+
+
+We refined the approach by keeping the car in a clean 3D style, while reserving the painterly textures for the surrounding environment.
+
+
+You can explore all the project assets in greater detail on our Canvas.
+
+Canvas preview
+
+Higgsfield Canvas
+
+
+Storyboard
+
+For the proof of concept, we wanted to create highly dynamic scenes and test how AI could work alongside Blender. To support this process, we created a traditional storyboard.
+
+
+You can view the full storyboard for the teaser in the file below. The scenes created in Blender are highlighted in orange. 
+Pasport_Rush_Storyboard.pdf
+PDF
+
+
+We followed the same process for the full film’s storyboard. The whole team came together to discuss what would be visually exciting and what kind of action we could add. Many ideas took shape as we sketched out the scenes, including the ninja sequence. Originally, the girl was supposed to land on a rooftop and interrupt someone’s birthday party.
+
+
+Full storyboard for the entire project:
+PASSPORT-RUSH-complete-storyboard.pdf
+PDF
+
+
+Blender
+
+Our animators created most of the Blender animation by hand, while the Higgsfield plugin was used to generate 3D props, including the taxi, the environment, and background vehicles.
+
+We chose Blender for scenes with complex or very specific movements, or intense action—anything that would be harder to describe to Claude and take longer to get right through generation. Overall, Blender gave us more control over what happened in the frame.
+
+The big question now is how to generate animation. By that, we mean moving beyond realistic motion and realism in general. While our characters look realistic, the physics should still follow the principles of animation. Blender helped us preserve the intended movement—for example, keeping the car’s squash and stretch in the proof of concept.
+
+
+Production
+
+The folder structure is straightforward. We have two main stages: art direction and video generation. Art direction covers generating all the assets—characters, backgrounds, and props—as well as early tests to check for AI slop.
+
+We divided the film into five parts:
+
+“Airport” — The opening, which sets the story in motion.
+“Taxi” — The proof of concept sequence.
+“Police” — The police chase.
+“Ninjas” — The chase with ninjas in pursuit.
+“Home” — The heroine picks up her passport and returns to the airport.
+
+The video generation folders follow these five sections, each with subfolders for individual scenes. You may notice that some sections appear more than once. That’s because we first assembled a full cut of the film, then regenerated individual scenes.
+
+
+ART DIRECTION / ASSETS
+    Characters                                  1,229
+    Locations                                     844
+    Props                                       2,694
+    Video checks / tests                        1,545
+    total                                       6,312
+
+STORY SEQUENCES
+    Seq 1   Airport          (7 subfolders)      1,269
+    Seq 2   Taxi Driver     (12 subfolders)      2,203
+    Seq 3   Cop              (5 subfolders)        913
+    Seq 4   Ninja            (8 subfolders)      3,776
+    Seq 5   Home / Airport   (5 subfolders)        368
+    total                                       8,529
+
+TOP-LEVEL FOLDER TOTAL                          14,841
+WHOLE PROJECT — ALL ASSETS                      15,024
+
+The heaviest sequence is Ninja, with 3,776 assets — 44.3% of the story-sequence archive. Taxi Driver follows with 2,203. Together, these two sequences account for 70.1% of the material filed under the five story sequences.
+
+The largest shot-range folders are Ninja / 19–25 with 1,305 assets, Ninja / 34–50 with 897, and Cop / 13–26 with 694. These folders cover multiple shots, so their totals cannot identify the most demanding individual shot. The lightest complete sequence is Home / Airport, with 368 assets.
+
+
+Learnings
+
+Here are the style learnings:
+
+Simplify textures for objects that move
+Heavy watercolor textures did not hold up well during video generation. When both the taxi and the background had dense painted textures, the model struggled to preserve them consistently from frame to frame. The watercolor surface started to look like a flat image stretched over 3D geometry.
+Learning: Use cleaner, more 3D-looking designs for important moving props, and keep the richer watercolor treatment in the surrounding world.
+Style rule:
+Clean 3D props + watercolor environments.
+Test assets in motion before production
+Assets that looked good as still images did not necessarily work once animated. Early video tests revealed problems with the taxi’s textures and helped the team adjust its design before producing the full sequence.
+Learning: A finished-looking image is not enough to validate an asset. It needs to be tested in video, under the same conditions in which it will appear in the film.
+Style rule:
+Test key assets in motion early.
+Use complete character references from the beginning
+Some early tests were made before the character sheets were ready, so the taxi was empty in the references. The model responded by generating random passengers inside the car. Once the actual character references were included, this problem stopped.
+Learning: The model may invent missing information. Every recurring character that should appear in a shot needs to be represented clearly in the inputs.
+Style rule:
+Attach all required character references—do not leave important visual information undefined.
+Use lighting to unify the visual style
+Midday lighting made the watercolor locations look flat and dull. During testing, a teammate added “evening light” to a prompt. The result was warmer and had noticeably more depth and volume.
+This became the visual formula for the film: watercolor locations combined with low, warm sunlight and long, defined shadows.
+Learning: Lighting can be more important than surface treatment when establishing a consistent visual identity.
+Style rule:
+Watercolor location + golden-hour lighting.
+Lock the lighting language across scenes
+After the golden-hour look worked in testing, the team reused the same lighting direction throughout production instead of describing the lighting differently for every shot.
+Learning: Repeating a stable lighting formulation helps separate shots feel like they belong to the same film.
+Suggested style prefix:
+Late-afternoon golden-hour lighting, low warm sun, long dramatic shadows, warm highlights, strong depth and dimensionality.
+
+
+Post-Production
+Color grading was performed entirely by our in-house color artist, who manually refined every shot to ensure consistent color, mood, and atmosphere throughout the film.
+Music: was created by our composer, who crafted an original score to support the film’s pacing, heighten the action, and bring out the humor and emotion of the story.
+Sound design was treated as an essential storytelling tool. Every track was manually cleaned, refined, and enhanced with carefully placed sound effects, creating a rich sonic landscape that complements the visuals and completes the cinematic experience.

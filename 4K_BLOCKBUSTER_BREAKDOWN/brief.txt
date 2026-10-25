@@ -1,0 +1,32 @@
+This is a project brief for Blockbuster, our AI-made action short film.
+
+Logline: One press of a glowing green button traps a guy inside his little sister's AI generations — and every time he dies, he wakes up somewhere worse.
+
+
+About the project:
+
+Blockbuster is a cinematic action short built around a simple, wicked premise — a brother trapped in worlds his ten-year-old sister generates on a whim — that turns a family prank into a full multi-genre adventure told across four settings. The hero wakes up as a pirate captain hunting a mysterious device across a stormy sea, gets blown off his own exploding ship, and lands in an endless desert where riders on goggled ostriches chase him into a sandstorm. He surfaces upside down in a spider-webbed jungle, survives a monkey stampede and a jaguar that shreds his pants, and dives off a cliff — only to crash onto a living-room couch, where the twist lands: his sister Cindy has been sending him there the whole time, one button press at a time. He tries to negotiate. He fails. She presses again.
+
+The film runs on a fully generative pipeline rather than a traditional studio, but treats AI as a directed craft instead of a slot machine. Consistent assets — the hero's likeness across three wardrobe states, the villain captain, ships, ostriches, spiders, macaques, a jaguar, and every location from the captain's cabin to the apartment — are built first in Soul Cinema and GPT Image 2, named with @tags, and loaded into Higgsfield's Elements so nothing drifts across shots. Claude, loaded with the script and a custom Seedance prompt-building skill, translates plain-English direction into structured Seedance 2.0 prompts that lock a shared cinematic look: anamorphic 21:9 framing, handheld camera language, hard positive locks on props and geography, in-camera location transitions hidden inside dust whiteouts, and diegetic sound only. The real method is iteration — batch after batch generated in 4K, the best seconds pulled from each and stitched together, with reverse-angle location plates, single-face character sheets, and mid-project asset swaps used wherever consistency demanded it. The result is studio-scale, big-budget-looking work — sea battles, sandstorms, POV wake-ups, dialogue scenes that hold the 180° line — produced by one person without a crew, render farm or rotoscoping.
+
+
+Style Prefix
+
+Style: 4K anamorphic widescreen. Photoreal live-action — no 3D render, no game engine, no animated-film aesthetic. Cinematography: adventure-film language — crash zooms, projectile-follows, one-take oners, spyglass and eye-POV optics. Lighting: single motivated sources — lantern practicals, hard desert sun, dim canopy shade, warm apartment tungsten against monitor-green. Color: muted period grades per world, one saturated accent — the device's acid-green glow. Camera: physical lens character, locked FOV per cut, no mid-segment drift. Skin: pore-level realism — sweat through grime, catch-lights, capillary flush. Acting: muscle-level performance — micro-pauses, startle reflexes, comedy through deadpan. Physics: gravity and inertia respected — sand sinks, cloth clings, cannonballs carry mass, dust settles with real particulate behavior. Continuity: characters, props and environments locked to references across every cut. No identity drift. Audio: environmental SFX and dialogue only. No music. Music was created during the post-production stage.
+
+
+Visual Constraints
+
+Photoreal live-action — no 3D render, no game engine, no cartoon read. Hard positive locks in every prompt: headcounts, screen geography, prop states and the 180° axis are written into the prompt, not left to chance.
+
+
+Pre-Production: Assets on Canvas
+
+To keep the project visually consistent throughout, we start by creating every asset we'll reuse across the film. You can see this approach up close in Canvas, where we've laid out our full cast — character sheets, prop sheets, and location plates for all four worlds. Each began as a Soul Cinema generation and was refined through GPT Image 2 edits: single-face character sheets to stop identity drift, torn-wardrobe variants for mid-story costume changes, and reverse-angle plates of the same room to hold backgrounds steady across dialogue cuts. Every asset is named with an @tag and mirrored in Elements, so prompts auto-match their references and nothing gets mixed up between Claude and Higgsfield.
+
+Canvas 预览
+
+
+Production: Folder Structure
+
+The work is organized by scenes, with each folder holding the many iterations we explored for every shot — a system that keeps four hundred generations navigable without ever limiting how much we experiment. Fittingly, the final folder is dedicated to our earliest asset tests — the experiments that taught us which faces held, which locations survived the camera, and what this film's world needed to feel real before we ever generated a scene.

@@ -1,0 +1,43 @@
+Context
+
+The launch video is Higgsfield's showcase for Higgsfield Academy, a learning platform built around a simple promise: learn to make movies, not just generations. Academy teaches practical workflows from working AI filmmakers, taking creators from their very first generation all the way to a full production pipeline — with courses, a toolkit for training your eye, and a grant program for top graduates.
+
+The launch introduces two courses. Getting Started with Cinema Studio is the entry point for beginners: your first generations inside the live studio itself, from building a prompt that works to Elements and a first look at video generation. The AI Filmmaking Pipeline, taught by the Hell Grind team, covers the full production pipeline from idea to a final shot in Seedance — directing Claude as your co-pilot and keeping characters consistent from shot to shot.
+
+The learning experience isn't built on passive watching: interactive moments are woven throughout the courses — hands-on "try it yourself" lessons with free generations, section quizzes, a final exam, a capstone project where students build a scene of their own, and the "Spot the Slop" trainer for sharpening your eye.
+
+Narrative
+
+Story: A guy is trying to make a good generation, but his skills aren't there yet — one weak result after another. In a fit of rage, he smashes his laptop with a baseball bat. That's when Mr. Adil, a generation academic, bursts in, takes him under his wing, and pulls him into the world of image and video generation. The guy dives headfirst into learning — a stretch we show through visual B-roll and the movement of sunlight, with a match cut carrying the daytime scene into night to convey just how much time he spends studying. In the end, he earns his certificate and creates his best generation yet.
+
+Tone: The video is highly informative but also fast-paced and gag-driven — the educational core is delivered through a comedic story rather than a dry walkthrough.
+
+Message: Generation skill isn't innate talent or a lottery — it's a craft anyone can learn. Academy offers a structured path from "nothing's working" to confident, certified results.
+
+Audience: Creators at any level who want to level up their AI generation skills in a structured way — from beginners taking their first steps on the platform to active Higgsfield users who've hit a quality ceiling and are looking for a clear path to professional-grade results.
+
+Visuals
+
+To keep the project visually consistent from start to finish, we begin by preparing our files in Figma — laying out the storyboard, motion storyboard, design direction, and character sheets before any generation begins. That's also where all our assets live — character sheets, prop sheets, and environments. Each one was generated entirely through AI, with no manual illustration involved. This allowed us to quickly iterate across different looks while locking in the details that mattered most, like wardrobe consistency and set dressing.
+
+Beyond the generated scenes, the video is built with motion design elements. We generated Mr. Adil, the academic, against a green screen and then refined his scenes through motion design — giving us the flexibility to place the character into any shot and fine-tune his performance at the compositing stage. Every action, motion element, and its timing was mapped out in advance, before any generation began — letting us plan the pacing ahead of time and avoid mismatches between static frames and motion.
+
+Production
+
+Our video prompts are built on our own system prompt: we run it through Claude, and it writes the prompts for every shot in a single, tightly controlled style.
+
+The system prompt works as a template with fixed blocks. The global style defines a photorealistic, large-format 65mm film look — grain, halation, motivated lighting, and a color doctrine with a precise split between the base tone and accents. A separate mandatory block covers the "living face": blinks, micro-movements of the eyes and lips, and breathing, so the character stays continuously alive throughout the shot. Characters and locations are described once through @-tags and reused across every shot, keeping them consistent between generations.
+
+Every shot follows the same structure: shot type, rule-of-thirds framing, a continuous take of a set length, optics and camera, action with dialogue — and a performance block with precise timing. Audio is diegetic only, and the frame stays clean, with no overlays.
+
+Status
+
+Complete. The project has wrapped end-to-end — asset and storyboard preparation in Figma, AI-generated character sheets and environments, all image and video generations, the green-screen generation of Mr. Adil the academic, motion design refinement of his scenes, and final compositing and editing are all finished. The video is live and published.
+
+Color, Sound, and Final Assembly
+
+The final stage brought every generated shot together into one cohesive piece — and it was all done by hand, in-house.
+
+The edit was assembled manually: pacing was tuned to the video's gag-driven rhythm, and the day-to-night match cut and learning B-roll were structured so transitions read as one continuous flow of time rather than a stitch of separate generations.
+Color grading was also done by hand, shot by shot: the generations, the green-screen scenes with Mr. Adil, and the motion design parts were brought to a unified tone and atmosphere, so footage from different sources reads as one cohesive video.
+Music and sound were layered on top of the finished edit — tracks and accents were selected and placed manually to match the tempo of each scene and the comedic beats, so everything looks and sounds organic, supporting the story's momentum rather than fighting it.

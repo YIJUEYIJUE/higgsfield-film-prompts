@@ -1,0 +1,13 @@
+An ongoing, curated collection of Soul 2.0 carousel posts, maintained as a living reference library.Unlike a fixed deliverable with a set end date, this collection grows continuously — every time the Soul Instagram account publishes a new carousel, it gets reviewed, curated, and added to the collection.
+
+
+Every carousel is built around one idea or trend — that single concept is the spine the whole set hangs off. A carousel lives or dies on consistency across slides — same character/identity, same style, same lighting logic, same color world — while each slide still earns its own moment and advances the one idea being unpacked. The prompt architecture below splits into three layers:
+
+
+Prompt architecture:
+Template:
+
+[IDENTITY ANCHOR], [STYLE ANCHOR], [PALETTE ANCHOR], [LIGHTING ANCHOR],
+[SCENE/ACTION], [FRAMING], [SLIDE DETAIL]
+--ar [ratio] --quality [tag]
+--no [NEGATIVE PROMPT]

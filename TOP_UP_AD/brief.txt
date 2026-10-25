@@ -1,0 +1,34 @@
+This is a project brief for TopUp, our AI-made cinematic commercial.
+
+Watch the Full Beakdown Here: https://youtu.be/ODNzk5x2tR4?si=iRQrnhJDoSFRRgQS
+
+Logline:  One soda turns a drained athlete into a robot gladiator — but to win, he has to lose everything, run dry, and power up one last time.
+About the project:
+
+TopUp is a cinematic commercial built around an unlikely mashup — football and robots — that turns a simple product promise into a full hero's-journey story told almost entirely through action. A drained football player stands alone on a deserted, sun-bleached New York avenue when a glowing soda can drifts down into his hand. One sip ignites him: mid-sprint he launches into the air and metal armor slams onto his body, transforming him into a number-7 exosuit. What follows is a one-on-one robot football duel against a black-and-gunmetal rival, complete with feints, nutmegs and an electric energy-shield goal — the hero loses the first round, drains his power and collapses, then tops up again, comes roaring back to win, and lands on a comedic beat before the can crashes into the street for the final pack shot and the tagline, "Power up your day."
+
+The film runs on a fully generative pipeline rather than a traditional studio, but treats AI as a directed craft instead of a slot machine. Consistent assets — the character's likeness, the location, two robots, the ball and the energy goal — are built first in Soul Cinema and GPT Image 2 so nothing drifts across shots, while Claude, loaded with the script and a custom prompting skill, translates plain-English direction into structured Seedance 2.0 prompts that lock a shared cinematic look: handheld camera, dutch angles, practical-VFX physics, hard midday light, and diegetic sound only. The real method is iteration — batch after batch generated, the best two or three seconds pulled from each and cut together, with earlier takes and asset tests reused wherever they fit. The result is studio-scale, big-budget-looking work — photoreal mechs, electric goals, an aerial football duel — produced by one person without a crew, render farm or rotoscoping.
+
+Style Prefix
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Cinematography: Emmanuel Lubezki × Roger Deakins. Lighting: Natural light only — contre-jour backlight, camera on shadow side, atmospheric haze throughout. Key light from sky and windows only. Color: 60:30:10 — dominant / secondary / accent. Camera: Physical cine lens. 180° shutter motion blur. Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light. Acting: Hollywood — micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise. Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Composition: Rule of thirds + golden ratio. Every person moving from frame one. Continuity: Characters, props, environment identical across every cut. No identity drift. Technical: 24fps smooth motion. 8K detail. No jitter. Audio: Environmental SFX only. No music. No subtitles.
+Visual Constraints
+Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. 
+
+
+It is important to include audio constraints such as "No music. Only SFX." to only have sound effects in our shots. Music was created during post-production stage.
+
+Pre-Production: Assets on Canvas
+
+To keep the project visually consistent throughout, we start off by creating assets we will be reusing throughout the project. You can see this approach up close in Сanvas, where we've laid out our assets — character sheets, prop sheets, and environments. Each one began as an AI generation and was then hand-edited and painted over by our artists through Photoshop and Higgsfield’s Plug-In. It allowed us to make very thorough edits and ensure cultural accuracy of their design, such as clothes. It was important for us to keep our brushstrokes loose to maintain painterly textures. Sometimes, the quality of those textures would affect the character performance later on.
+
+
+Canvas 预览
+
+Higgsfield Canvas
+
+
+Production: Folder Structure
+
+The work is organized by scenes, with each folder holding the many iterations we explored for that single shot — a system that keeps the project structured and easy to navigate without ever limiting how much we experiment.
+
+Fittingly, the final folder is dedicated to our earliest location tests the experiments that helped us understand the nuances of this project's art style before jumping into the actual film.

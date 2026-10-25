@@ -1,0 +1,61 @@
+FULL10MIN
+Project Brief
+SH01
+SH02
+SH03
+SH04
+SH05
+SH06
+SH07
+SH08
+SH09
+SH10
+Персонаэи
+
+
+Project brief
+
+This is a project brief for the trailer of our upcoming animated shortfilm Kok Boru. 
+
+Logline: A grieving steppe mother discovers the daughter she lost to a wolf pack years ago is alive — raised wild among the wolves her village has come to destroy.
+
+
+About the project:
+
+Kok Boru is an animated short film rooted in Kazakh nomadic life and folklore — the steppe, the seasonal migrations, the spiritual world of the "baksy" (shaman), and the old fear of the wolf — told almost entirely through image rather than dialogue. At its heart is the figure of two mothers, a woman and a she-wolf, bound by a single lost child.
+
+The film is built on a hybrid production pipeline that combines generative AI with hand-drawn artistry rather than choosing between them. Hand-drawn inputs — character designs, props and painted textures — define the look, performance, and emotional intent of each shot, and these drawings guide and condition the AI generation so the output stays faithful to a deliberate artistic vision instead of a default machine aesthetic. AI tools then extend that foundation: generating and in-betweening frames, building environments and crowd and animal motion (the wolf pack, the battle, the blizzard), and accelerating iteration on lighting and atmosphere. The result keeps the warmth and intentionality of hand craft while using AI to reach a scale and finish that would be out of reach for a small team working frame by frame.
+
+
+Pre-Production: Assets on Canvas
+
+To keep the project visually consistent throughout, we start off by creating assets we will be reusing throughout the project. You can see this approach up close in Сanvas, where we've laid out our assets — character sheets, prop sheets, and environments. Each one began as an AI generation and was then hand-edited and painted over by our artists through Photoshop and Higgsfield’s Plug-In. It allowed us to make very thorough edits and ensure cultural accuracy of their design, such as clothes. It was important for us to keep our brushstrokes loose to maintain painterly textures. Sometimes, the quality of those textures would affect the character performance later on.
+
+
+Pre-Production: Preparing prompts for Video
+
+For video prompts, we utilize our system prompts which we then run through Higgsfield Claude MCP, and tweak based on the shot needs. Since the story is an important part of our film, we have also included our 15-page script (written by our in-house screenwriters) alongside our system prompts. This makes our prompts more in-context with the plot. For additional consistency, it is important to include a stable “Style Prefix” and “Constraints” paragraphs that will be in the beginning of your prompt. Those paragraphs will differ in every project, and here are ours:
+
+Style Prefix
+Style: STOP-MOTION ANIMATION — stepped frame-by-frame, a HAND-PAINTED 2D moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12fps, ANIMATED ON TWOS: each pose held two frames then snapping, never gliding. Constant painterly BOIL. NO smooth interpolation, NO motion blur, NO morphing, NO liquid or melting surfaces — surfaces stay solid, motion is the redrawing of strokes, not AI slop. Style from @[Image 1](image_1) — match its rendering, texture, palette and mood exactly. AKSAKAL (the elder) from @[Image 2](image_2), ANA from @[Image 3](image_3), the TRIBESMAN from @[Image 4](image_4), the yurt EXTERIOR from @[Image 5](image_5), the yurt INTERIOR from @[Image 6](image_6). THE INFANT from description: a small baby swaddled in a thick DARK BLUE wool blanket, held in ANA's arm, a small dark bundle, face barely visible, stirring faintly; NOT a second active child. Evening at a winter nomad camp in the snow. Atmospheric motion (drifting snow, breath-vapor, smoke, ember-glow flicker) moves SMOOTHLY; figures and any drawn snow step on twos with secondary action.
+Visual Constraints
+Constraints: stop-motion on twos at 12fps with painterly boil, never gliding, NO interpolation NO motion blur NO morphing NO liquid surfaces; drifting snow smoke ember-glow and breath-vapor smooth while figures step on twos; hand-painted oil look from @[Image 1](image_1), not photoreal, not 3D, not glossy; a quiet dialogue scene of FACES and PAUSES not action played slow emotion in held looks and silence; cold blue dusk outside warm low ember-glow inside soft NO rays NO beams NO god rays faces readable never black voids neutral white balance not a blue filter muted desaturated; No music. Only SFX
+
+
+It is important to include audio constraints such as "No music. Only SFX." to only have sound effects in our shots. Music was created during post-production stage.
+
+
+Production: Folder Structure
+
+The work is organized by shot, with each folder holding the many iterations we explored for that single shot — a system that keeps the project structured and easy to navigate without ever limiting how much we experiment.
+
+Fittingly, the final folder is dedicated to our earliest tests: the experiments that helped us understand the nuances of this project's art style before jumping into the actual film.
+
+
+Post-Production: Color, Music, Sound
+
+The final stage focused on bringing every element together into a cohesive cinematic experience.
+
+Color grading was performed entirely by our in-house color artist, who manually refined every shot to ensure consistent color, mood, and atmosphere throughout the film.
+Music: The trailer uses music licensed from Artlist, carefully selected to match the film's tone and emotional arc. The final short film will feature an original score composed specifically for the project.
+Sound design was treated as an essential storytelling tool. Every track was manually cleaned, refined, and enhanced with carefully placed sound effects, creating a rich sonic landscape that complements the visuals and completes the cinematic experience.

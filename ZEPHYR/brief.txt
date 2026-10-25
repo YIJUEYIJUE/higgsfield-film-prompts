@@ -1,0 +1,178 @@
+Cuties on duty!
+A squad of glamorous female heroes is saving their hometown from alien bug invasion. As they become city idols and protectors, will they be able to save their friendship, their hearts, and most importantly - their lives?
+
+Open project
+
+Take the Zephyr assets and remix them your way
+
+Download assets
+
+
+Zero (Episode 1 Concert).jpg
+
+Naomi's mecha.png
+
+Reina in cockpit.png
+
+Tank.jpg
+
+Chill room.png
+
+Mira (Episode 1 Base).png
+
+Naomi in cockpit.png
+
+Haru Min's mecha.png
+
+Naomi.jpg
+
+City 5.jpg
+
+Mira.jpg
+
+Zero in cockpit.png
+
+Haru Min.jpg
+
+Zero's room.png
+
+City 4.jpg
+
+Reina (Episode 1 Concert).jpg
+
+City 3.jpg
+
+Haru Min's mech.jpg
+
+Reina's mech.jpg
+
+Naomi (Episode 1 Base).png
+
+Zero.jpg
+
+Mob.jpg
+
+Zero's mech.jpg
+
+Mira (Episode 1 Base) (After shower).png
+
+Reina's mecha.png
+
+Naomi's room.png
+
+Lightstick.jpg
+
+Magnetic transporter.jpg
+
+Backrooms.png
+
+Shower room.png
+
+Reina's mecha (back).png
+
+Mira's mecha.png
+
+Zero's mecha.png
+
+Haru Min (Episode 1 Base).png
+
+Mira's mech.jpg
+
+Zero (Episode 1 Base).png
+
+Reina (Episode 1 Base).png
+
+Haru min (Episode 1 Concert).jpg
+
+Mira in cockpit.png
+
+Naomi's mech.jpg
+
+Main hangar.png
+
+Naomi (Episode 1 Concert).jpg
+
+Reina (Episode 1 Base) (Gym).png
+
+City 2.jpg
+
+Haru Min in cockpit.png
+
+Toshi.png
+
+Tank (injured).png
+
+City 1.jpg
+
+Kai (Battle Mode).jpg
+
+Reina.jpg
+
+Gym.png
+
+Mira (Episode 1 Concert).jpg
+
+Kai.jpg
+
+Alex (Battle Mode) [KIA].png
+
+Project brief
+
+ZEPHYR - Episode 1
+Short description
+Cuties on duty!
+A squad of glamorous female heroes is saving their hometown from alien bug invasion. As they become city idols and protectors, will they be able to save their friendship, their hearts, and most importantly - their lives?
+
+Starting our franchise, we realized that we wanted to combine the things we love - robots, music, and strong women. We were also constantly inspired by world-famous mecha anime, the fashion industry, and the ability to generate music in popular genres within minutes. We knew that right now is the best moment to combine all of this and bring it to life using AI using our Higgsfield.ai platform.
+
+We literally achieved what would have traditionally taken us years of practice and millions in budget.
+
+We created a world where violence, combat operations, and loss coexist with concert fun and the celebration of female beauty. And the heart of this story is the characters.
+
+We have a squad of five girls who are both idols and master pilots of combat mechas. First and foremost, we fleshed out their personalities and looks. Our team had prior experience developing characters and their internal dynamics, but let’s be honest: you can easily get that foundational layer of depth just by brainstorming with the Higgsfield Supercomputer or Claude. Don’t let a lack of knowledge stand in the way of your creativity - dive in and start creating right away.
+
+Mira – a cold and competent "straight-A student," the squad leader.
+Reina – arrogant on the outside, fragile on the inside, the squad sniper.
+Naomi – wise and flirtatious, the caring "mother" of the squad.
+Zero – a sarcastic and logical tactical genius.
+Haru Min – energetic and naive, the "youngest sister" of the squad.
+Their personalities serve as both the foundation of the story and a guide for its further development and generations. Knowing your characters makes it much easier to write their acting performance, reactions, and potential story arcs. Take the time to do this, and everything down the line will be much smoother.
+
+We also had a blast creating costumes for our heroines. The unmatched fashion capabilities of Higgsfield Soul 2 allowed us to design outfits that fit their personalities while remaining striking from a pure design standpoint. The model has virtually no limitations, so it easily handles any mix of styles and details. We highly recommend using it when designing character looks. By the way, the heroines themselves were also created using our model - it’s the best way to get a photo-realistic, lifelike character. Later on, we polished the character sheets using Nano Banana 2 Pro and Seedream to compile them into final assets.
+
+In the shared source files, you will find not only the assets that made it into the final edit but also drafts - giving you a clear look at how we arrived at the final result and how many iterations it took.
+
+Since our girls balance saving the city from a bug invasion with their idol careers, the episodes feature plenty of live stage performances. Naturally, each performance calls for a dedicated outfit. In the first musical segment, the heroines stay in their standard battle gear because the audience hasn’t yet learned to tell them apart by facial features or body language alone. In the final concert, however, we completely changed their looks.
+
+You might also have noticed the lightsticks held by fans in the stadium. We couldn’t skip such an important detail, as it highlights the commercial side of the group within the lore. The shape of the lightstick reveals the name of the group’s fandom - Gears.
+
+We also iterated quite a bit on the mechs.
+
+There is a direct connection between the robots' design and weaponry and the girls' personalities.
+
+For instance, Haru Min appears lighthearted and immature yet explosive, so her robot is the most compact and agile, capable of rapidly redirecting energy for close-quarters blade combat. Naomi is the most selfless and caring member of the team, so her mecha is a modified cargo robot, armed primarily with hooks, cables, and a fire extinguisher.
+
+Using character sheets for the mechas was a bit tricky. 
+
+At first, we created sheets that specified and showed everything - descriptions of their weapons/tools, how the cockpit opening mechanism worked, etc. The idea was to create a master image and only trigger or reference specific parts of it when describing individual scenes. However, the model’s generation rules don't quite work that way - if it sees a detail, it will try to show it.
+
+Wrong version
+
+In our case, the model prioritized the detail of the open hatch over the standard look of the mecha (even if the main body was larger on the character sheet itself). As a result, most generations failed - the hatch was either open when it shouldn't have been, or it collided with the "closed" version and altered the entire robot design.
+
+Right version
+
+Because of this, we erased that mecha state from all character sheets and became more cautious with retractable parts (Mira's flamethrower, Naomi's hook, etc.). To spend fewer credits and get clean generations more consistently, we recommend taking the extra step to create multiple character sheets for different scenarios, even if the differences seem minor or subtle at first glance. For example, upload a sheet with extended weapons only when it actually exists in the scene. Better yet, upload a close-up of the weapon as a separate input to give it proper focus, especially if you need to show the details of how it operates.
+
+By the way, those little descriptions under the detail are almost useless for the video generation, because you still have to describe the whole weapon operation process in the prompt. A model won’t act like “I got you! Retractable revolver in the arm! I know how to show it off effectively in this action scene!” - be prepared to think through and describe such subtle things.
+
+
+We have to admit, team Zephyr’s main strength lies in planning, teamwork, and structuring the story through editing.
+These are fundamental skills in traditional filmmaking as well, so alongside mastering AI, we recommend keeping up with standard filmmaking principles and storytelling techniques.
+
+When we were making the first episode, Seedance 2.0 had just come out. We were experimenting heavily and hadn't yet established an efficient fixed pipeline or a unified style prefix in our prompts. The best way to trace our trial-and-error process is to open our project in Cinema Studio and see for yourself how much effort and how many takes go into creating an episode like this. We’re sure you’ll find something useful there!
+
+We are thrilled by such a warm response from the community, and we can see a new fandom taking shape right before our eyes. Feel free to use our heroines in your own takes on the story, and stay tuned for new episodes of Zephyr!
+
+
+Higgsfield AI Zephyr Squad

@@ -1,0 +1,29 @@
+A schoolgirl living at the edge of the school grounds begins to suspect that her quiet classmate with a bandaged right hand is the wolf her father shot at the treeline — and this suspicion is only the beginning of what awaits her.Short project description goes here.
+
+About the project:
+
+"The Dusk" is a short mystery slice-of-life series with no dialogue, told in a K-drama style. The main characters are a withdrawn teenage girl and a wounded wolf — who, it turns out, can secretly walk the school corridors as a boy. Every installment takes place inside the same lived-in world — a fog-bound gatehouse at the edge of the school grounds, a grey treeline behind the fence, a cold crowded school corridor — rendered in a consistent visual language: cold diffused daylight, fog as a permanent atmospheric layer, muted desaturated palette, lifted blacks, soft 35mm grain, a camera that holds still and lets a moment breathe instead of cutting away from it. Each shot is carefully crafted and refined on its own terms, with every detail — expression, timing, lighting — deliberately tuned until it earns its place in the story.
+
+
+Reference assets
+
+Every character, prop, and location used across the series is locked to an actual reference photo — a turntable of the girl in her worn school uniform, a separate photo of her in gatehouse homewear, a photo of the pale boy, a photo of the wolf, the gatehouse and corridor shot in their day and fog states, the father with his hunting rifle, a gauze bandage close-up, a flat-laid uniform set. Each is tagged (@image1 through @Image15 +) and pulled by tag into any prompt that needs it, with an explicit instruction never to re-describe or expand the environment beyond what the photo already shows. This turned out to be the single most important lock in the whole project — the model's own instinct to "helpfully" widen a room or add furniture it wasn't shown was the most consistent source of drift between clips, more than anything to do with the characters themselves.
+
+
+For video prompts, we write our system prompts in a Claude chat loaded with a custom Seedance 2.0 prompt-building skill. Since story is central to this film, we also load our full script (written in-house) alongside the system prompts, so every prompt stays in-context with the plot — a shot knows what beat it's serving, what just happened, and what the character is feeling in that moment.
+
+For additional consistency, it's important to include a stable "Style Prefix" and "Constraints" paragraph at the start of every prompt. These stay fixed across the whole project so the look and the hard rules never drift between shots. They differ per project — here are ours:
+
+Style Prefix:
+
+Cold mystery look — grey fog-bound atmosphere, soft diffused overcast light, muted desaturated palette with cool blue-grey tones, lifted blacks, fine 35mm grain, quiet unhurried stillness. 50mm lens feel, soft background bokeh. Naturalistic, intimate. Steady, level, well-composed framing — flat true horizon, no tilt; the camera holds still and lets a moment breathe.
+
+Visual Constraints:
+
+Photoreal live-action — no 3D render, no game-engine gloss, no cartoon or anime read. Hard positive locks in every prompt: headcounts, screen geography, prop states, character proportions, screen-direction, and wound continuity are written into the prompt, not left to chance. Faces blink and breathe, never masklike; identities, hair, and wardrobe match their @tag references every shot; the bandage on the boy's right hand always matches the wolf's right foreleg wound; fog reads as natural weather, never stylized haze; the transformation is never shown mid-morph — off-screen only, before/after states, at most a shadow silhouette in the fog. No dialogue, no subtitles; the story is told through looks, gestures, and staging. 4K UHD, sharp clarity, stable lighting, consistent frame rate, clean picture.
+
+It is important to include audio constraints such as "No music. Only SFX." to only have sound effects in our shots — fog-muffled ambience, a single distant rifle crack, breath, footsteps on wet ground, the low hum of a crowded corridor. Music was created during the post-production stage.
+
+
+Post-Production: Color, ,Music, Sound
+Sound design was treated as an essential storytelling tool. Every track was manually cleaned, refined, and enhanced with carefully placed sound effects — distant fog-muffled ambience, the crack of a single rifle shot, breath, footsteps on wet ground, the low hum of a crowded corridor — creating a rich sonic landscape that complements the visuals and completes the cinematic experience.

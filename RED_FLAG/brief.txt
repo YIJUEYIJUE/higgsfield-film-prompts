@@ -1,0 +1,105 @@
+A pitch-black Hong Kong neo-noir about romance, betrayal and, above all, self-defense. A woman is home alone, still deciding whether her new boyfriend is worth keeping, when a burglar breaks into her flat after midnight: the "burglar" turns out to be the boyfriend, Li, letting himself in with a surprise bouquet - the reddest flag of all. What Li doesn't know is that she's a quiet martial-arts champion... and she's just made up her mind.
+
+Any story. Any genre. One prize pool.
+
+$1,000,000
+
+Join the Festival
+
+
+1 scene
+2 scene
+3 scene
+assets
+test
+
+
+Project brief
+
+Logline: One rainy night in 1990s Hong Kong, a woman walks home still deciding whether her new boyfriend deserves a yes. After midnight, someone picks the lock of her tiger-painted door. The "burglar" is the boyfriend himself — Li, sneaking in with a bouquet to surprise the woman he loves. It's the reddest flag of all. What Li never knew: she's a martial-arts champion. And she's just made up her mind.
+
+
+About the project
+
+RED FLAG is a ~2-minute photoreal AI short film — a pitch-black Hong Kong neo-noir about romance, betrayal and, above all, self-defense. Every frame is generated: no sets, no cameras, no filmed footage. Format: 1.85:1, Cantonese, minimal dialogue.
+
+The film lives in one flat on one rainy night, and its two hardest jobs were decided by the material itself: holding a strict '90s film-noir look across every shot, and landing a real fight — a three-move takedown that AI video models break by default. Most of this breakdown is about those two battles, and about the geometry in between: doors, stairs, corridors and a bead curtain that all had to stay put.
+
+The tools
+Seedance 2.5 — every video shot.
+Higgsfield Soul Cinema — character sheets.
+Seedream 5.0 — image edits
+
+
+Canvas preview
+
+
+01 · PRE-PRODUCTION
+
+
+An asset is a pair: text + image. The text descriptor goes into every prompt word for word; the image anchors the model. Our registry grew to ~30 tagged assets: two leads and a grandmother, the tiger door, the half-open peony bouquet, a brass key with a tiger charm, a red brocade handbag, four grocery bags, corridors, a stairwell, a kitchen, the night skyline — plus a separate shelf of staging diagrams. Every prompt calls them by @tag, never "the man" or "the door."
+
+One detail did heavy lifting: Li's descriptor pins his silhouette (olive pinstripe '90s suit, burgundy shirt, gold chain), because for half the film his face is never shown — the burglar has to be recognizable from the back.
+
+
+02 · PRE-PRODUCTION
+
+The film is graded in the prompt, not in post
+
+A style prefix is pasted into every single prompt:
+
+Style: 1990s Hong Kong neon noir, shot the way films were shot in the '90s.
+Arriflex 35 III, Zeiss Super Speed primes, spherical 1.85:1.
+Fuji Eterna 500T processed cool — coarse organic grain, halation on
+practical lights, shallow focus. Low-light night, crushed and moody.
+
+We tested the Kodak Vision3 500T first. Eterna won for one reason: its shadows drift green — and this film lives in green.
+
+The color war: green vs yellow. Seedance 2.5 kept flipping our cold teal corridors into warm yellow. The leak came from the references themselves — a lit window here, warm globe lamps there — and the model amplified it. Negative lists ("no yellow") did nothing. Positive form worked:
+
+The dominant color must be cold teal-green. Yellow exists only inside
+the lamp bulb and a palm-sized halo beneath it. If the frame turns
+yellow, the frame is wrong.
+
+When a reference photo had a glowing red window we couldn't crop out, we wrote: "That window glowing in the reference is switched off in our film." The model believed i
+
+
+03 · PRODUCTION
+
+A diagram decides the frame; a location decides the texture
+
+Attach a location photo and the model takes it as the framing reference — camera, angle, everything. So we split the roles: a flat outline diagram (frontal or top-down, letters instead of people) locks geometry and camera; the location photo feeds only surfaces and light. The diagram is attached LAST, and the prompt says it out loud: "Composition and camera = the diagram, not the location photo." When the model still grabbed the wrong reference, we deleted that reference from the shot entirely. Fewer anchors beat better instructions.
+
+
+tig-diagram.skill
+SKIL
+
+
+The throw that flew into the wrong room. The film's key shot kept teleporting: Li would fly off into the hallway one take, out the window the next — wide shots locked onto the location reference's angle and dragged the action into its geography. We demoted locations to "place, set dressing and light," banned shots from sitting on the reference's axis, and nailed the world down with anchors: the camera looks only at the kitchen, red beads in the foreground, he flies headfirst through the beads.
+
+
+04 · PRODUCTION
+
+Physics you have to write down
+
+Doors were our worst "actors". Hinge side, inward vs outward swing, the tiger painted only on the outer face — every shot repeats the full door geometry, because the model reinvents it every time. Scale needed a ruler in the text: "the railing is 110 cm; on a 185 cm man the top rail lands just above his belt"— otherwise the railing floated to his chest. Anatomy needed a headcount: after a third hand showed up picking a lock, every close-up carries "there are only two hands in the frame, both belonging to the same person, entering from the same sleeve."
+
+We also had trouble keeping a window open — even within a single sequence. The heroine would open the window in one clip, but in the following shots the model could forget it was open, because the asset showed it closed and the model trusted the reference over the story. So we made a separate asset with the window open, and it made things dramatically easier — the continuity slips mostly disappeared.
+
+
+Walking is the hardest stunt
+
+The staircase entrance nearly broke us: the two women had to rise slowly out of the stairwell — heads first, then shoulders, then legs, lifted step by step by stairs the audience never sees. The model kept teleporting them up in one jump, or deleting the stair opening and bricking it into a solid wall. The shot only held after we wrote the rise as physics ("lifted into frame one invisible step at a time, over two to three seconds") and made the opening a named, mandatory object.
+
+Ordinary walking needed its own lock — gliding, both feet airborne, the same foot stepping twice: "heel lands first, strict left-right alternation, one foot always on the ground." Keeping two people side by side took more: "shoulder to shoulder, on one depth line, both heads the same size," or the grandmother drifted ahead. And matching cuts exposed a sneaky one — camera speed. Two tracking shots of the same walk came out at different speeds ("fast feet, slow backs"), so the prompt now states the camera speed of shot 9 equals shot 10, exactly.
+
+
+05 · PRODUCTION
+
+A fight cannot be edited into smoothness
+
+The finale is a three-move takedown. Generated as independent clips it came out choppy: each clip re-guessed pose and tempo, and pauses crept into every cut. Two things fixed it: frame-chaining (the last frame of clip N becomes the first frame of clip N+1, with the action crossing the cut mid-move), and for the money move — one continuous take, the whole combination written as a single timeline in seconds, real-time speed, slow motion banned by name — video models love to slow a fight down on their own.
+
+The choreography itself was written like a fight coordinator's notes, not a mood. Style is characterization: her movements are soft, circular, chin-na redirects and push-hands — a champion spending minimum force; his are straight, heavy and late. Every move is named and vectored, because the model flips physics whenever it's left to guess: the throw is written as "she rolls him over herself with her foot; he lands face toward her, head toward the window" — without the vector, his body landed a different way every take.
+
+Fight frames got their own blocking diagrams — stick-figure maps for the hands and the legs at each keyframe, attached as first-frame geometry. And when full-body continuity was too expensive to hold, we cut into the body: quick inserts of hands, waist, feet — jump cuts hide transitions, add impact, and a close-up of feet is far harder to break than a wide shot of two bodies. One camera move did the most work: a single shot rising from her feet upward, and mid-rise she sweeps him off his.

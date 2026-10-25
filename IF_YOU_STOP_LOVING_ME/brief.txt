@@ -1,0 +1,450 @@
+If You Stop Loving Me I'll Die...: A deadpan silent animated comedy about love, blackmail and, above all, death. Tolik has exactly one talent: dying. Any refusal, however small, kills him on the spot — and he revives the moment he gets his way. His wife has been resurrecting him for years, until one morning she packs a suitcase and walks out. Now it's just him, a dripping tap nobody's going to fix, and a neighbour knocking at the door.
+
+Any story. Any genre. One prize pool.
+
+$1,000,000
+
+Join the Festival
+
+
+Development
+PT-1
+PT-2
+PT-3
+
+
+Project brief
+
+This is the production breakdown of our animated short: the pipeline, the tools, and the methods we worked out along the way. Inside the project and across all assets the film goes by a shorter name — Kran, "the tap".
+
+A caveat for the whole text: these are conclusions drawn from one specific film, our own assets and the tool versions we worked with in the summer of 2026. Production observations, not a description of how the models work inside — wherever it says "the model does X", read "on our material it consistently did X".
+
+
+Logline: A man dies every time he is refused, and comes back to life the moment he gets his way. His wife got used to it and walked out — and there is already a knock at the door.
+
+
+About the project
+
+A silent pantomime, 4 minutes 42 seconds. Not a single line of dialogue: everything rests on action, rhythm and sound. The film is finished — picture, sound and music are locked.
+
+Format: 4:3 frame. In Higgsfield's 4K mode our clips came out at 3326 × 2494 px, with no upscaling on our side. The animation runs on twos: each phase is held for two frames, so movement reads as a change of drawings rather than a smooth glide. This is done in post, not requested from the model.
+
+Scale: three parts, five scenes, around twenty-five shots, including the title card.
+
+Team: two people. Directing, visual development, assets, generation and post — one; prompting for the scene with the neighbour in the room — the other.
+
+The visual language works like this: flat 2D hand-painted gouache characters over stylized CG backgrounds assembled as a pseudo-3D environment. Two materials share one frame and never mix optically: the background lives with its own light and shadows, the characters are stickers laid on top of the picture, their paint baked into the artwork. The line between hand and generative work runs here: the character concepts and the pose sketches are drawn by hand in Procreate, everything else is generated.
+
+The intent was research: not to work around the weak spot of generative video but to climb into it — put two contradictory techniques in one frame and see how the model handles the contradiction. Alongside it stood a practical motive: find a look that doesn't read as standard generative animation. The pseudo-3D environment turned out to be economical as well: the space is built once, and every camera angle is taken from it.
+
+The whole frame comes out of Seedance in a single pass: characters and background are not assembled in layers. Flatness is held by references and phrasing, and everything described below is a way of holding it inside one generation.
+
+The structure is three acts: "Breakfast", "Alone", "The Neighbour". Four characters: the wife, the husband, the neighbour and the Tap — which in this film is a character in its own right.
+
+The core technical task of the whole project fits into one sentence: keep the flat things flat. In our tests the engines consistently leaned towards a volumetric reading of a character — especially on turns and on complex body mechanics. The entire pipeline below exists to prevent that.
+
+Tools
+
+Seedance 2.0 (via Higgsfield) — the main engine; most shots were made on it. Assets live in the Elements library and are called in the prompt by tag.
+
+Seedance 2.5 — used selectively, for complex micro-movements and long takes: it holds them far more reliably, but tends to complicate the action and add movement of its own.
+
+MiniMax (Hailuo) — the alternative video engine for simpler scenes. Its niche was found by experiment: where Seedance consistently pushed a flat character into volume, MiniMax handled it better. Its prompt format is its own, and that is part of the solution — details in the prompting section.
+
+Nano Banana Pro / Seedream — stills: background frames, camera angles, prop sheets, edit passes.
+
+Angles 2.0 and Cinema Studio Image — Higgsfield apps for shooting the location from new positions.
+
+Photoshop — asset preparation: cutting poses out of their backgrounds, cleaning background frames, unifying details on sheets.
+
+Premiere / After Effects — editing, matching the joins between clips, masks, post-processing, final assembly.
+
+Claude + skills — a skill here means a set of rules and methods that Claude loads into its work. In effect a playbook written once and applied identically in every session, so the project doesn't have to be re-explained every day. All of them are internal skills of the project, not public products. 
+
+seedance-prompting— building prompts for Seedance 2.0: layer order, locks, defect diagnosis.
+seedance-2-5 — the same for 2.5: long takes, large reference packs, staging by stages, extending a clip.
+animation-director — the directing base: scene structure, composition, staging, timing.
+shinkuy — cutting the script into a shot list: scene → sequence → shot, with columns for props, backgrounds and running time.
+The method: flatness is baked into the asset
+
+The general principle: whatever won't hold in words is moved one step earlier — into the picture itself. Phrases like "zero 3D, no volume, no CGI shading" produced volumetric figures with a gouache texture. What worked was different: the line-up — a frame where the flat characters already stand inside that very set.
+
+Two different kinds of volume that must not be confused. One of the costliest mistakes of the project was that we spent a long time eliminating the wrong kind. The first is the volume of the cutout towards the camera — that must not exist; the character stays a flat plate on glass in front of the room. The second is the volume inside the drawing itself — the man painted on that plate has to be round, otherwise the figure flattens onto the floor. The error surfaced on a body lying on the ground: the phrase "every part of him is touching the floor" produced an unwanted result. Roundness inside the drawing is held by three things, none of them a word about mass: a raised knee and a lifted elbow as the tallest shapes of the silhouette, painted shading inside the contour, and the order of on-screen overlaps. Takes on such a shot are selected by those two shapes: if both have settled onto the floor, the take is rejected.
+
+The hinge contract of the cutout. The most precise formulation of flatness is not "he is flat" but a list of what he is assembled from: head, torso, shoulder, upper arm, forearm, wrist, palm and four separate fingers, each its own flat shape with its own silhouette and paint, connected to its neighbour by a hinge; all movement stays in the plane of the picture. An honest description of a cutout puppet worked better than any number of prohibitions on volume.
+
+Where the paint came from. The dark areas on the character are painted shapes, not a consequence of light: the darkness belongs to the paint, not to the lamp. This formulation worked where no prohibition did.
+
+One line of technique, kept word-for-word identical across all prompts: mixed-media animation in which drawn figures lie over the render like stickers and stay outside the room's lighting system. Changing its words from shot to shot is not allowed — the style drifts immediately.
+
+01 · Development
+The film grew out of an image, not a story
+
+The script started neither from a plot nor from a gag but from an image — from something that had been part of life earlier and was left behind. Hence the theme: dying as a way of getting your way, blackmail by one's own death worn down into domestic routine.
+
+The title
+
+The first title was "Tonic Immobility" — the scientific term for the reflexive stupor an animal falls into when a predator grabs it. The mechanism is involuntary and last in line: it engages when running and fighting are no longer possible. The whole irony of the film sat inside that title — the hero uses as a tactic what nature invented as a measure of last resort.
+
+The term is accurate but doesn't sell: it explains the film to someone who has already watched it. So the search went the other way — towards long comic headlines in the manner of anime titles, where the name itself carries a short retelling of the plot and sets the tone at once. A title like that works as a poster: the viewer knows what they're in for before the synopsis.
+
+The final title is "If you stop loving me, I'll die — I don't like dying, but for our love I'm ready to go that far." It speaks in the hero's voice and gives away the mechanism of the film in advance. The title card grew out of it: the words are set in a large pixel typeface over the facade of a Khrushchyovka and appear phrase by phrase, as if spoken aloud.
+
+@bg-kran-title
+
+Location
+
+The mechanism took a long time to find; the image held
+
+The neighbour was in the concept from the beginning — what changed was how it resolves. In an early version the man died for real and grew as a tree up to the floor above, to her. Then the tap took that place and the construction snapped together: the drip became the metronome of the film, and the torn-off tap a rhyme. It tears off when the wife pulls away from her husband, and again when the neighbour returns the kiss. Replacing a single image rebuilt the whole dramaturgy, while the cast stayed exactly the same.
+
+There was no storyboard and no animatic
+
+There is no classical pre-production in this project: no board, no animatic. Their place is taken by the shot list cut out of the script and the first takes of each shot, which double as the animatic: they already show movement, composition and whether the staging is viable. The price is visible in the numbers of Part I: staging mistakes surface not on paper but in generation.
+
+The script is revised to fit production
+
+Some scenes were shortened in the edit, some episodes solved differently from how they were written. This is not a concession but a working cycle: the constraint reveals itself at the moment of generation, and rewriting a beat costs less than pursuing an awkward frame across dozens of takes. First the scene is staged so as to work around the model's known limits, and only then further iterations are run.
+
+What is written before the generation
+
+The film is silent, so the unit of development is not a line but an action. The script is cut into shots with columns for props, backgrounds and running time; the whole numbering of the project grows from there.
+
+The second thing formulated before the prompt is how the scene is played. Not "the wife drags the body", but: for her this is routine, the body doesn't help, it simply needs to end up in the kitchen. From that, two observable signs go into the prompt — an even workaday pace with no visible effort, and a gaze that goes past him.
+
+02 · Assets & Pre-production
+Assets and the naming convention
+
+An asset is a pair: a text descriptor that goes into the prompt word for word, and a picture that acts as the anchor. Together they keep a character the same person from shot to shot.
+
+ch-kran-muzhik-dead        character + project + name + state
+bg-kran-kitchen-fridge     background + project + location + angle
+prop-kran-eggs             prop + project + object
+ref-kran-pose-drag         utility reference + project + purpose
+fx-kran-water-fountain     effect + project + type
+
+The point is simple: one element, one name. Otherwise the same sofa ends up filed under three different names and nobody remembers which reference is the real one.
+
+A state is a separate asset, not an overwrite. The husband alive, dead and wet — three different assets of the same character.
+
+A tag goes into a prompt only after the asset is confirmed as uploaded to Elements. Positional images that aren't uploaded as assets are called by a different syntax — @[Image N](image_N) — and the two mechanisms are not interchangeable.
+
+Prop sheets are merged. The pan, the fried egg with an intact yolk, the one with a burst yolk and the fork all live on a single sheet, prop-kran-eggs. Both states of the yolk side by side in the same light: the micro-gag is then finished with a mask, not with a regeneration.
+
+@prop-kran-eggs
+
+Prop
+
+Character sheets: from concept to turnaround
+
+A character starts with a concept drawn by hand: the gouache texture and the character of the proportions must not be a product of generation, otherwise the style is replaced by the model's averaged manner.
+
+From the concept, a turnaround is assembled in Seedream: front, both profiles, back, plus a large portrait and a separate expression map. Here the model does exactly what it is good at and what takes a human a long time — rotating an already invented design to other angles while keeping the drawing.
+
+@ch-kran-muzhik-alive
+
+Character
+
+@ch-kran-muzhik-emotions
+
+Character
+
+The turnaround closes the main gap: if a character turns and the sheet has no such angle, the angle gets constructed through volume — with a sheet, a ready drawing is taken instead. That is why the sheet itself is flat: every view on a neutral backing, shadows inside the drawing, not a single three-quarter with artistic lighting. States are split into separate sheets — alive, dead, wet: not the same character under different lighting but a different drawing.
+
+The sheet has to be internally consistent. Socks drawn differently on each leg bound themselves not to the leg but to its position in the frame, and jumped every time the step changed. Fixed by redrawing the sheet, not by prompting.
+
+Backgrounds: the master and the angles
+
+bg-kran-kitchen-master — an isometric cutaway diorama of the kitchen: the truth of the layout and nothing else, not a style reference.
+
+@bg-kran-kitchen-master
+
+Location
+
+From the master comes a separate background frame for each angle. Each is first generated in Nano Banana, approved, uploaded to the registry — and only then goes into video.
+
+
+The anti-diorama block. The master is shot as a model with cut-away walls, and the engine copies that presentation: it draws "from inside the maquette", with air instead of the fourth wall. The cure is an explicit declaration:
+
+This is NOT a miniature diorama and NOT a cutaway dollhouse: render a real
+full-size room, fully enclosed with all four walls, floor and ceiling. The
+camera is INSIDE the room. No cut walls, no open front, no visible room edges.
+The frame is filled edge to edge with the interior itself, like a film still.
+
+How a new angle is obtained. Three routes, all used on the project. The first is Angles 2.0: a finished background frame is loaded into the app and the position of the virtual camera is changed by rotation, tilt and zoom; the result is finished in Photoshop or used as the base for a new generation. The second is Cinema Studio Image: it generates an angle with cinematographic parameters built in — the close-ups of the kitchen were shot with it at 50 mm and f/1.4. The third is text: an abstract "put the camera lower" is understood poorly, what works is describing the consequences — the bottom of the sink is not visible, the burners are not visible, the underside of the sink with its pipe is visible.
+
+The kitchen optics are fixed: ~35 mm / 65° for wide shots. We did not reposition the camera through an edit pass: a new angle was produced as a separate generation.
+
+Pose references
+
+ref-kran-pose-drag and others like it — the benchmark for a specific pose and grip: drawn by hand, then run through Seedream in the final style.
+
+A hard rule: a pose reference is a cutout with no background. The background from a pose reference leaks into the shot.
+
+Palette
+base #d9a860 · shadow #4a3226 · light #e8c088 · ambient #cbbdd6
+accents: wine #78203a · cobalt #22306e · raspberry #cb2d5e
+violet #3a2044 — the doorway only
+
+Every asset of the project — character sheets, backgrounds, props and utility references — is laid out in Canvas, grouped by zones. 
+
+Canvas preview
+
+
+03 · Sound & Effects
+Sound: the film is silent, but not quiet
+
+There are no lines, so sound carries the whole dramaturgy; the final soundtrack is made in post, separately from generation. But a sound line is needed in every prompt: an empty line does not mean silence — the engine reads it as "soundtrack at my discretion" and once produced a dramatic accompaniment nobody asked for. So every prompt names a specific diegetic sound explicitly, and no room is left for music.
+
+The film's through-line metronome is the dripping tap: it lives in the background of every kitchen shot long before the tap becomes the plot, and the cutaways are stitched together by it.
+
+The water canon
+
+Water in this film has two hard rules.
+
+It is drawn, not simulated. Flat graphics over the render: a dense enamel-like fill #8db9c9 with rounded edges and a soft sheen. Describing water as "flat and matte" produces paper.
+
+Rings exist only on the surface — where a leg pierces the waterline. Underwater they do not exist: without a direct prohibition the model draws them on the flooded rug.
+
+04 · Prompting
+The prompt: what all engines share
+
+What follows are skeletons and individual blocks, not finished prompts: across the whole film not a single prompt worked on the first try, so what gets reused is the frame and the specific locks that once closed a specific failure.
+
+The main discovery: prompt length does not improve the result, it redistributes the risks. The base form is short; the extended one is switched on where exact timing is needed. Every prompt, regardless of engine, contains four things: the style line, references, action, sound. We placed the style line first — in our tests that order held the material more consistently.
+
+Seedance 2.0 — the short formula
+
+The main video engine of the project. The formula: references by @tag, style in one line, action as a logline, sound. Nothing more.
+
+Flat 2D hand-painted gouache cutout characters composited over a stylized
+3D-rendered background — mixed-media animation where the painted figures stay
+completely flat, outside the room's lighting system, zero 3D on them.
+
+@bg-kran-kitchen-fridge — the set AND the first frame: the empty kitchen,
+the dark doorway at the left, the white fridge, herringbone parquet. Static
+locked camera, unchanged.
+@ch-kran-zhena-base — the wife, 100% matches this sheet.
+@ch-kran-muzhik-dead — the husband, dead, 100% matches this sheet.
+@ref-kran-pose-drag — the exact grip and body positions.
+@ref-kran-lineup — character sizes relative to the furniture.
+
+The wife drags the dead body of her husband into the kitchen through the dark
+doorway on the left.
+
+Diegetic sound only: the scrape of the body over the parquet, her tired
+breathing, a distant tap drip.
+
+The extended version for 2.0 is used when a shot has several beats and their order matters. The canonical layer order:
+
+style → context → location → first frame → optics → camera → timing →
+overlaps → lighting → audio → locks
+
+We marked action in 2.0 with ordinal beats — first, then, next: second-by-second timecodes didn't hold on it.
+
+Seedance 2.5 — stages with end states
+
+Used for a long continuous take and complex micro-movement. The markup is different: not ordinal beats but stages, each with its own end state — what has to be in frame by the end of the stage. For long takes we kept to three rules: one locked camera for the whole take; every necessary object present from the first frame; and mandatory selection of takes, since 2.5 tends to add movement of its own.
+
+[style line]
+
+[location and camera — one reference, locked for the whole take]
+[characters by @tag]
+
+Stage 1 — ... ends with: [end state of the frame]
+Stage 2 — ... ends with: [end state of the frame]
+Stage 3 — ... ends with: [end state of the frame]
+
+[sound]
+MiniMax — prose and no reference tags
+
+The main difference from Seedance: there are no reference tags here at all — images are addressed by their order, and each is assigned a role and its limits directly in the text. That turned out to be an advantage: the role of a reference has to be stated explicitly, which reduces the ambiguity of how it is interpreted. The character design is written out in words too, and the style line uses the phrase "in the manner of". In our tests MiniMax also accepted positional prohibitions calmly, whereas Seedance broke on that kind of phrasing.
+
+Form one — continuous prose. For a single shot built from scratch: narrative text in paragraphs, with caps used sparingly to fix a position inside a phrase. Separating the roles of the references looks like this:
+
+THE IMAGES
+The first image is the set and the camera: the floral oilcloth filling the
+bottom third of the picture, and beyond it the kitchen with its stove, kettle,
+sink and tiled wall, all in the same places at the same size. The camera sits
+exactly where this image puts it and does not move. The man is added to it.
+
+The third image is A PAINT POT AND A FACE, AND NOTHING ELSE. Read from it ONLY
+these things: the chartreuse green of his skin, the olive-brown of his hair and
+moustache, the dark green stripes on a mint t-shirt, the two painted X shapes
+that replace his eyes, and the lolling tongue. IT GIVES NO POSE, NO ANGLE AND
+NO BODY TO THIS SHOT.
+
+The third reference shown here uses the same method as the dead-state sheet supplied as a palette: it gives colour and face only, the drawing stays as it was.
+
+Form two — named blocks (WHERE WE PICK UP, TIMING, RIGID PARTS, OVERLAPS, STILL, MOTION LANGUAGE) was used for extending a finished clip: timecodes held in it, and the rigid-parts block worked as a set of countable locks — one flat shape with no half-turns, the hand keeps four digits, the plate keeps its size, painted shadows welded to the artwork. The block composition nearly matches the extended Seedance structure; the structure transfers, the way references are addressed does not.
+
+What never appears in a prompt
+
+Body mechanics. In our takes the words physics, weight, rag doll, rope arms, walk cycle, follow-through almost always coincided with the character sliding into volumetric movement, and the flatness was lost. So on this film we stopped describing body mechanics in prompts altogether: movement is set by a logline, the model works out the rest itself, and its default turned out to be closer to what we wanted than our micro-direction.
+
+Negations. On our material no / never / not / without / ignore were unreliable: the forbidden thing turned up in frame about as often as it disappeared. Everything is translated into the positive: instead of "no photorealism" — toy-like matte surfaces; instead of "nothing extra in frame" — a list of what is in frame.
+
+Volumetric vocabulary. mass, depth, thickness, cylinder, barrel are banned; volume is conveyed only by silhouette (a raised knee, a lifted elbow) and by the order of overlaps.
+
+Rotations. Any description of a body turning in space pulls volume with it.
+
+The word diagonal. In our tests it produced severe perspective foreshortening.
+
+The painterly vocabulary of stills — painterly volume, lit side and shadow side, soft modeling. In a still prompt this describes painting; in a video prompt it is a direct instruction to build volumetric form.
+
+Timing
+
+Duration is declared in the interface before generation. If the default is left there, the model improvises the extra seconds at its own discretion: with six seconds planned and fifteen set in the interface, it improvises for nine seconds with no script — and that is exactly where the deformations appear.
+
+The scene is planned in frames beforehand. Running time at 24 fps, beat lengths in multiples of two frames. The first scene is laid out as fifteen beats totalling 41 seconds, and the same table shows the budget: about seventy seconds of generation for forty-one seconds of screen time, a ratio of 1.7.
+
+Rhythm is written before the prompts. The first cycle with the yolk runs slowly — this is where the film's rule is established; the second, with the beer, is half as long, because there is nothing left to explain. Then the metronome stops: the pause with the can works only because everything before it was dense.
+
+Twos are added in post. Embedding 12 frames per second into the prompt produced nothing — the engine delivers its own frame rate and its own smoothing. Posterize Time on top of the finished clip thins the frames out: movement stops gliding and starts switching. More reliable and reversible.
+
+Extended clips consistently came out about 0.5 s shorter than requested, so the duration is set about half a second longer or an extra tail is left for the edit.
+
+What we treated as production limits
+
+What follows is not an engine specification but the boundaries we felt out on this film and then observed as rules.
+
+A new object appearing mid-shot is unreliable. The appearance of an object absent from the first frame was too unpredictable, so everything that has to be in the frame is there from the start. That is why the tap in the finale of Part I is present from the start and changes state rather than "flying in".
+
+One full-frame background per pack. With a second one the angle started drifting inside the clip.
+
+The background as the first frame, the text about changes only. In our tests describing a character's appearance in words again often led to him being redrawn.
+
+A thin limb under tension does not hold. Gripping a hand or a forearm produces a stretched silhouette, a broken shoulder line and extra hands at the point of contact. Grip only a massive part: a collar, an ankle in a slipper, a trouser leg at the thigh.
+
+Pixels beat text. In our pipeline a visual reference almost always turned out to be stronger than a text instruction contradicting it: a conflict between picture and description was resolved by replacing the picture, not by adding words.
+
+05 · Staging
+
+The hand-drawn sketch and the pose reference
+
+Without this step the body-dragging scene would never have come together: ten generations in a row gave either a profile instead of a three-quarter view, or deformation at the point of the grip. Staging could not be set in words — the pose was drawn by hand in two minutes.
+
+The sketch goes into Seedream as a composition blueprint: "repeat this layout, but in the final style from the character sheets". What comes out is not a frame of the scene but the two characters alone in the required pose on a plain grey background, with no kitchen and no props. That image is uploaded as a pose reference and goes into the video prompt alongside the location plate: the plate sets the space, the pose reference sets the grip and the position of the bodies.
+
+The pose reference must carry no background of its own: any detail left on the grey backing leaks into the shot. For the same reason the sketch is never put into the video model — it reads the rough lines as part of the picture.
+
+The same principle works higher up the pipeline: the most stable anchor proved to be the hand-drawn reference. In production logic this resembles cutout animation: a human sets the key, the model generates the movement in between.
+
+06 · Performance
+Performance: a task, not an emotion
+
+The word "sad" in a prompt produces a caricature or a dead face. What goes into the prompt instead is a task: what the character is doing, what they are after, where they are looking.
+
+A verb carries emotion more strongly than an adjective. The neighbour played hysteria over the body because of the phrase "tries to bring him round": the model read it as rescue and played rescue. Replacing it with a domestic action — she takes him by the shoulders and lifts, looks at his face the way one looks at a jammed drawer — put the scene back in place. The second rule from the same shot: don't duplicate in text what is already in the reference. "Dead weight", "a sack" and "never moves on his own" one after another made her play a funeral, though the crosses on his eyes had already said it.
+
+The change of colour and the change of pose are two separate events. An early version of the canon spelled dying out as a chain of five actions; the working logic turned out to be the opposite. He dies in the very pose he was sitting in: only the colour and the face change, in a single frame, with no movement. And only afterwards, already green, does he fall backwards. Separating the two events removes the main failure — the attempt to animate the recolouring by smearing it across the movement.
+
+The dead-state sheet is supplied as a palette, not as a pose. The formulation that settled it ran as follows: it is "a paint pot and a face, and nothing else" — only the chartreuse of his skin, the olive of his hair, the dark stripes on mint, the crosses instead of eyes and the tongue are read from it. It gives no pose, no angle and no body: the drawing stays exactly the one that was in the previous frame.
+
+Coming back to life runs as the reverse wave: colour flows down from the head, the tongue hides under the moustache, the eyes open round.
+
+Screen direction
+
+Direction is set separately for each scene and held across all of its shots: fixed in the prompt and verified against the final frame.
+
+Positions are described through landmarks in the room — the window, the fridge, the table, the doorway — and never through the character's own body: character space and screen space must not be mixed.
+
+The method that resolved the most difficult shot of the project: one lock repeated in four places in different words — the screen rule, the final position, the trajectory, and a separate check of the last frame. A lock in a single long paragraph worked unreliably; four short mentions in different blocks held.
+
+Shadows — and how they led away from volume
+
+There are no room shadows on the character at all. This turned out to be the main lever against volume: after a run of takes where the style simply didn't work, it emerged that the cause was the lighting shadows on the figures themselves. As soon as the room's light stopped touching them, the volume went away. The working line puts it by address: the characters keep their own flat painted colour and stay outside the room's lighting, while soft flat shadows lie on the parquet.
+
+The character's own shadow is a separate flat cutout. Without it a standing figure floats above the floor. It is described not as a trace of light but as a second piece of paper: an even silhouette one tone darker than the parquet, staying attached to the feet in every frame and running away from the light source.
+
+The line from the rulebook that closes the question: shadows are permanent graphic shapes attached to the artwork, not something cast by light.
+
+A catalogue of performance failures
+
+The corpse gets to its feet and "helps". A description of bent knees reads as a squat. Fix: legs stretched out along the floor, weight never passing through them.
+
+A march with high knees. The accent "feet planted firmly with each step" is played literally. Fix: remove the accent, set the general pace.
+
+Feet slide while walking. The contradiction "continuous stepping + very slow". Fix: natural speed, with the step tied to the distance covered in floorboards.
+
+The character turns into profile instead of three-quarter. With movement strictly across the frame, profile is the only logical angle. Fix: a diagonal trajectory, slightly towards camera.
+
+Walking with stops. The pose lock "hold this exact pose" takes the freedom from the legs. Fix: the lock holds the grip and the torso; the legs stay free.
+
+07 · Post-production
+Chains
+
+A complex action is cut into a chain of clips — one action per clip; changing shoes in the hallway is split in two, one shoe each. The clips are joined by a link frame: the last frame of the previous one becomes the first frame of the next.
+
+When to cut. If the action goes wrong in two takes out of three, the prompt is not rewritten — the run is split in half. Adding seconds is pointless: the longer the run, the stronger the drift into volume. A continuation from a short stable clip holds; from a long, event-filled one it breaks down.
+
+The join between two clips is matched in the edit
+
+An extension never returns the frame pixel for pixel: the image moves by a few pixels, the scale differs by fractions of a per cent, sometimes unequally along the axes, and the ends of the tonal range drift towards more contrast. With a static camera this reads as a jump. It is matched in two passes in the timeline.
+
+Geometry — Motion. The Anchor Point stays at the centre of the frame, so scaling works from the centre and doesn't shift the framing. Position is adjusted by single pixels and Scale within 100.4–100.8 %. If the generation came out with a different proportion, Uniform Scale is switched off and the axes are corrected separately.
+
+Tone — Lumetri, Basic Correction. Exposure and saturation are left alone: the drift sits at the ends of the range. Four controls do the work — Highlights, Shadows, Whites, Blacks — plus Temperature by a couple of units if the generation went cold. Where contrast rose, the ends are pulled inward (−12, −13, −7, +5); where the range compressed, they are opened up (+6 and +8).
+
+The visibility threshold is a rule, not an accident. If a join needs more than one per cent of scale or about fifteen units of tone, the clip is not matched but regenerated: what has drifted is the generation itself.
+
+Reference hygiene
+
+A reference is cleaned before generation: painted water and highlights are erased from the background frame if they aren't in the scene yet by the timing. Any detail of it is treated as part of the location and persists to the end of the shot.
+
+08 · Production Data
+
+The project is filed in folders the way it is numbered: part → scene → shot. The file count in a folder is a rough measure of a shot's iteration weight — how many variants had to be produced before it came together. Not money, but a measure of how hard the material pushed back.
+
+Part I     titles                        24
+           scene 1 (11 shots + pickups) 913
+           scene 2 (5 shots)            796
+           scene 3 (1 shot)             135
+           total                       1868
+
+Part II    scene 4 (4 shots)            230
+Part III   scene 5 (9 shots)            336
+
+WHOLE FILM                             2434
+
+The heaviest by number of iterations. 2-1 — 368 files, the record of the film. 1-8 — 164 plus 16 for alternative versions. 2-2 — 116, and then another 128 on a full regeneration: 244 for a single shot. The lightest by number of iterations — 1-7, eight files.
+
+Three things read out of these numbers.
+
+Part I took 77 % of the whole volume — 1868 files out of 2434: the method was being worked out on it, and every rule in this brief was paid for in takes right here.
+
+The iteration weight of a shot dropped by more than half — from around a hundred files in Part I to around forty-five in Parts II and III. Two reasons: by that point the canons were written down, and the scenes themselves are simpler — Part II is a man alone in a kitchen, with no contact between two bodies, no walking, no gripping a limb. Hence the practical conclusion: the less costly shot is not the one described most simply, but the one with the fewest simultaneously moving connections.
+
+Variants and full rebuilds noticeably increase the iteration volume: in number of generations they are comparable to a separate shot.
+
+09 · Failed Approaches
+
+A list of dead ends saves more time than a list of successes.
+
+3D blocking of the set. The plan: build the kitchen in 3D, fix the camera, geometry and light, and leave texture to the generation. A lot of time went into developing and agreeing on that pipeline, and not a single frame made it into the film. The space ended up held by the isometric master plan and the approved background frames.
+
+A guarantee of flatness through text. Six versions of a prompt piling on prohibitions — zero 3D, no volume, no CGI shading — produced nothing: on our material movement consistently returned volume to the character, and prohibitions did not change that. What won was a change of staging: movement along the screen, a ready start frame, a grip on something massive, an angle from the sheet.
+
+The name of the technique as an instruction. A genre label — "cutout animation" — is not read as a task: the volume stayed where it was. What works is a description of the behaviour of the material: figures flat like paper cutouts sliding across the picture, a painting on glass, an outline and a fill with no thickness.
+
+Animating a generated still. Animating a successful still produced movement that followed the image but sat badly with the dramaturgy of the scene: the start frame has to be a frame of the scene, not a picture of the characters.
+
+Someone else's style as an anchor. The name of a well-known animated series worked as a compact trigger, but we dropped the approach so the film's visual language wouldn't depend on someone else's IP. Reference images from it are even less suitable — the model takes pixels, not the principle.
+
+10 · Conclusions
+
+The rules below are arranged in the order they are applied: from preparation to the moment a shot refuses to come together.
+
+Assets first. Not a single shot until the character, the location and the prop are named, uploaded and confirmed. This rule is worth more than the rest: an error in an asset propagates through the whole film.
+
+Describe everything, every time. Between independent generations the context of the previous shot is not retained, so the descriptor goes into every prompt word for word.
+
+Say what you want, not what you're avoiding. On our material negations were unreliable, so every instruction was phrased positively.
+
+Don't describe mechanics — stage the action. Many errors came not from a lack of detail but from over-describing body mechanics. The scene is staged so that volume is never required: movement along the screen, a ready start frame, a grip on something massive.
+
+Whatever won't hold in words — bake it into the picture. Flatness, scale, pose, angle: pixels beat text. The most stable anchor proved to be the hand-drawn reference: elements already set by an image held up more consistently than those the model had to construct itself.
+
+If a shot won't come together — simplify the shot, not the wording. Split the action in two, remove one moving connection, change the angle. Piling text onto a failing shot cost us more than anything else.
+
+The method is borne out by the numbers: the rules established on Part I more than halved the average iteration weight of the following shots. Each of them exists because without it a specific frame fell apart — and that is the value of this document: it records not an ideal process but the price of the mistakes.

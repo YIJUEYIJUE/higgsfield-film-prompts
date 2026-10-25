@@ -1,0 +1,53 @@
+One prompt, a full anime character — then turn their story into manga panels, from cozy slice-of-life to horror-action
+
+
+Context
+
+A tutorial showing how Claude via Higgsfield MCP uses Seedream 5.0 Pro as the image-generation model to build an anime project from scratch: generating a consistent character sheet from a prompt, then writing a story and turning it into manga/anime panels. The demo starts with a cozy slice-of-life setup and escalates into an action/horror battle scene with a grotesque monster, showing the model's range from character design to full scene generation.
+
+Narrative
+
+Story: A schoolgirl with blue hair is designed as a consistent character, then dropped into a slice-of-life school setting that suddenly turns into a horror/action scene — she and a classmate fight off a grotesque, tentacled monster in their classroom using improvised weapons.
+
+Message: Shows that Seedream 5.0 Pro can maintain character consistency across wildly different genres and tones — from cozy, calm character art to intense horror-action — all from the same generated character sheet.
+
+Audience: AI creators, anime/manga artists, and content creators interested in AI-assisted character design and storytelling workflows.
+
+Visuals
+
+Clean, modern anime/manga art with cel-shaded linework and a polished, studio-quality finish. The palette shifts with tone: soft, muted teals and warm neutrals for the calm school setting, giving way to visceral reds and pinks in the horror-action sequence. Creative direction leans into strong character consistency (the blue-haired lead stays recognizable across poses, outfits, and genres) and cinematic framing — low angles, dramatic lighting, and dynamic action poses for the battle scenes.
+
+
+Prompt Architecture
+STYLE LOCK    ← immutable — the medium (cel-shaded 2D anime/manga)
+CONTINUITY    ← immutable — character design, palette, world rules
+DIRECTION     ← immutable — camera language, pacing, sound cues
+SHOT          ← the ONLY variable block — one unique beat per shot
+Prompt Template
+STYLE_LOCK = """STYLE LOCK
+Modern cel-shaded 2D anime, studio-quality linework, clean flat
+color fills with two-to-three value cel shading. Cool grey-teal
+classroom palette for calm beats, shifting to saturated hot-pink
+ichor and deep crimson for horror beats. Not painterly, not 3D,
+no photobash, no CGI smoothness — traditional anime cel look
+throughout."""
+
+CONTINUITY = """CONTINUITY
+Blue-haired girl (scythe) and black-haired boy (hammer) must stay
+visually identical across every shot — same hair color, uniform,
+weapon, and proportions established in the character sheet.
+Monster stays horned, white-boned, single central eye, hot-pink
+ichor only — never red. Classroom geography (desks, chalkboard,
+windows, door) stays fixed across cuts."""
+
+DIRECTION = """DIRECTION
+Camera moves are explicit per shot: static, tilt, whip-pan, dutch
+angle, tracking, or slow-mo — never left ambiguous. Dialogue is
+anchored to a clear physical beat (e.g. back-to-back stance) so
+it isn't cut as a transition. Sound/impact cues (cracking, roar,
+splintering) called out per shot to reinforce timing."""
+
+SHOT = """SHOT
+[the one variable per image — e.g. "Shot 13: slow-mo descent,
+scythe driving through shoulder and eye, hot-pink ichor bursting
+upward"]"""

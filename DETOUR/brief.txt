@@ -1,0 +1,36 @@
+Ryu has spent his whole life avoiding risk - until a navigation glitch offers him a route five minutes faster. On the way, he meets Lisa, a fearless stranger who joins him on a road where every turn changes the rules. To get home, they’ll have to figure out the road - and each other.
+
+✨ Context
+
+DETOUR comes from a warm nostalgia for 2000s arcade racing games and action cinema — the rush of speed, bold spectacle and the collision of everyday reality with a game world. Beneath the excitement, the race becomes a metaphor for building a relationship in an ever-changing world and overcoming the insecurity that keeps us from taking risks.
+
+🎭 Narrative
+
+At the center of the film are two strangers trapped in a race neither of them chose. What begins as an escape becomes a test of trust, courage and sacrifice.
+
+
+With no time to stop or fully understand each other, they build trust in motion — matching speed, reading gestures and risking their own path to keep the other on the road. Their relationship is shaped through choices made under pressure.
+
+
+In a world that rewards self-preservation and changes the rules without warning, caring for another person becomes dangerous. For someone who has always chosen the safest route, courage begins when another person matters more than his own safety.
+
+🎨 Visuals
+
+We drew on 1990s Tokyo, high-contrast green-and-red film photography, sodium-yellow street lamps, and Japanese mythology. The film keeps a Kodak-inspired texture and limited warm palette, while the game world shifts toward a greenish moon and a more otherworldly atmosphere.
+
+
+Characters balance realism with bold cultural references, each with their own accent colour and headlight temperature. Game artefacts remain within the world’s palette but stand out as bright visual markers. Throughout, grain, defocus, and light drive the cinematic texture.
+
+🎬 Production
+
+*Detour* was created by a four-person team, covering directing and writing, art direction and visual style, character and environment design, still image creation, and animation. Animation itself was a collaborative effort across the entire team.
+
+
+Production on this seven-minute race focused on maintaining continuity across geography, scale and fast-moving action. Character and location sheets established the visual rules, while selected frames were carried forward as references to preserve racer positions, spatial continuity and power-up scale.
+
+
+Our pipeline included Seedance 2.5 and 2.0, GPT Image 2, Nano Banana Pro, Seedream 5.0 Pro, Higgsfield Soul 2.0, Topaz for upscaling, Photoshop for quick refinement, Premiere for editing, and Suno for music. The script, characters, story world and music are entirely original and were created specifically for this project and the Higgsfield competition.
+
+🚀 Status
+
+The film is finally done! The music has been updated, and the final mix and color correction are complete.

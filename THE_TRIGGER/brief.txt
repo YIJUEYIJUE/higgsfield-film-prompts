@@ -1,0 +1,231 @@
+An ageing hitman takes his orders in a diner, printed under the price of coffee and apple pie. When the new order names the soldier who once dragged him off a roof in Afghanistan, he has to decide which of his two lives he is still living in.
+
+
+Project brief
+
+This is the project breakdown for THE TRIGGER, our AI short film: the pipeline, the tools, and the hacks we learned along the way.
+
+
+Logline: An ageing hitman takes his orders in a diner, printed under the price of coffee and apple pie. When the new order names the soldier who once dragged him off a roof in Afghanistan, he has to decide which of his two lives he is still living in.
+
+About the project
+
+THE TRIGGER is a photoreal AI short film. Every frame is generated: there is no filmed footage, no sets, no camera crew. The characters exist only as reference assets, and every shot is born from those references plus text.
+
+The structure of the film defines the whole production. It runs on two timelines that never share a look. The present is New York at night: a sniper's nest in a building under renovation, a rifle set back a metre from an empty window, three lit windows across the street, a diner where the contracts arrive on a café bill. The past is Afghanistan by day: a rooftop position, a firefight the team walked into, the round through Jack's shoulder. Between them sits one man's face, and the film is the distance between the two.
+
+In production terms that means two very different jobs. The Afghan material is wide, hot and violent — its challenge is scale, crowds and kinetic camera. The New York material is the opposite: almost nothing happens, and it happens in the dark. Ninety percent of a night frame is black with no detail; the performance lives in one eye, one rim of light on a shoulder, one hand on a switch. A video model fights you on exactly that: it lifts blacks, invents a dusk sky, brightens a face it thinks you forgot to light, redraws printed text every frame. Holding the dark and holding the print is the hardest technical task of this film, and most of the pipeline below exists to solve it.
+
+The tools
+Seedance — every shot, all video and speech. Assets live as named elements on the project.
+Soul Cinema and Soul 2 — the character pipeline, location plates.
+Seedream — character sheets, props, and the surgical edits when a plate fails on one detail.
+Claude + our skills — a skill is a playbook of rules Claude loads and works by. Ours: the acting system, the diagram/blocking system, and the film's standing prompt rules, so nothing agreed once gets lost in iteration twenty.
+
+
+01 · DEVELOPMENT
+The script is written for a model with no memory
+
+On an AI film a weak scene costs real money — you find out it doesn't work only after you have generated it. So every scene is broken down before a single generation: what the event of the scene is, what each character's motive, goal, obstacle and tactic are, and what the one physical action is that carries it.
+
+Two examples from this film.
+
+The nest reveal. Event: a man recognises the thing he used to be. Terrence stands at the glass with his daughter on his left arm; the girl is turned in to his neck and never once looks at the window, because what is across the street is his alone to see. Jack's whole performance is one head lifting off a stock in a black rectangle. Nobody plays fear. Terrence registers the shape once, in a single second, with the eyes and the stopped breath — and then he is already running.
+
+The diner. Event: a delivery. Coffee, apple pie and a killing arrive at the same table by the same process. Jack's tactic is to make it ordinary: he doesn't look at the person delivering it, he opens the folder exactly the way anyone opens a restaurant bill, and when he reads the line that names a man he does nothing at all. The nothing is the character.
+
+That work produces the director's read for each scene, and the read is what the prompts are then written from. The camera language, the grade and the sound follow it; they never lead it.
+
+
+02 · PRE-PRODUCTION
+
+An asset is a pair: text + image. The text descriptor goes into every prompt word for word; the image is the reference the model anchors to. Together they keep a hero the same person from shot to shot, and a room the same room when the camera moves.
+
+Nothing gets generated as a shot until the asset for everything in it exists, is named, and is locked.
+
+One naming convention for the whole team
+
+Every element — locations, characters, props, staging maps — is named by a single tag convention. One element, one name. Without it a project this size grows duplicates, the same window lives under three names, and nobody knows which reference is the real one.
+
+@char_SN_Jack             character + project + name
+@char_SN_Jackarmy         the same man, Afghanistan state
+@loc_SN_nest_win          location + project + name
+@loc_SN_nest_ext          the same building, exterior
+@prop_SN_rifle            prop + project + name        
+
+A new state is a new asset with a new name, never an overwrite. Jack in the diner and Jack on the Kabul roof are different assets of the same man; the nest seen from inside and the nest seen from the street are different assets of the same window.
+
+Canvas preview
+
+Higgsfield Canvas
+
+
+Character sheets
+
+A character is built in two passes with two models. Soul Cinema makes the face: always generated in close-up, so the model captures identity at maximum detail — that close-up is the anchor every other asset of the character is checked against. Soul 2 then builds the looks: full-figure images with the wardrobe — cut, materials, silhouette — matched to the locked face.
+
+The two passes are assemb led into the sheet in Seedream, with one hard condition: the original close-up portrait is preserved untouched. It never runs through a model again. Every detail that changes between states — dust, sweat, a shoulder gone dead, a hood up — is integrated point by point with masks, without touching the base. The base stays the same pixels, so the identity and the skin texture that carries it survive every new version.
+
+
+Locations — the anamorphic look
+
+The film is 2.39:1 with a vintage anamorphic character, and here is the problem: ask Seedance for that look in a videoprompt and it won't hold it — the optics drift from shot to shot. The fix is to move the lens one step earlier in the pipeline: generate the location plate with the anamorphic character already in it. Seedance reads the optics straight off the asset and keeps them; the plate itself becomes the lens.
+
+Block for the end of a location image prompt:
+
+STRONG anamorphic lens character: horizontal squeeze and compression,
+oval elliptical bokeh, horizontally stretched highlights, cat-eye at the
+frame edges, subtle chromatic aberration toward the edges. NO lens flares,
+NO light streaks, NO floating bokeh circles. 2.39:1.
+
+In the video prompt those words never appear at all — even as bans. Naming a flare summons a flare. The video prompt describes clean glass and contained glows only; the anamorphic character comes from the asset.
+
+@loc_SN_THouse
+
+Location
+
+@loc_SN_nest_ext
+
+Location
+
+
+Locations — the night look, which is the same trick
+
+The New York night has the identical problem one stop further: describe "very dark" in a video prompt and the model still delivers dusk. Two things fix it, and both live at the asset stage.
+
+Bake the darkness into the plate. The exposure of the video follows the exposure of its first frame, not the adjectives in the text. If the plate is two to three stops down with crushed blacks and a single cold rim, the shot inherits it.
+Crop the sky out of the composition. A sky in frame will always drift toward blue hour. Frame the window so it is filled edge to edge by the brick facade opposite — no skyline, no roofline, no clouds — and the night stops arguing with you. The brightest thing in frame is then a practical: two lit windows and a porch lamp.
+
+
+Grades, locked per timeline:
+
+PRESENT — New YorkPAST — Afghanistan
+
+Palette
+
+Teal-green shadows, sodium amber practicals, dirty amber-yellow paper
+Honey-and-sand, creamy gold sun, dusty tan and khaki
+
+Exposure
+
+2–3 stops down, crushed blacks, no clean whites
+1.5 stops down, low contrast, milky lifted blacks, gentle halation
+
+Texture
+
+Fine 35mm grain
+16mm grain
+
+Camera
+
+Locked off, or a slow mechanical push; the camera physically travels, never zooms
+Violently unsteady handheld, rolling horizon, focus hunted by hand
+
+
+Voices are written conditions
+
+Seedance generates the speech, but a voice drifts between clips unless it is pinned down. A voice here is a written block — register, timbre, tempo, manner — decided once, stored, and pasted into every generation verbatim, never even a synonym changed.
+
+Example AUDIO LOCK (Jack):
+JACK — voice: low dry male baritone, worn and unhurried, slight rasp at
+the bottom, minimal dynamic range; speaks under the level the room needs,
+close in, one short phrase at a time with real gaps between them; radio
+discipline even off the radio. No theatrical colour, no rising ends.
+American.
+
+Where a scene needs the same voice across shots that were generated weeks apart, we don't fight the model: the picture is generated first and Jack is re-dubbed from a single voice reference in a dedicated voice-replacement pass — picture untouched, audio only, matched frame by frame to the mouth already on screen.
+
+03 · PRODUCTION
+Video prompts — one fixed block order
+
+Every shot is written in the same blocks, in the same order:
+
+SCENE CONTEXT · REFERENCES (ranked) · LOCKS · GEOGRAPHY / BLOCKING ·
+FIRST FRAME · TIMELINE (timed beats) · DIALOGUE · ACTING TASK ·
+PHYSICS · LIGHTING · GRADE / LENS / FORMAT · SOUND · FORBIDDEN
+
+Seedance sees only the text in front of it, so every prompt is an island: positions, poses, wardrobe, props, optics, light — spelled out from scratch, every time. "Same as the previous shot" is an instruction to a model that has no "before".
+
+The iron rules of this film
+
+These were all learned by generating the wrong thing first.
+
+Say what is there, not what you avoid. The word "American" put a flag on a sleeve; writing "no flag" put it back. Describe plain bare fabric instead and it disappears.
+Bind geometry to the frame, not to the object. "The left side of the gun" is read as frame-left; the ammunition belt appeared on both sides twice. Rewritten as "the near side facing camera", it behaved.
+One reaction per beat. React, glance away, react again is the default the model reaches for, and it kills the moment. State the reaction once, then movement.
+Scale by cues, not measurements. Car roofs seen from above, the tops of stoop steps, foreshortened figures — that is how altitude reads. Metres do nothing.
+Countable events need proof. One flash equals one rocket, with the emptied tubes visible; otherwise the model fires nine rockets from four tubes.
+Physics beat sequences. A man hit reads dead only if he falls as dead weight — head first, asymmetric shoulders, a knee folding inward, a glove dragging. A list of states reads as a robot.
+Vary the size and the angle every shot. Left to itself the model centres everything and shoots it from the same three-quarter height forever.
+
+Schedule, locations, crew, and logistics.
+
+Staging maps — disposition for the generator
+
+Method and skill: Tigran Mutafyan. Rights remain with the author; used on this film as a tool.
+
+When a shot needs precise multi-character staging — who is where in the frame, in what pose, facing which way — words alone stop being enough. A staging map controls disposition directly in the generation. The key idea: make the model treat the attachment not as a picture to copy, but as a system of spatial data — lines, colours, positions, directions.
+
+How it works:
+
+Attach the frame to be reproduced and ask for the map. The frame is a composition-only guide: exact framing, angle, crop, positions and poses — but none of its photographic look. Cropped bodies stay cropped; nothing that isn't in the frame gets added.
+Generate the map in Seedream: a flat schematic line drawing on white — each figure a thin outline in its own muted colour, furniture as simple outline shapes, a faint grid. No letters anywhere on the drawing.
+Attach the map to the Seedance prompt with a connector block that binds each colour to a real asset tag — "@A = the BLUE figure = @char_SN_Jack → prone on the table, facing frame-left" — and states that the map defines positions only: style, light, faces and wardrobe come exclusively from the location and character references.
+
+Three details make it safe. Letters live in the prompt text only, bound to figures through colour — a rendered letter bleeds into the shot. The connector is written in positive form only, because "no flat illustration" still injects the word flat. And the map is always a front view from the camera's side, never a top-down floor plan — video models think in frames, not blueprints.
+
+Editing a map: name every element by its assigned colour, never by the person; and generate the corrected version from the same original frame, never from the previous drawing — feed a drawing back in and the model starts copying the drawing's flaws instead of the frame's geometry.
+
+
+tig-blocking-map.skill
+SKIL
+
+
+Acting — tasks, not emotions
+
+Method and skill: Tigran Mutafyan. Rights remain with the author; used on this film as a tool.
+
+Write "sad" in a prompt and you get a caricature or a dead face. Instead each character gets an acting task: he is invested in a tactic of reaching a goal, and the emotion is born from that fight — on screen, not in the adjective. For each character the block names the scene's shared direction, his motive and goal, the obstacle pressing against the line, and the tactic — written as what he is doing to his partner, with the eye-work named as action.
+
+The eyes are the whole game. Aliveness = the mind visibly working on a task. Dead, glassy eyes are never fixed with lighting or a catchlight — they are fixed by giving the eyes a job. Terrence's run lands because for one second before it he is only measuring a distance he already knows.
+
+ACTING TASK block, short form:
+
+ACTING TASK — [NAME] (invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): [one line]
+MOTIVE / GOAL / OBSTACLE: [his fuel, his fight, what presses on it]
+TACTIC, moment to moment:
+— "[dialogue words]" — [verb at the partner + what the eyes check]
+(Safety: gaze always engaged in the task; natural blink cadence.)
+
+One more rule specific to this film: underplay everything. Faces slack from the eyebrows down, no scowls, no widened eyes, no gasps. Everything is read off the eyes and the breathing. A professional who has done this for fifteen years does not perform his own tiredness.
+
+tig-acting-task.skill
+SKIL
+
+
+04 · POST-PRODUCTION
+The edit — five stages to picture lock
+
+— 01 · Assembly — all scenes in script order, without rhythm. Goal: see the whole film, find sags and coverage holes. — 02 · Rough cut — rhythm, trims, rearrangements. The list of re-generations is formed here. — 03 · Generation supervision — quality-control pass: re-generating broken shots, cleaning out slop, catching what doesn't work before the fine cut. — 04 · Fine cut — precise fitting, screenings with cold viewers. — 05 · Picture lock — after lock, no new generations except emergency fixes, with notice to colour and sound.
+
+Transitions are designed, not found
+
+Because every shot is generated separately, the joins have to be planned like stunts. Each junction is matched on movement direction and sound — a cup's shadow sweeping the frame handing over to a till drawer opening; a wiper blade crossing the lens handing over to a thread of smoke crossing on the same axis. Every clip is generated with eight extra frames at head and tail as handles, and the cut always lands on the frame where the covering element fills at least ninety percent of the picture — never after it has cleared.
+
+Colour and sound
+
+Every generation arrives with its own built-in grade, so the colourist's job is unification: bringing neighbouring shots to one look, and pushing the night material further down than any model will deliver.
+
+Sound is design only — no score inside scenes. Room tone, paper, brass, mechanism, city. One low sub-bass thud per transition, always the same level, never accelerating. The absence of music is a rule, not a budget: the diner is quiet because the film is quiet.
+
+Current progress, blockers, and next steps.
+
+05 · CONCLUSION
+What holds it together
+Assets first — not one shot until every character, location and prop is named, versioned and locked.
+Describe everything, every time — the model has no memory. Descriptors, voice locks and staging maps go into every prompt word for word.
+Say what you want, not what you avoid — the words you write are the words you summon, including the ones inside a "no".
+Put the hard things in the plate — optics, darkness and printed text are all won at the still stage, not argued for in a video prompt.
+Bind everything to the frame — left and right, near and far, forward and back, all defined by the picture, never by the object's anatomy.
+Direct, don't describe — scene event, motive, goal, obstacle, tactic. The director's craft is the one part the model can't invent for you yet.

@@ -1,0 +1,47 @@
+This is a project brief for The new girl, our AI-generated Japanese school drama.
+
+Logline: A new girl settles easily into her new class, welcomed by everyone but the distant boy who keeps his eyes on the window. One wordless gesture in an empty corridor leaves her wondering about the last person she expected.
+About the project:
+
+"The New Girl" is a short-form, AI-generated Japanese school drama in the early-2000s film style, with soft natural light, milky low-contrast color, and quiet stillness. The pilot runs about 80 seconds as a chain of continuity-linked shots, each 7 to 15 seconds long, built one after another with a locked reference library so that identities, wardrobe, and locations stay consistent across every generation. The story is deliberately small and emotional. It follows an introduction, a warm welcome, an errand, and a single wordless gesture that changes everything. Its engine is a reversal: the hook shows the distant boy watching her before they ever meet, so his classroom indifference reads as a performance once you watch it again. The tone stays gentle, calm, and intimate throughout. The dialogue is sparse and in Japanese, and much of the feeling is carried by internal monologue, glances, and silence rather than plot.
+
+Every recurring element is built and locked before a single second is generated. All of the characters, including Haruka, Ren, Mei, Ms. Tanaka, the staff-room teacher, and the full class of background students, along with all of the locations, such as the classroom in front, back, and side angles, the school corridor, the staff room, and Ren's window corner, are generated in Soul 2.0, named with @tags, and reused across every shot so that nothing drifts. The props follow the same discipline, so Haruka's charm-covered bag and the tall stack of textbooks stay consistent wherever they appear.
+
+Direction is translated into structured, shot-by-shot prompts that lock a shared cinematic look. This is the early-2000s Japanese film style, with soft natural light, milky low-contrast color, fine 35mm grain, and quiet stillness, and it comes with firm positive locks on identity, wardrobe, geography, screen direction, and lip-sync in every prompt. Continuity is carried from one shot to the next by feeding the last frame or the final 3 to 4 seconds of a finished take back in as a @video reference, so that each new shot picks up the exact pose, framing, and light where the previous one left off.
+
+Video generation is performed in Seedance 2.0 at 4K resolution, batch after batch, with the best seconds pulled from each pass and stitched together. These include POV reveals, silhouette misdirection, static locked-off frames, internal-monologue voiceover, and a freeze-frame end card. The result is a coherent and emotionally controlled short-form drama, made up of an introduction, a welcome, an errand, and one wordless gesture that turns the whole story, produced from start to finish by one person, without a crew, a cast, or a camera.
+
+Pre-Production: Assets on Canvas
+
+Every recurring element is locked as a numbered reference and stays fixed for the whole production. Character sheets are multi-angle turnarounds (front / back / side / portrait); locations are shot from the angles the script needs.
+
+Characters: Haruka, Ren, Mei, Ms. Tanaka.
+Each a locked identity + wardrobe sheet.
+Wardrobe: the school uniform set (girls and boys) as a single flat-lay reference driving all sixteen background students.
+Props: Haruka's bag (black boston bag with pastel charms); the tall textbook stack (the errand payoff).
+Locations: classroom (front, back/reverse, and side/window-wall angles), school corridor, staff room, and the window-corner where Ren sits.
+Continuity clips: the final frame / last 3–4s of a finished shot is carried in as a @video reference so the next shot picks up the exact pose, framing, and light.
+
+Canvas 预览
+
+Higgsfield Canvas
+
+For video prompts, we write our system prompts in a Claude chat loaded with a custom Seedance 2.0 prompt-building skill. Since story is central to this film, we also load our full script (written in-house) alongside the system prompts, so every prompt stays in-context with the plot, a shot knows what beat it's serving, what just happened, and what the character is feeling in that moment.
+
+For additional consistency, it's important to include a stable "Style Prefix" and "Constraints" paragraph at the start of every prompt. These stay fixed across the whole project so the look and the hard rules never drift between shots. They differ per project — here are ours:
+
+Style Prefix:
+
+Early-2000s Japanese film look — soft natural light, milky low-contrast color, gentle desaturation, fine 35mm grain, quiet unhurried stillness. Iwai Shunji / early Kore-eda texture. Naturalistic, intimate. Steady, level, well-composed framing — flat true horizon, no tilt.
+
+Visual Constraints:
+
+Photoreal live-action — no 3D render, no game-engine gloss, no cartoon or anime read. Hard positive locks in every prompt: headcounts, screen geography, prop states, character proportions, screen-direction, and lip-sync are written into the prompt, not left to chance. Faces blink and breathe, never masklike; identities, hair, and wardrobe match their @tag references every shot; only scripted Japanese lines are spoken, internal monologue is voiceover with lips closed; diegetic sound first. 4K UHD, sharp clarity, stable lighting, consistent frame rate, clean picture.
+
+It is important to include audio constraints such as "No music. Only SFX." to only have sound effects in our shots. Music was created during post-production stage.
+
+Production: Folder Structure
+
+The work is organized by scene, with each folder holding the many iterations we explored for the shots inside it — Scene 1 alone ran to 160 generations, Scene 2 to 17, Scene 3 to 41 — a system that keeps the project structured and easy to navigate without ever limiting how much we experiment. Alongside them, a Final Keyframes folder holds the locked frames each shot was built and carried forward from, and a Final Generations folder collects only the finished, selected takes that made the cut. A separate Failed Generations folder keeps the discards, the drift, the broken geography, the missed lip-sync, because knowing what didn't work is part of navigating what did.
+
+Fittingly, the earliest folder is dedicated to our first tests: the experiments that helped us understand the nuances of this project's art style - the early-2000s Japanese film register, the milky light, the quiet stillness, before jumping into the actual film.
