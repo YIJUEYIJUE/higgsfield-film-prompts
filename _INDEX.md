@@ -1,6 +1,6 @@
 # 学习的影片全部提示词 · 主索引
 
-> **AI 从这里开始**：本仓收录 23 个 Higgsfield 影片项目的全部提示词（去重后共 20,957 条，逐字未截断）。
+> **AI 从这里开始**：本仓收录 23 个 Higgsfield 影片项目的全部提示词（去重后共 21,018 条，逐字未截断）。
 > 每个项目一个文件夹，每个文件夹内 `prompts_all.jsonl` 单文件即该项目全部提示词（每行一个 JSON）。
 > 字段统一：`project / category / result_type / model / prompt / prompt_length / source_id`。
 

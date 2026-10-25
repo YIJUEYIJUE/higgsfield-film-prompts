@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@adilinthewild/projects/top-up
 - **主题**：机甲实拍广告拆解（官方教程句式实战迁移）
 - **语言**：英文
-- **提示词总数**：74 条（去重后）
+- **提示词总数**：74 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 64 / image 10
 - **模型分布**：seedance_2_0×64、 soul_cinematic×4、 gpt_image_2×4、 seedream_v4_5×2
 - **category 数**：15 个工程内文件夹

@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgsfield.studio/projects/cully-hill-boys
 - **主题**：音乐犯罪喜剧，五件套表演法（OBJECTIVE-TACTIC-SUBTEXT-STATUS-FACS）
 - **语言**：英文
-- **提示词总数**：3174 条（去重后）
+- **提示词总数**：3174 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 1633 / video 1541
 - **模型分布**：seedance_2_0×1337、 seedream_v4_5×646、 nano_banana_2×612、 seedance_2_5×174、 gpt_image_2×154、 soul_cinematic×118、 text2image_soul_v2×23、 soul_cinema_studio×21、 cinematic_studio_video_3_5×21、 recraft_v4_1×18、 nano_banana_flash×15、 seedream_v5_pro×13、 grok_image×10、 gemini_omni×9、 image_auto×3
 - **category 数**：72 个工程内文件夹

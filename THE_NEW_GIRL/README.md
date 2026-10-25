@@ -1,6 +1,6 @@
 # THE_NEW_GIRL — 全部提示词（AI 直读仓）
 
-> **AI 读取方式**：打开本目录 `prompts_all.jsonl`——每行一个 JSON，共 **131 条去重提示词**，逐字未截断。
+> **AI 读取方式**：打开本目录 `prompts_all.jsonl`——每行一个 JSON，共 **132 条去重提示词**，逐字未截断。
 > 字段：`project / category(工程内文件夹) / result_type(image|video|unknown) / model(生成模型) / prompt(提示词全文) / prompt_length / source_id(资产id，可溯源)`。
 > 单文件即全部内容，无需其他文件。逐条读完 = 读完该项目全部提示词。
 
@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@alishaqantaar/projects/the-new-girl
 - **主题**：双线叙事剧集（FINAL 版次管理）
 - **语言**：英文
-- **提示词总数**：131 条（去重后）
+- **提示词总数**：132 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 60 / video 71
 - **模型分布**：seedance_2_0×71、 nano_banana_2×32、 text2image_soul_v2×19、 seedream_v5_pro×9
 - **category 数**：7 个工程内文件夹

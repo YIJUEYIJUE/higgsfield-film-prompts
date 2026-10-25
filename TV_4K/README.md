@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@adilinthewild/projects/tv-4k
 - **主题**：超写实短片拆解（uuid 锚+教学 folder 学）
 - **语言**：英文
-- **提示词总数**：254 条（去重后）
+- **提示词总数**：254 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 74 / video 180
 - **模型分布**：seedance_2_0×180、 soul_cinematic×40、 gpt_image_2×25、 soul_cinema_studio×4、 nano_banana_flash×3、 nano_banana_2×2
 - **category 数**：34 个工程内文件夹

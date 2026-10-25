@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgsfield.studio/projects/if-you-stop-loving-me-ill-die
 - **主题**：混合媒介（Kran 材质宪法：两世界永不光学交互）
 - **语言**：英文
-- **提示词总数**：749 条（去重后）
+- **提示词总数**：749 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 229 / video 520
 - **模型分布**：seedance_2_0×477、 seedream_v5_pro×104、 nano_banana_2×95、 minimax_h3×28、 text2image_soul_v2×16、 seedance_2_5×15、 gpt_image_2×12、 recraft_v4_1×2
 - **category 数**：48 个工程内文件夹

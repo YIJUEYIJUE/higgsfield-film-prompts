@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgsfield.studio/projects/hell-grind
 - **主题**：奇幻悲剧，生物五件套设计法
 - **语言**：英文
-- **提示词总数**：1861 条（去重后）
+- **提示词总数**：1861 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 1271 / image 590
 - **模型分布**：seedance_2_0×1264、 nano_banana_2×279、 imagegen_2_0×103、 text2image_soul_v2×60、 soul_cinematic×59、 nano_banana_flash×37、 gpt_image_2×30、 image_auto×22、 cinematic_studio_video_3_5×7
 - **category 数**：41 个工程内文件夹

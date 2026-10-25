@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@adilinthewild/projects/4k-blockbuster-breakdown
 - **主题**：片中片循环大片（场景×分辨率×版本矩阵，全站最大 13491 件）
 - **语言**：英文
-- **提示词总数**：1076 条（去重后）
+- **提示词总数**：1076 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 326 / video 750
 - **模型分布**：seedance_2_0×750、 soul_cinematic×144、 nano_banana_2×70、 gpt_image_2×63、 text2image_soul_v2×23、 nano_banana_flash×12、 soul_cinema_studio×9、 nano_banana_2_lite×3、 seedream_v4_5×1、 cinematic_studio_3_0×1
 - **category 数**：79 个工程内文件夹

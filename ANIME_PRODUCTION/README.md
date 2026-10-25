@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@mixingburrito1329/projects/anime-production
 - **主题**：图库先行动画生产（seedream 图→seedance 动画化）
 - **语言**：英文
-- **提示词总数**：136 条（去重后）
+- **提示词总数**：136 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 5 / image 131
 - **模型分布**：seedream_v5_pro×110、 text2image_soul_v2×20、 seedance_2_0×5、 soul_cinematic×1
 - **category 数**：6 个工程内文件夹

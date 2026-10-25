@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgsfield.studio/projects/kok-boru
 - **主题**：中亚马背叼羊，手绘 EN 风格
 - **语言**：英文
-- **提示词总数**：218 条（去重后）
+- **提示词总数**：218 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 213 / image 5
 - **模型分布**：seedance_2_0×212、 gpt_image_2×3、 nano_banana_flash×2、 cinematic_studio_video_3_5×1
 - **category 数**：11 个工程内文件夹

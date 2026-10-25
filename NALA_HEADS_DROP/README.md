@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgscreator/projects/nala-heads-drop
 - **主题**：音乐 MV（21:9+Vision3 胶片宪法）
 - **语言**：英文
-- **提示词总数**：151 条（去重后）
+- **提示词总数**：151 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 139 / image 12
 - **模型分布**：seedance_2_0×139、 nano_banana_2×8、 soul_cinematic×4
 - **category 数**：2 个工程内文件夹

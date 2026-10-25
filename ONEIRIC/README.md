@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@higgsfield.studio/projects/oneiric
 - **主题**：梦境家庭剧，GLOBAL LOCK 特性工程学
 - **语言**：英文
-- **提示词总数**：3247 条（去重后）
+- **提示词总数**：3247 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 2091 / image 1156
 - **模型分布**：seedance_2_0×2083、 soul_cinematic×337、 gpt_image_2×245、 seedream_v5_pro×221、 seedream_v4_5×133、 nano_banana_2×114、 text2image_soul_v2×100、 soul_cinema_studio×3、 gemini_omni×3、 seedance_2_5×3、 recraft_v4_1×1、 nano_banana_flash×1、 cinematic_studio_image×1、 cinematic_studio_3_0×1、 kling3_0×1
 - **category 数**：123 个工程内文件夹

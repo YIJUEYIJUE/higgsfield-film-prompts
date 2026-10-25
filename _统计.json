@@ -6,7 +6,7 @@
   "url": "https://higgsfield.ai/@aist/projects/detour",
   "theme": "街头赛车动作片（导航故障引发的公路竞速），v2-final 三轮对账 6161 件",
   "lang": "中英双语（资产层英文/分镜层中文）",
-  "prompts": 2172,
+  "prompts": 2173,
   "byType": {
    "video": 799,
    "image": 1373
@@ -34,7 +34,7 @@
   "url": "https://higgsfield.ai/@higgsfield.studio/projects/zephyr-special",
   "theme": "K-pop 偶像打怪 MV 特辑，IMAX 质感",
   "lang": "英文",
-  "prompts": 471,
+  "prompts": 481,
   "byType": {
    "image": 116,
    "video": 355
@@ -57,7 +57,7 @@
   "url": "https://higgsfield.ai/@higgsfield.studio/projects/red-flag",
   "theme": "港式黑帮爱情，正向颜色分配体系",
   "lang": "英文",
-  "prompts": 616,
+  "prompts": 619,
   "byType": {
    "image": 313,
    "video": 303
@@ -104,7 +104,7 @@
   "url": "https://higgsfield.ai/@higgsfield.studio/projects/kok-boru-film",
   "theme": "同题材成片版，中文【标签】体系+反光滑铁律",
   "lang": "中文",
-  "prompts": 2421,
+  "prompts": 2436,
   "byType": {
    "video": 2390,
    "image": 31
@@ -158,7 +158,7 @@
   "url": "https://higgsfield.ai/@higgsfield.studio/projects/adiliada",
   "theme": "类型模仿语法（黑帮片致敬）",
   "lang": "英文",
-  "prompts": 1692,
+  "prompts": 1698,
   "byType": {
    "image": 1040,
    "video": 652
@@ -292,7 +292,7 @@
   "theme": "猎魔女战巨蛇奇幻动作（SHOT1-5 分镜结构）",
   "lang": "英文",
   "likes": "289",
-  "prompts": 70,
+  "prompts": 75,
   "byType": {
    "image": 22,
    "video": 48
@@ -356,7 +356,7 @@
   "theme": "双线叙事剧集（FINAL 版次管理）",
   "lang": "英文",
   "likes": "221",
-  "prompts": 131,
+  "prompts": 132,
   "byType": {
    "image": 60,
    "video": 71
@@ -377,7 +377,7 @@
   "theme": "三集剧集（seedance_2.5 全锁链 16 段式）",
   "lang": "英文",
   "likes": "152",
-  "prompts": 214,
+  "prompts": 220,
   "byType": {
    "image": 56,
    "video": 158
@@ -403,7 +403,7 @@
   "theme": "栏目制轮播美学（短 prompt 氛围堆叠）",
   "lang": "英文",
   "likes": "146",
-  "prompts": 136,
+  "prompts": 145,
   "byType": {
    "image": 136
   },
@@ -422,7 +422,7 @@
   "theme": "音乐片一条流（handheld+hard cut）",
   "lang": "英文",
   "likes": "125",
-  "prompts": 85,
+  "prompts": 91,
   "byType": {
    "video": 79,
    "image": 6

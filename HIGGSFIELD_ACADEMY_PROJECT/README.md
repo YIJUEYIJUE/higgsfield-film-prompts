@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@askar_yedil/projects/higgsfield-academy
 - **主题**：教学演示项目
 - **语言**：英文
-- **提示词总数**：42 条（去重后）
+- **提示词总数**：42 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：image 10 / video 32
 - **模型分布**：seedance_2_0×32、 text2image_soul_v2×4、 nano_banana_2×3、 soul_cinematic×2、 soul_cinema_studio×1
 - **category 数**：1 个工程内文件夹

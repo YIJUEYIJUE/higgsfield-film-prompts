@@ -1,6 +1,6 @@
 # ONE_MORE_TIME — 全部提示词（AI 直读仓）
 
-> **AI 读取方式**：打开本目录 `prompts_all.jsonl`——每行一个 JSON，共 **85 条去重提示词**，逐字未截断。
+> **AI 读取方式**：打开本目录 `prompts_all.jsonl`——每行一个 JSON，共 **91 条去重提示词**，逐字未截断。
 > 字段：`project / category(工程内文件夹) / result_type(image|video|unknown) / model(生成模型) / prompt(提示词全文) / prompt_length / source_id(资产id，可溯源)`。
 > 单文件即全部内容，无需其他文件。逐条读完 = 读完该项目全部提示词。
 
@@ -9,7 +9,7 @@
 - **链接**：https://higgsfield.ai/@sadiesfaction/projects/one-more-time
 - **主题**：音乐片一条流（handheld+hard cut）
 - **语言**：英文
-- **提示词总数**：85 条（去重后）
+- **提示词总数**：91 条（去重后，2026-10-26 增量同步）
 - **result_type 分布**：video 79 / image 6
 - **模型分布**：seedance_2_0×79、 nano_banana_2×6
 - **category 数**：2 个工程内文件夹
