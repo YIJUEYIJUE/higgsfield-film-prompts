@@ -601,5 +601,146 @@
    "hf_mult_replace_object": 3
   },
   "note": "官方725资产全捕获；304唯一去重"
+ },
+ {
+  "project": "THE_KISS",
+  "type": "community",
+  "author": "seifhussam",
+  "url": "https://higgsfield.ai/zh/@seifhussam",
+  "theme": "两兄弟嫉妒主题3.6分钟恐怖短片（社区榜赞数第1，AI Film Festival top50）",
+  "lang": "英文",
+  "prompts": 206,
+  "assets_total": 391,
+  "captured_at": "2026-10-27",
+  "likes": 1210,
+  "official_count": 393,
+  "byType": {
+   "video": 109,
+   "image": 282
+  },
+  "byModel": {
+   "seedance_2_5": 94,
+   "nano_banana_2": 161,
+   "seedream_v5_pro": 22,
+   "gpt_image_2": 19,
+   "seedream_v4_5": 2,
+   "text2image_soul_v2": 36,
+   "soul_cinematic": 38,
+   "soul_cinema_studio": 4,
+   "cinematic_video_editor": 8,
+   "cinematic_studio_video_4_0": 1,
+   "seedance_2_0": 6
+  },
+  "note": "批次3社区高赞；官方393零丢失对账"
+ },
+ {
+  "project": "DONT_POISON_IVY",
+  "type": "community",
+  "author": "joeysnoisygroup",
+  "url": "https://higgsfield.ai/zh/@joeysnoisygroup",
+  "theme": "无对白风格化3D动画短片（Higgsfield精选，@tag资产命名法，含40条音乐生成prompt）",
+  "lang": "英文",
+  "prompts": 490,
+  "assets_total": 553,
+  "captured_at": "2026-10-27",
+  "likes": 1069,
+  "official_count": 608,
+  "byType": {
+   "video": 403,
+   "image": 150
+  },
+  "byModel": {
+   "seedance_2_5": 402,
+   "nano_banana_2": 62,
+   "cinematic_video_editor": 1,
+   "seedream_v5_pro": 88
+  },
+  "note": "批次3社区高赞；官方608零丢失对账"
+ },
+ {
+  "project": "THE_TORTOISE_AND_THE_HARE",
+  "type": "community",
+  "author": "benhamin",
+  "url": "https://higgsfield.ai/zh/@benhamin",
+  "theme": "龟兔赛跑寓言改编剧3:54（两周制作，SCENE_01-04分镜夹制，hf_mult_replace_object 22条）",
+  "lang": "英文",
+  "prompts": 381,
+  "assets_total": 821,
+  "captured_at": "2026-10-27",
+  "likes": 773,
+  "official_count": 829,
+  "byType": {
+   "video": 391,
+   "image": 430
+  },
+  "byModel": {
+   "seedance_2_5": 357,
+   "seedream_v5_pro": 310,
+   "nano_banana_2_lite": 3,
+   "gpt_image_2": 112,
+   "seedance_2_0": 9,
+   "nano_banana_2": 4,
+   "text2image_soul_v2": 1,
+   "hf_mult_replace_object": 22,
+   "hf_mult_motion_control": 3
+  },
+  "note": "批次3社区高赞；官方829零丢失对账"
+ },
+ {
+  "project": "DECRETUM",
+  "type": "community",
+  "author": "afifistudio",
+  "url": "https://higgsfield.ai/zh/@afifistudio",
+  "theme": "AI Film Festival参赛（Props类服务器端null 190条）",
+  "lang": "英文",
+  "prompts": 200,
+  "assets_total": 641,
+  "captured_at": "2026-10-27",
+  "likes": 730,
+  "official_count": 653,
+  "byType": {
+   "video": 200,
+   "image": 441
+  },
+  "byModel": {
+   "seedance_2_5": 198,
+   "nano_banana_2": 21,
+   "nano_banana_flash": 125,
+   "seedream_v5_pro": 32,
+   "cinematic_studio_soul_location": 190,
+   "gpt_image_2": 1,
+   "seedream_v5_lite": 60,
+   "soul_cinematic": 12,
+   "seedance_2_0": 2
+  },
+  "note": "批次3社区高赞；官方653零丢失对账"
+ },
+ {
+  "project": "CONTROL",
+  "type": "community",
+  "author": "pietromalegori",
+  "url": "https://higgsfield.ai/zh/@pietromalegori",
+  "theme": "AI Film Festival参赛（编号夹制+123条音乐生成prompt）",
+  "lang": "英文",
+  "prompts": 509,
+  "assets_total": 708,
+  "captured_at": "2026-10-27",
+  "likes": 661,
+  "official_count": 1409,
+  "byType": {
+   "image": 260,
+   "video": 448
+  },
+  "byModel": {
+   "nano_banana_2": 56,
+   "seedream_v5_pro": 111,
+   "seedance_2_5": 443,
+   "text2image_soul_v2": 4,
+   "soul_cinematic": 83,
+   "gpt_image_2": 6,
+   "kling3_0": 3,
+   "seedance_2_0": 2
+  },
+  "note": "批次3社区高赞；官方1409零丢失对账"
  }
 ]
