@@ -1,3 +1,5 @@
+- **源链接**：https://higgsfield.ai/zh/@higgsfield.soul/projects/one-more-time
+
 # ONE_MORE_TIME — 全部提示词完整包
 
 > **AI 读取**：`prompts_all.jsonl` = 本项目全部去重提示词（每行一个 JSON，逐行读完即全部读完）。

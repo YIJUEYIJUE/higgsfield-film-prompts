@@ -1,3 +1,5 @@
+- **源链接**：https://higgsfield.ai/zh/@fotachu/projects/one-day-with-mr-otter-higgsfield-originals
+
 # MR_OTTER — 全部提示词完整包
 
 > **AI 读取**：`prompts_all.jsonl` = 全部去重提示词（每行一个 JSON）。
