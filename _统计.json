@@ -900,5 +900,263 @@
    "gpt_image_2_5": 4
   },
   "note": "批次3；官方2214零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "THREAD",
+  "type": "community",
+  "author": "pandaproduction",
+  "url": "https://higgsfield.ai/zh/@pandaproduction",
+  "theme": "比赛片（410音乐件库内最大音乐用户，soul_cinematic 275）",
+  "lang": "英文",
+  "prompts": 253,
+  "assets_total": 837,
+  "captured_at": "2026-10-27",
+  "likes": 480,
+  "official_count": 1100,
+  "byType": {
+   "video": 233,
+   "image": 604
+  },
+  "byModel": {
+   "seedance_2_5": 214,
+   "seedream_v5_pro": 122,
+   "nano_banana_2": 190,
+   "gpt_image_2": 9,
+   "soul_cinematic": 275,
+   "seedream_v5_lite": 4,
+   "cinematic_studio_soul_cast": 4,
+   "topaz_video": 19
+  },
+  "note": "批次3；官方1100零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "REST_FACE",
+  "type": "community",
+  "author": "jamil_safari",
+  "url": "https://higgsfield.ai/zh/@jamil_safari",
+  "theme": "比赛片（图视各半镜像结构：seedance 201+seedream 201）",
+  "lang": "英文",
+  "prompts": 198,
+  "assets_total": 402,
+  "captured_at": "2026-10-27",
+  "likes": 474,
+  "official_count": 410,
+  "byType": {
+   "video": 201,
+   "image": 201
+  },
+  "byModel": {
+   "seedance_2_5": 201,
+   "seedream_v5_pro": 201
+  },
+  "note": "批次3；官方410零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "BORROWED_WOUNDS",
+  "type": "community",
+  "author": "jeffzambrano",
+  "url": "https://higgsfield.ai/zh/@jeffzambrano",
+  "theme": "比赛片（nano_banana_2 624单项目第二，kling3_0 36新模型）",
+  "lang": "英文",
+  "prompts": 733,
+  "assets_total": 932,
+  "captured_at": "2026-10-27",
+  "likes": 456,
+  "official_count": 968,
+  "byType": {
+   "image": 671,
+   "video": 261
+  },
+  "byModel": {
+   "nano_banana_2": 624,
+   "seedance_2_5": 206,
+   "cinematic_video_editor": 5,
+   "topaz_video": 4,
+   "qwen_camera_control": 1,
+   "sync_so": 1,
+   "gpt_image_2": 43,
+   "seedream_v5_pro": 3,
+   "seedance_2_0": 7,
+   "kling3_0": 36,
+   "bytedance_video_upscale": 2
+  },
+  "note": "批次3；官方968零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "CHARMED",
+  "type": "community",
+  "author": "drm1",
+  "url": "https://higgsfield.ai/zh/@drm1",
+  "theme": "比赛片（官方夹名AI Film Festival，kling3_0 4）",
+  "lang": "英文",
+  "prompts": 343,
+  "assets_total": 710,
+  "captured_at": "2026-10-27",
+  "likes": 455,
+  "official_count": 714,
+  "byType": {
+   "video": 204,
+   "image": 506
+  },
+  "byModel": {
+   "seedance_2_5": 198,
+   "seedream_v5_pro": 328,
+   "nano_banana_flash": 176,
+   "seedance_2_0": 1,
+   "kling3_0": 4,
+   "gpt_image_2": 2,
+   "gemini_omni": 1
+  },
+  "note": "批次3；官方714零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "HARMONY",
+  "type": "community",
+  "author": "hft_online",
+  "url": "https://higgsfield.ai/zh/@hft_online",
+  "theme": "比赛片（cinematic_studio_video_4_0 255）",
+  "lang": "英文",
+  "prompts": 1085,
+  "assets_total": 1543,
+  "captured_at": "2026-10-27",
+  "likes": 398,
+  "official_count": 1648,
+  "byType": {
+   "video": 705,
+   "image": 838
+  },
+  "byModel": {
+   "cinematic_studio_video_4_0": 255,
+   "nano_banana_2": 371,
+   "seedance_2_5": 280,
+   "seedream_v5_pro": 37,
+   "gpt_image_2": 161,
+   "nano_banana_flash": 166,
+   "cinematic_video_editor": 51,
+   "topaz_image": 9,
+   "topaz_video": 8,
+   "cinematic_studio_video_3_5": 49,
+   "seedance_2_0": 56,
+   "flux_kontext": 7,
+   "flux_2": 1,
+   "cinematic_video_relight": 2,
+   "qwen_camera_control": 1,
+   "flux_2_pro_outpaint": 1,
+   "gpt_image_2_5": 34,
+   "hf_mult_motion_control": 3,
+   "cinematic_studio_soul_location": 6,
+   "soul_cinematic": 3,
+   "image_auto": 1,
+   "text2image_soul_v2": 39,
+   "nano_banana_2_shots": 1,
+   "wan2_5_video": 1
+  },
+  "note": "批次3；官方1648零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "VOICES_IN_THE_VOID",
+  "type": "community",
+  "author": "man-aye",
+  "url": "https://higgsfield.ai/zh/@man-aye",
+  "theme": "比赛片（4,035 job批次3最大全库第二；seedream双模型流水2950条图像）",
+  "lang": "英文",
+  "prompts": 1125,
+  "assets_total": 4035,
+  "captured_at": "2026-10-27",
+  "likes": 356,
+  "official_count": 4151,
+  "byType": {
+   "video": 330,
+   "image": 3705
+  },
+  "byModel": {
+   "seedance_2_5": 326,
+   "seedream_v5_pro": 1270,
+   "seedream_v5_lite": 1112,
+   "gpt_image_2": 210,
+   "nano_banana_2": 353,
+   "seedance_2_0": 4,
+   "nano_banana_flash": 1,
+   "soul_cinematic": 549,
+   "seedream_v4_5": 203,
+   "flux_2": 2,
+   "cinematic_studio_soul_cast": 2,
+   "gpt_image_2_5": 3
+  },
+  "note": "批次3；官方4151零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "VARMINTS",
+  "type": "community",
+  "author": "outrealproduction",
+  "url": "https://higgsfield.ai/zh/@outrealproduction",
+  "theme": "比赛片（cinematic_studio全家桶：location238+video229+cast118，266音乐件）",
+  "lang": "英文",
+  "prompts": 528,
+  "assets_total": 1141,
+  "captured_at": "2026-10-27",
+  "likes": 331,
+  "official_count": 1303,
+  "byType": {
+   "video": 482,
+   "image": 659
+  },
+  "byModel": {
+   "seedance_2_5": 209,
+   "soul_cinematic": 73,
+   "seedream_v5_pro": 108,
+   "cinematic_studio_video_4_0": 229,
+   "cinematic_studio_soul_location": 238,
+   "nano_banana_2": 60,
+   "gpt_image_2": 41,
+   "cinematic_studio_soul_cast": 118,
+   "flux_video_upscale": 42,
+   "cinematic_video_editor": 2,
+   "gpt_image_2_5": 20,
+   "nano_banana_flash": 1
+  },
+  "note": "批次3；官方1303零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "BESA",
+  "type": "community",
+  "author": "ollkorrect",
+  "url": "https://higgsfield.ai/zh/@ollkorrect",
+  "theme": "比赛片（15.8万播放，topaz_video 168后处理链首次大批量，6条audio结果）",
+  "lang": "英文",
+  "prompts": 429,
+  "assets_total": 961,
+  "captured_at": "2026-10-27",
+  "likes": 329,
+  "official_count": 1452,
+  "byType": {
+   "video": 523,
+   "image": 432,
+   "audio": 6
+  },
+  "byModel": {
+   "seedance_2_5": 331,
+   "topaz_video": 168,
+   "gpt_image_2": 41,
+   "cinematic_video_editor": 12,
+   "cinematic_studio_soul_location": 224,
+   "soul_cinematic": 54,
+   "text2image_soul_v2": 36,
+   "cinematic_video_relight": 1,
+   "nano_banana_2": 17,
+   "voice_change_merge": 3,
+   "qwen_camera_control": 1,
+   "nano_banana_flash": 10,
+   "hf_mult_motion_control": 4,
+   "hf_mult_replace_object": 1,
+   "seedream_v5_pro": 28,
+   "bytedance_video_upscale": 2,
+   "cinematic_studio_image": 16,
+   "gpt_image_2_5": 3,
+   "nano_banana_2_relight": 2,
+   "seed_audio": 6,
+   "gemini_omni": 1
+  },
+  "note": "批次3；官方1452零丢失（双夹A=B验证）"
  }
 ]
