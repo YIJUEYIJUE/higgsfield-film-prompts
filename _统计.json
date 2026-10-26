@@ -742,5 +742,163 @@
    "seedance_2_0": 2
   },
   "note": "批次3社区高赞；官方1409零丢失对账"
+ },
+ {
+  "project": "GRIMWATCH",
+  "type": "community",
+  "author": "edenwood",
+  "url": "https://higgsfield.ai/zh/@edenwood",
+  "theme": "猎巫系列剧第1集（30.2万播放，nano_banana_flash 206+seedance_2_unlimited 76）",
+  "lang": "英文",
+  "prompts": 254,
+  "assets_total": 655,
+  "captured_at": "2026-10-27",
+  "likes": 615,
+  "official_count": 671,
+  "byType": {
+   "image": 544,
+   "video": 109,
+   "audio": 2
+  },
+  "byModel": {
+   "nano_banana_2": 273,
+   "nano_banana_flash": 206,
+   "seedream_v5_lite": 19,
+   "seedream_v5_pro": 2,
+   "seedance_2_0": 30,
+   "seedream_v4_5": 2,
+   "gpt_image_2": 42,
+   "seedance_2_unlimited": 76,
+   "minimax_h3": 1,
+   "veo3_1": 1,
+   "voice_change_merge": 1,
+   "text2speech_v2": 2
+  },
+  "note": "批次3；官方671零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "AZUL_COBALTO",
+  "type": "community",
+  "author": "seeyousoonx",
+  "url": "https://higgsfield.ai/zh/@seeyousoonx",
+  "theme": "比赛片（16.4万播放，_POSTER 291海报分夹制，130音乐件）",
+  "lang": "英文",
+  "prompts": 262,
+  "assets_total": 1082,
+  "captured_at": "2026-10-27",
+  "likes": 603,
+  "official_count": 1231,
+  "byType": {
+   "video": 384,
+   "image": 698
+  },
+  "byModel": {
+   "seedance_2_5": 361,
+   "cinematic_video_editor": 12,
+   "topaz_video": 9,
+   "reframe": 1,
+   "nano_banana_2": 2,
+   "seedream_v5_pro": 194,
+   "gpt_image_2": 12,
+   "text2image_soul_v2": 201,
+   "cinematic_studio_soul_location": 240,
+   "soul_cinematic": 22,
+   "cinematic_studio_video_4_0": 1,
+   "flux_2": 3,
+   "seedream_v4_5": 4,
+   "cinematic_studio_3_0_image_edit": 8,
+   "cinematic_studio_image": 4,
+   "soul_cinema_studio": 8
+  },
+  "note": "批次3；官方1231零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "FALLEN_LEAVES",
+  "type": "community",
+  "author": "jacob_everett",
+  "url": "https://higgsfield.ai/zh/@jacob_everett",
+  "theme": "比赛片（9.6万播放，视频占比83%）",
+  "lang": "英文",
+  "prompts": 154,
+  "assets_total": 356,
+  "captured_at": "2026-10-27",
+  "likes": 560,
+  "official_count": 413,
+  "byType": {
+   "video": 296,
+   "image": 60
+  },
+  "byModel": {
+   "seedance_2_5": 294,
+   "gpt_image_2": 60,
+   "seedance_2_0": 2
+  },
+  "note": "批次3；官方413零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "THE_PATCH",
+  "type": "community",
+  "author": "zhit",
+  "url": "https://higgsfield.ai/zh/@zhit",
+  "theme": "比赛片（seedream_v5_lite 20条）",
+  "lang": "英文",
+  "prompts": 504,
+  "assets_total": 681,
+  "captured_at": "2026-10-27",
+  "likes": 530,
+  "official_count": 729,
+  "byType": {
+   "video": 395,
+   "image": 286
+  },
+  "byModel": {
+   "seedance_2_5": 393,
+   "cinematic_studio_video_4_0": 1,
+   "seedream_v5_pro": 204,
+   "seedance_2_0_mini": 1,
+   "nano_banana_2": 24,
+   "gpt_image_2": 7,
+   "seedream_v4_5": 19,
+   "nano_banana": 1,
+   "soul_cinematic": 2,
+   "seedream_v5_lite": 20,
+   "nano_banana_flash": 5,
+   "gpt_image_2_5": 2,
+   "seedream_5_0_flash": 2
+  },
+  "note": "批次3；官方729零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "THE_PROMPTER",
+  "type": "community",
+  "author": "allan_ripley",
+  "url": "https://higgsfield.ai/zh/@allan_ripley",
+  "theme": "比赛片（brief 35K库内最长：NEGATIVE段+空间调度段模板体系，nano_banana_2 881单项目最大图像用户）",
+  "lang": "英文",
+  "prompts": 798,
+  "assets_total": 2138,
+  "captured_at": "2026-10-27",
+  "likes": 513,
+  "official_count": 2214,
+  "byType": {
+   "image": 1523,
+   "video": 615
+  },
+  "byModel": {
+   "text2image_soul_v2": 135,
+   "nano_banana_2": 881,
+   "soul_cinematic": 113,
+   "seedance_2_5": 612,
+   "cinematic_studio_soul_location": 95,
+   "gpt_image_2": 60,
+   "soul_cinema_studio": 204,
+   "seedream_v5_pro": 27,
+   "seedream_v4_5": 1,
+   "cinematic_studio_3_0_image_edit": 1,
+   "seedance_2_0": 3,
+   "nano_banana_flash": 2,
+   "gpt_image_2_5": 4
+  },
+  "note": "批次3；官方2214零丢失（双夹A=B验证）"
  }
 ]
