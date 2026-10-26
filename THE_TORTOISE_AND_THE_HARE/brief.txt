@@ -1,0 +1,53 @@
+Countless rabbits have set out in search of the legendary Golden Tortoise.
+
+There are stories of those who have seen it—
+but none of those who found it and returned.
+
+Today, another expedition follows its trail into a forbidden tomb.
+
+Will they be the first to find the Golden Tortoise—and make it back?
+
+✨ Context
+
+A dark-fantasy reinterpretation of the classic fable The Tortoise and the Hare. The project takes a universally familiar story and rebuilds it as a cinematic mystery-adventure, asking what happens when the roles of hunter and hunted are no longer so clear.
+
+🎭 Narrative
+
+A rabbit expedition enters an ancient forbidden tomb in search of the legendary Golden Tortoise. Many have ventured there before, but none have returned with it. Designed for audiences who enjoy dark fantasy, mystery, and unexpected twists, the story explores ambition, overconfidence, and the danger of believing you already understand your opponent.
+
+🎨 Visuals
+
+A cinematic dark-fantasy world inspired by ancient tombs, mythological ruins, and psychological horror. Monumental underground spaces, deep shadows, dusty stone, and mysterious golden light define the atmosphere. Warm gold and amber contrast with near-black environments, while cute anthropomorphic rabbits carrying carrot-based weapons create an intentionally unusual visual contrast.
+
+🎬 Production
+
+Created by benhamin
+
+A solo AI short film by benhamin, responsible for concept development, screenplay, character design, video generation, directing, editing, and color grading. Production was carried out within Higgsfield Cinema Studio, with Suno also used for sound creation.
+
+From Characters to Scenes
+
+The process began with character design. Environments were then either defined through prompts to suit each scene or generated separately. These characters and environments served as visual references as the scenes developed, helping maintain continuity throughout the film. A total of 253 images and 349 video clips were generated, with the results that best served the story and creative direction selected for the final cut.
+
+Shaping the Story
+
+The main directorial focus was to plant subtle clues early in the film that would support the later twist. References to the traditional fable were also woven throughout, allowing a familiar story to unfold in an unexpected direction.
+
+Film Details
+
+Production time: Approximately two weeks
+Generated material: 253 images · 349 video clips
+Final runtime: 3 minutes 54 seconds
+Aspect ratio: 16:9
+Status: Completed
+🚀 Status
+
+Production, editing, color grading, and sound work are complete. The final film runs 3 minutes 54 seconds in 16:9, with no outstanding production blockers or remaining tasks.
+
+🔗 Resources
+
+Character designs, environment images, and generated footage were managed within Higgsfield Cinema Studio. Selected assets from 253 generated images and 349 video clips were used in the final film.
+
+📝 Notes
+
+The Golden Tortoise and the true nature of the expedition are intentionally treated as mysteries. Major reveals should never appear in promotional descriptions or previews. The project has evolved toward minimal dialogue, stronger visual storytelling, and a darker atmosphere, allowing the audience to discover the truth at the same moment as the characters.
