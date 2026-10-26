@@ -1,6 +1,6 @@
 # 学习的影片全部提示词 · 主索引
 
-> **AI 从这里开始**：25 个 Higgsfield 影片项目的全部提示词完整包（共 21,773 条去重提示词）。
+> **AI 从这里开始**：25 个 Higgsfield 影片项目的全部提示词完整包（共 21,760 条去重提示词）。
 > 每项目 = `prompts_all.jsonl`（主入口）+ 分类文件 + `brief.txt` + `official_skills/`（有则含）+ `assets_full.jsonl`（≤45MB）。
 > 字段：`project / category / folder / result_type / model / prompt / prompt_length / source_id`。
 
@@ -23,7 +23,7 @@
 | [ONEIRIC](./ONEIRIC/) | 3247 | 6 | brief+skill |
 | [ONE_MORE_TIME](./ONE_MORE_TIME/) | 91 | 2 | 全量 |
 | [PASSPORT_RUSH](./PASSPORT_RUSH/) | 1193 | 3 | brief |
-| [PRINCESS_GLOW_UP](./PRINCESS_GLOW_UP/) | 451 | 6 | brief+全量 |
+| [PRINCESS_GLOW_UP](./PRINCESS_GLOW_UP/) | 438 | 6 | brief+全量 |
 | [RED_FLAG](./RED_FLAG/) | 619 | 3 | brief+skill+全量 |
 | [SOUL_CAROUSELS](./SOUL_CAROUSELS/) | 145 | 1 | brief+全量 |
 | [THE_NEW_GIRL](./THE_NEW_GIRL/) | 132 | 3 | brief+全量 |

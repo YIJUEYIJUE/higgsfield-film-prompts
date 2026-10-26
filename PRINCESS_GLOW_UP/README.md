@@ -11,13 +11,13 @@
 
 | 文件 | 内容 | 条数 |
 |---|---|---|
-| prompts_all.jsonl | 全部去重提示词（**主入口**） | 451 |
-| prompts_image.jsonl | image | 94 |
-| prompts_video.jsonl | video | 357 |
-| by_category/prompts_scenes.jsonl | 分镜场景 | 227 |
-| by_category/prompts_assets.jsonl | 参考生成（无前缀标注） | 213 |
-| by_category/prompts_characters.jsonl | CHARACTER SHEET 角色表 | 9 |
-| by_category/prompts_locations.jsonl | LOCATION PLATE 场景板 | 2 |
+| prompts_all.jsonl | 全部去重提示词（**主入口**） | 438 |
+| prompts_image.jsonl | image | 106 |
+| prompts_video.jsonl | video | 332 |
+| prompts_scenes.jsonl | 分镜场景 | 219 |
+| prompts_assets.jsonl | 参考生成（无前缀标注） | 208 |
+| prompts_characters.jsonl | CHARACTER SHEET 角色表 | 9 |
+| prompts_locations.jsonl | LOCATION PLATE 场景板 | 2 |
 | assets_full.jsonl | 全量资产（2298 job 全记录，含重复生成） | 2298 |
 | brief.txt | 官方简报全文（Logline / Style Prefix / Visual Constraints / 后期） | 有 |
 
@@ -28,7 +28,7 @@
 ## 对账
 
 官方面板：生成记录 **2 298**（文件夹计数总和 2310 = 2298 job + 8 个 video_input 上传参考素材 + 4 条跨夹引用重复计数）。
-**2298 job 全部捕获，零丢失**；其中 2291 带提示词（7 条为服务器端 prompt=null）。去重后 **451** 条唯一提示词。
+**2298 job 全部捕获，零丢失**；其中 2291 带提示词（7 条为服务器端 prompt=null）。去重后 **438** 条唯一提示词（2026-10-27 二次独立全量重拉核对：修复 13 条 em-dash 编码损坏与 27 条 result_type 错标，唯一数 451→438）。
 
 ## 文件夹结构
 

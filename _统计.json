@@ -557,12 +557,12 @@
   "url": "https://higgsfield.ai/zh/@ailaa/projects/princess-glow-up",
   "theme": "精英学院素颜奖学金女生变身短剧系列（5集+万圣节特辑，K-drama pastel 视觉，tag参考锁定防漂移工作流）",
   "lang": "英文为主（少量俄语图像修饰）",
-  "prompts": 451,
+  "prompts": 438,
   "assets_total": 2298,
   "captured_at": "2026-10-27",
   "byType": {
-   "image": 94,
-   "video": 357
+   "video": 332,
+   "image": 106
   },
   "byModel": {
    "seedream_v5_pro": 14,
@@ -576,7 +576,7 @@
    "nano_banana_flash": 2,
    "nano_banana_2_1": 3
   },
-  "note": "官方生成记录2298全捕获（文件夹计数2310含8上传素材+4跨夹引用）；451唯一=同prompt多次抽卡去重"
+  "note": "官方生成记录2298全捕获（文件夹计数2310含8上传素材+4跨夹引用）；438唯一=同prompt多次抽卡去重；10-27二次独立重拉核对：修复13条编码损坏+27条类型错标（soul_cinematic系产image）"
  },
  {
   "project": "MR_OTTER",
