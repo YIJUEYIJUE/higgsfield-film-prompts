@@ -1,0 +1,465 @@
+This is the project brief for THE PROMPTER, my AI-native short film.
+
+Logline: An AI researcher generates artificial worlds to harvest genuine human emotion — until his experiment begins to slip beyond his control. A psychological science-fiction film about control, feeling, and who is really writing whom.
+
+Note of intent
+
+The film opens on a theatre stage. A few minutes later, the stage turns out to be a film set. A few minutes after that, the film set turns out to be a generation.
+
+That progression is the film. Theatre, cinema, synthetic image — three ways of making people believe in a world that isn't there, stacked one inside the other, each one revealing the previous as a construction. It is meant as a tribute as much as a passage: the new medium doesn't arrive from nowhere, it inherits a very old craft. THE PROMPTER walks its audience through that lineage in ten minutes, and lets them feel the ground move under each layer.
+
+Underneath sits the question that made me want to make it.
+
+Should this medium simply imitate what cinema already does better, and cheaper?
+
+Generative video only becomes a form of its own when a story could not be told without it — when the tool's own nature is the subject. So THE PROMPTER is a film about generated worlds, made of generated worlds; a film about someone arranging circumstances and waiting to see what is felt, written by someone doing exactly that at his console. The drift of the model, the recasting of a face, the resolution that changes between layers — these are not defects worked around. They are the grammar.
+
+And the second question, the one the film never answers out loud:
+
+Can a synthetic image carry a real emotion?
+
+That is precisely what Pacific Research is trying to find out. Their worlds are fabricated; the feelings those worlds provoke are not, and that is the one thing they cannot generate. The film applies its own rule to itself. Every frame you see was prompted. Whether anything was felt is not up to me.
+
+One last thing about the title. THE PROMPTER isn't only the man at the console.
+It's me, and everyone else working in this new medium right now — we type circumstances into a machine and wait to see what comes back. We arrange theweather, the faces, the light, and then something arrives that we didn't quite write. The film gives that position a name and follows it one layer up, to ask the only question worth asking: if we are the ones prompting, who is prompting us?
+
+The film
+
+An old theatre. Rebecca loses her line; from the shadows, a prompter feeds her the words. It's the first minute of the film, and nobody notices what has just been established: someone dictates, someone executes.
+
+Everything that follows is a variation on that. THE PROMPTER is a nested-reality story built on a single rule, the same at every level: you may prompt the circumstances, never the emotion. What is felt is the one thing that cannot be generated — which is exactly why someone is collecting it.
+
+Eleven minutes, told in nested layers — the last of them arrives in a single unbroken camera movement.
+
+The Tools
+
+The entire film is generated in Higgsfield Cinema Studio, with Seedance 2.5 for all video and speech. Character sheets: Soul 2.0. Edits, reverse angles and derivations: Nano Banana Pro and Seedream 5. Period exteriors: Soul Cinema. Stubborn view changes: GPT Image 2 — each model chosen per task after field tests. Prompts: Claude, running the project's own skills (below). Edit, sound layout and colour: DaVinci Resolve. No visual material is generated outside Higgsfield.
+
+SOURCE VIDEO
+<<<video_1>>>: The completed parapet scene at dawn with the two world failures
+— the shot behind Daniel at the door where he turns, calls to her, sees
+her and starts a question that carries across the cut; the wide of the
+whole rooftop where he finishes it, raises his hands and takes two steps,
+and where twice the world tears and is replaced for half a second by a
+beach; his close-up asking her to get down; her close-up answering him
+while she works to stay up there; and his last close-up with his hand
+held out.
+THIS VIDEO IS THAT VIDEO. Same shots in the same order, same number of
+shots, same cut points, same durations, same framings, same camera
+positions and heights, same blocking, same steps at the same moments,
+same gestures at the same timings, same performances, same two world
+failures at the same frames and for the same length, same lighting, and
+the same complete audio track — the five lines in the same voices with
+the same intonation and the same placement, the question carrying across
+the cut, the corrupted bursts and the surf at the same frames, the wind,
+the dripping, the footsteps, every sound at the same moment and the same
+level. Nothing is added, nothing is removed, nothing is reframed,
+retimed, re-blocked or re-voiced.
+
+RESOLUTION
+The source is 720p. This is the same picture at 1080p, carrying the
+detail the higher resolution holds: true texture on wet skin, wet hair,
+soaked wool and gabardine, felt, brick, wet planks, steel, gravel,
+standing water, dry stone, bark and wet sand, cleaner light gradients in
+the flat dawn, both faces readable at every distance, no softness
+inherited from the lower resolution. THE ADDED DETAIL DOES NOT CLEAN UP
+THE TWO WORLD FAILURES: the torn bands, the bursting compression blocks
+and the separated colour channels stay exactly as broken as they were,
+and are rendered sharply as corruption rather than smoothed away.
+
+ACTIVE REFERENCES
+<<<12278f6b-40ae-4608-9a0f-4c454e23d661>>>: 30s man on the rooftop, in a dark charcoal
+knee-length overcoat with the collar turned up and a dark grey felt
+trilby, soaked by rain: the hat dark and heavy with water, the coat
+shoulders soaked through and darkened, water on his face. 100% matches
+the reference. HE IS FULLY VISIBLE AND SHARP IN EVERY FRAME OF THIS
+VIDEO.
+<<<41ea9335-ac30-451a-ba7c-22f510668925>>>: 30s woman on the rooftop, in a belted
+beige trench coat over a dark chocolate-brown shift dress and a small
+dark silk scarf, soaked by rain: her bob flattened and darkened by
+water, strands stuck to her forehead and cheeks, water on her face, the
+trench darkened and clinging, sheer stockings and black kitten-heel
+pumps. 100% matches the reference. SHE IS FULLY VISIBLE AND SHARP IN
+EVERY FRAME OF THIS VIDEO, INCLUDING DURING THE TWO WORLD FAILURES.
+<<<1f933eb2-4ddd-45ca-8d22-1b8512975fdd>>>: the 1960s city rooftop at first light — the low
+parapet running across the frame at the left with the pale misty city
+and its pink horizon beyond, the water tank standing in the middle
+distance, and at frame-right the brick stairwell housing with its metal
+door and a caged bulb burning above it, cables running off it to the
+right, the gravel and tar covered in standing puddles. Controls
+geometry, materials, light and atmosphere ONLY — not framing. GOVERNS
+SHOTS A, C AND E.
+<<<798917ee-39d2-4e48-933c-2fc9abc002f6>>>: the same rooftop at first light seen
+from the water-tank side — the wooden water tank close at frame-left
+still dripping, cables crossing a pale sky with a low band of pink on
+the horizon, the parapet running across the frame, the city below flat
+and misty with a few lights still burning, the gravel and tar dark and
+covered in wide standing puddles reflecting the sky. Controls geometry,
+materials, light and atmosphere ONLY — not framing. GOVERNS SHOTS B AND
+D.
+<<<8ee5a77d-95c2-4bb8-94e9-38ebafdfde49>>>: a beach at first light — a low dry-stone wall
+running across the frame, a bare tree standing beside it at frame-left,
+wooden fence posts, wet sand with standing water lying on it in wide
+sheets, the pale sea and its low surf beyond the wall, mist over the
+water and a misty headland far off, a few distant lights still burning,
+a pale pink dawn sky. Controls geometry, materials, light and atmosphere
+ONLY — not framing. GOVERNS TWO HALF-SECOND MOMENTS AT THE END OF SHOT B
+AND NOTHING ELSE.
+
+STYLE
+1960s film stock look, identical grade to the source: naturalistic
+colour, rich contrast, deep blacks, luminous highlights with gentle
+roll-off, fine film grain, stable picture. THE GRAIN STAYS FINE AND
+ORGANIC and belongs to the film stock, not to the resolution: no digital
+sharpening, no edge halos, no plastic skin, no waxy faces, no smoothed
+pores, no denoised flat surfaces.
+
+QUALITY
+Sharp and stable at full 1080p detail, with the sharpness coming from
+real rendered texture rather than from applied sharpening; both faces
+hold their own identity in every frame, with no morphing and no drift;
+readable faces in flat early daylight; clean rendering of the wet
+draining roof and of cloth and hair moving in wind; consistent grain
+across the cuts; no banding in the pale sky; the audio identical to the
+source, clean and in sync.
+
+POSITIVE CONSTRAINTS
+THERE ARE FOUR CUTS ONLY, at the same moments as in the source, and the
+duration of every shot is that of the source — an added shot = failed
+take; a missing shot = failed take; a cut at a different moment = failed
+take. THE FRAMING OF EACH SHOT IS THE FRAMING OF THE SOURCE: same
+camera position, same camera height, same lens character, same subject
+size and same placement in frame, and every shot stays locked off — a
+reframed, recentred, tighter or wider version of any shot = failed take;
+a camera move of any kind = failed take. FIVE LINES ARE SPOKEN AND NO
+OTHERS — four by DANIEL and one by REBECCA — each in the same voice,
+with the same intonation, at the same moment, in sync with the speaker's
+lips. DANIEL'S QUESTION BEGINS AT THE END OF SHOT A, ON HIS OWN FACE,
+AND CONTINUES UNBROKEN ACROSS THE CUT INTO SHOT B, finishing in its
+first second: the cut lands in the middle of his question and his voice
+does not stop, pause or restart at it — a question that begins cleanly
+at the start of shot B = failed take. AFTER THE QUESTION, NEITHER OF
+THEM SPEAKS FOR THE REST OF SHOT B: no murmurs, no half-words, no
+breaths shaped into speech. DANIEL'S FIRST LINE IS EASY AND LEVEL WITH
+NO SMILE; HIS QUESTION IS QUIET AND DISBELIEVING; HIS INSTRUCTION IN
+SHOT C IS QUIET, LOW AND URGENT; HIS LAST LINE IS QUIETER STILL AND
+ALMOST PLEADING — a shouted, angry or commanding delivery on any of them
+= failed take; a smile anywhere in this video = failed take. IN EVERY
+SHOT WHERE SHE APPEARS, REBECCA IS STANDING ON TOP OF THE BRICK PARAPET
+WITH BOTH FEET FLAT ON IT, RAISED A FULL STEP ABOVE THE ROOF SURFACE,
+WITH THE WATER TANK AT FRAME-LEFT OF HER AND HER RIGHT HAND ON ONE OF
+ITS STEEL LEGS — a take with her standing on the roof floor = failed
+take. SHE NEVER STEPS DOWN AND NEVER MOVES HER FEET. IN SHOT B BOTH OF
+THEM ARE IN THE SAME FRAME FROM ITS FIRST FRAME TO ITS LAST, SHE AT
+FRAME-LEFT UP ON THE PARAPET AND HE AT FRAME-RIGHT DOWN ON THE GRAVEL,
+and he takes two slow steps toward her and stops with his hands up.
+TWICE AT THE END OF SHOT B, AND NOWHERE ELSE IN THE VIDEO, THE WORLD
+AROUND THEM IS REPLACED FOR ABOUT HALF A SECOND BY A BEACH AT DAWN, at
+the same frames and for the same length as in the source: a low
+dry-stone wall where the parapet is with REBECCA STANDING ON IT in
+exactly the same place, A BARE TREE WHERE THE WATER TANK WAS WITH HER
+RIGHT HAND ON ITS TRUNK, DANIEL STANDING ON WET SAND EXACTLY WHERE HE
+STOOD ON THE GRAVEL, the sea and its low surf beyond the wall, mist over
+the water, the same pale pink sky. BOTH CHARACTERS ARE PRESENT, WHOLE
+AND SHARP ON THE BEACH JUST AS ON THE ROOFTOP — a take in which either
+of them vanishes, thins, ghosts, breaks up or is missing from any frame
+= failed take. EACH FAILURE IS RENDERED AS ONE OR TWO FRAMES OF DIGITAL
+IMAGE CORRUPTION — torn bands, bursting compression blocks, separated
+colour channels — out of which the other world resolves, and the same on
+the way back: a clean cut between the two worlds = failed take; a fade,
+dissolve, melt, wipe or white flash = failed take; corruption on the
+bodies or faces of the two characters = failed take. THE SOUND CORRUPTS
+ON THE SAME FRAMES, the ambience tearing into digital crackle and then
+the sea in its place. NEITHER OF THEM NOTICES EITHER FAILURE: no glance
+around, no pause, no reaction of any kind. THE SHOT ENDS BACK ON THE
+ROOFTOP WITH BOTH OF THEM STILL IN FRAME. THE WIND BLOWS THROUGHOUT and
+no rain falls at any point. IT IS FLAT EARLY DAYLIGHT IN ALL FIVE SHOTS,
+unchanged from the first frame to the last. EXACTLY TWO PEOPLE IN THIS
+VIDEO AND NOBODY ELSE. Both characters stay soaked and 100% match their
+references in every frame. THE ONLY DIFFERENCE BETWEEN THIS VIDEO AND
+THE SOURCE IS THE RESOLUTION AND THE DETAIL IT CARRIES.
+
+NEGATIVE CONSTRAINTS
+No music. No score. No tone, no drone, no swell at any moment. No
+subtitles. No sixth line, no added word. No camera movement. No rain. No
+third world failure, and none anywhere outside the end of shot B.
+
+查看全部
+复制提示词
+重新创作
+The worlds
+
+The film moves through distinct realities, and each one is a rule, not a backdrop. The film-within-the-film is a 1930s period picture: theatrical light, painted depth. The world around it is 1960s Los Angeles at night: wet asphalt, warm sconces, brass and oxblood — and nothing in frame newer than the period, because left alone the model drags every shot toward today. Pacific Research is glass, white coves and clean lines. One number recurs across every layer — a room, a door, a session — and one material runs through all of them: brass, from the prompter's lamp to the gramophone standing between two neural devices.
+
+Two kinds of strangeness are kept strictly apart. The generated world drifts the way dreams drift — weather on command, a session that resumes into a subtly different light — and every drift is designed, readable, deliberate. It never breaks the way AI video breaks. For the people inside it, it is the only world there is.
+
+The Characters
+
+Rebecca — the emotional centre of every layer. Elegant, restrained, at the end of her strength. An actress in a 1930s picture, a woman followed through 1960s Los Angeles, a body in a neural device.
+
+Daniel — her co-star and former partner; the man who follows her; the man who reaches for her. His pursuit reads as a threat for half the film before revealing itself as something more helpless.
+
+Brian — a theatre prompter, then the Prompter: the man in the box becomes the man at the console. Clinical about his subjects — *Emotion. As data.* — but he has known these two far too long for their fate to leave him untouched.
+
+The two visitors — the money and the mind. A board member who asks what the audience needs asked, and a scientific partner who speaks exactly once in the film
+
+A symmetrical composite shows three high-resolution photographs of the same woman, arranged horizontally against a seamless, textured, neutral mid-grey backdrop. The left panel is a full-body, straight-on, front-facing portrait; the center panel is a full-body shot of her back; and the right panel is a large three-quarters close-up portrait with her head and shoulders turned toward the light. The woman, clearly in her early thirties, has shoulder-length dark chestnut hair, and she maintains a composed, theatre-actress presence with a neutral, calm expression. She wears a belted beige trench coat with matte surface texture over a black turtleneck—both garments exhibiting subtle wrinkles and natural drape—along with straight dark trousers and black low-heeled shoes. The close-up reveals clean, dry skin with authentic fine detail and subtle imperfections, presented with true-to-life color. Both full-body panels show her arms relaxed and empty at her sides, hands unclenched. The background is featureless and mid-grey, providing even negative space. Illumination comes from soft, diffused natural daylight entering from the front left, creating gentle natural falloff and soft light shadows with neither harsh specular highlights nor deep black shadows. The color palette is realistic and subdued, with beige, black, and grey tones predominating. Focus is hyperrealistically sharp for clear facial and textile details, with soft even lighting and neutral white balance, suggesting a high-resolution professional digital image. The mood is neutral, formal, and contemplative, reminiscent of a character fiction sheet or identity reference image.
+
+查看全部
+复制提示词
+重新创作
+Sound and Music
+
+One sound carries the film: a rapid mechanical clicking, like text being typed somewhere. It has a fixed timbre and a free rhythm, generated once and laid in post — never generated inside a scene. What it means changes as the film goes.
+
+All dialogue and voices are generated with Seedance 2.5, with per-character voice references carried clip to clip; the Prompter's off-frame commands are produced as a separate generation and laid over the scenes in post, so one identical voice runs through the film. Original music is produced with Suno around a single recurring theme declined per scene; the first act is edited on its rises. Nothing plays under the ending.
+
+The Discipline
+
+Every frame is generated. The whole film is built on a versioned asset registry — currently V10 — where every character state, location plate, prop and voice reference has a fixed name and a frozen descriptor. If an asset isn't in the registry, it isn't in a shot.
+
+Production runs on a numbered body of rules distilled from failed generations: fifty-six and counting, each one written after a shot broke without it. Prompts are built on a fifteen-block skeleton and optics on a ten-anchor FOV ladder. Seedance 2.5 accepts up to fifty references in a single pass — thirty images, ten clips, ten audio files — which is less a budget than a discipline: what goes into a shot is decided by the registry, not by what happens to be available.
+
+The Skills
+
+A skill is a playbook of rules that Claude loads and works by. Two skills and a rulebook, plus the registry that binds them.
+
+CINEDANCE — video prompts. 
+A prompt-director agent that works in four silent phases. It deconstructs the shot — active references, spatial layout, first frame, gaze lines, camera side — and strips everything that doesn't belong in this exact frame: unused characters, stale tags, scene numbers, wording carried over from the previous shot. It then runs eighteen failure checks before writing a word — could the first frame come up empty, could left and right flip, could the gaze line reverse, could the lens drift to a comfortable middle, could a prop end up in the wrong hand — and every risk it finds becomes an explicit lock inside the prompt. The output is built in a fixed block order: spatial rules before camera style, optics before aesthetics, lighting as a lock rather than decoration. And it delivers the prompt alone — no reasoning, no checklist, nothing the model shouldn't read.
+
+THE ACTING SYSTEM — performance. 
+Its axiom: acting is behavior under pressure, never a display of emotion. A character wants something, something interferes, and they act; emotion arises on its own. Every hero carries a master profile — vocal profile, physical habits with their triggers, a named gait, the mask and the exact condition that cracks it — rewritten for each scene into objective, obstacle and tactics, never pasted. The words "sad", "angry", "afraid" appear nowhere in the prompts. Two rules exist because of the model rather than the actor. Performance is written in states, never in transitions: the model films what is, not what becomes, so a character is already mid-throw, mid-pace, mid-argument. And eye life is specified in every single scene — micro-saccades, blink rate tied to state, live catchlights, the gaze reaching its target a beat before the head turns — because dead eyes are the first thing that betrays a generated performance.
+
+THE PRODUCTION RULES — the inheritance. 
+THE PROMPTER is built on the rulebook distilled from The Cully Hill Boys, the feature-length AI film that preceded it: the fifteen-block skeleton, the master shot that opens every scene, positions tied to visible landmarks instead of meters, no lens drift inside a shot, dialogue timed to the model's real clock, states instead of transitions.
+Its governing idea is that a rule only counts once it carries its own failure condition. Every law has a name, visible proof in the frame, and a line defining what a failed take looks like — "a rage-twisted face = failed take; a beaming smile = failed take; deadpan = failed take". Prohibitions are written as outcomes, never as bans, because "does not fall on his back" makes the model think about his back. And iteration is surgical: one line changes at a time, the rest word for word — and past twenty attempts, you change the shot, not the sentence. Every shot ever rescued was rescued by changing the shot.
+
+What that film found on the way, this one had waiting on day one — and has extended by twenty rules of its own.
+
+CINEDANCE_SKILL.md
+MD
+ACTING_SKILL.md
+MD
+
+SCENE CONTEXT
+End of the day. In her dressing room the actress sits at her mirror in
+a dressing gown, brushing her hair into shape. Two knocks stop the
+brush in mid-stroke — she knows who it is. She turns and asks what he
+wants; the man from the set is in the doorway and answers with one
+word.
+
+ACTIVE REFERENCES
+<<<e241a7e9-8e99-4659-84e9-f7f88ed3d4e2>>>: The same woman, wearing a belted
+pale waffle-cotton dressing gown, her dark chestnut hair uncovered —
+dry, loose and unstyled, falling to her shoulders — bare hands, her
+face nearly bare, freshly cleansed, pale slippers. 100% matches the
+reference. REBECCA's voice 100% matches <<<audio_1>>>.
+<<<7ff15154-7b4b-4ed1-bec7-94ab565b939a>>>: The same man, his hair slightly relaxed from
+its pomaded style, wearing a navy knitted cardigan over an open-collared
+off-white shirt, dark tailored trousers, dark brown suede loafers, 1960s
+civilian cut. 100% matches the reference. DANIEL's voice 100% matches
+<<<audio_2>>>.
+<<<504290df-a610-47fa-a283-a6c0f2f0e1cc>>>: 1930s theatre dressing room: dark wood
+panelled walls, a bulb-framed makeup mirror standing on a dark wooden
+vanity as the dominant light source, cluttered makeup table with
+brushes, jars and a folded cloth, a teal velvet armchair with gilded
+arms, a rolling clothes rack with garments under white covers, a
+panelled wooden door in the left wall, a white robe hanging on an
+ornate hook, a narrow bed with pale bedding along the right wall, a
+patterned oriental rug on the floor. Controls geometry, materials,
+light and atmosphere ONLY — not framing. 100% matches the reference.
+
+LOCATION MAP
+One room, two camera positions. The BULB-FRAMED MIRROR stands on the
+dark wooden VANITY against the back wall, its bulbs the only real
+light; REBECCA sits at it in the TEAL VELVET ARMCHAIR, facing the
+mirror. The PANELLED WOODEN DOOR is in the LEFT WALL of the room, to
+her left and behind her shoulder — out of the mirror's reflection.
+DOOR MECHANICS: the handle is on the door's edge nearest the vanity,
+the hinges on its far edge, and it opens INWARD into the room; it
+never opens outward. The rolling CLOTHES RACK with its white-covered
+garments stands left of the vanity, the white robe hangs on its hook
+by the door, the BED with pale bedding runs along the right wall, the
+oriental rug covers the floor. MIRROR OPTICS: the mirror reflects ONLY
+Rebecca and the soft out-of-focus room behind her — never the door,
+never Daniel. CAMERA GEOGRAPHY: in the INSTALLATION SHOT the camera
+sits behind her shoulder looking at the mirror, and the door reads at
+the LEFT edge of that frame. In her CLOSE-UP the camera is on the door
+side of the room facing her almost frontally, and from that position
+the door lies off-frame to FRAME-RIGHT — so her turn toward it reads
+as a turn to frame-right.
+
+FIRST FRAME AND SPATIAL BLOCKING
+The first visible frame already contains her mid-action: a medium shot
+from behind REBECCA in the armchair — her back and loose dark hair in
+the lower third, her face clear and readable in the bulb-framed
+mirror, the cluttered vanity below it, the panelled door visible at
+the left edge of frame, shut. She is mid-stroke, a hairbrush in her
+right hand at the side of her head. Exactly one person visible. No
+empty establishing frame.
+
+FORMAT MODE
+Controlled multi-shot sequence, HARD CUTS only at the specified
+points, the camera does not cut on its own.
+
+OPTICS
+Installation shot: 47° diagonal field of view, natural human
+perspective, her mirrored face and the left-hand door both readable,
+straight lines rectilinear. Close-ups on Rebecca and on Daniel: 29°
+diagonal field of view, close framing through lens reach, the room
+compressing softly behind them. One lens character per shot, FOV
+changes only on the hard cuts.
+
+CAMERA
+1960s film camera, locked off positions, no movement anywhere in this
+video. Installation shot: behind and slightly above her seated
+shoulder height, aimed at the mirror on the vanity, the door held at
+the left edge of frame. Rebecca's close-up: inside the room on the
+door side, at her eye level, nearly frontal — the door is off-frame to
+FRAME-RIGHT of this camera position, so her turn toward it reads as a
+turn to frame-right. Daniel's close-up: inside the room, facing the
+open doorway at his eye level.
+
+ACTION TIMING
+0:00 to 0:05 — INSTALLATION SHOT: REBECCA brushes her hair, slowly, in
+real time: the brush drawn from the crown down through the length, one
+side then the other, her free hand smoothing after it, her eyes on her
+own reflection — unhurried, methodical, tired. The room is quiet; the
+theatre beyond the door is a distant muffled murmur.
+0:05 to 0:07 — TWO KNOCKS on the door. THE BRUSH STOPS MID-STROKE,
+held where it is, halfway down her hair. She does not startle; she
+simply stops, and her eyes come off her reflection.
+0:07 HARD CUT
+0:07 to 0:10 — CU REBECCA, seen from the door side of the room, nearly
+frontal: she closes her eyes for a beat — she has recognised the knock
+— then opens them, lowers the brush out of frame, and TURNS HER HEAD
+AND SHOULDERS TOWARD FRAME-RIGHT, toward the door off-frame on that
+side.
+0:10 to 0:12 — held on her: she asks her question toward the closed
+door, flat and tired — not "who is there", but straight to what he
+wants, the question of a woman who already knows. Her eyes stay
+frame-right on the door off-frame, waiting.
+0:12 HARD CUT
+0:12 to 0:14 — CU DANIEL in the open doorway, the dark panelled wall
+behind him: he takes her in — the gown, the loose hair, the day on her
+— and answers with his one word, quiet, almost gentle. His eyes stay
+on her after it. The video ends on him.
+
+CHARACTER ACTING
+REBECCA is off-duty and spent: the brushing is real work done with
+real weariness — no elegance performed for anyone, shoulders low, the
+strokes automatic. The knock does not frighten her, it identifies him:
+the brush stops where it is, her eyes close for a beat, and that
+closed-eye beat is the whole point — nobody else knocks on this door
+at this hour, and she is not glad. Her question is not a question: it
+is flat, worn, aimed at a closed door, the tone of someone resuming an
+argument rather than meeting a stranger. She stays seated and gives
+the door nothing but her voice and her eyes. DANIEL in the doorway is
+quieter than he was on set, the day's defeat still on him; the word is
+offered rather than asked — an old habit, a hand extended in the only
+language he has — and what he cannot say sits in his eyes after it.
+Living eyes for both, natural blinks. Emotion clamped: for her,
+between weariness and guardedness — hostility = failed take, warmth =
+failed take, fright = failed take; for him, between hope and caution —
+pleading = failed take.
+
+PHYSICS
+The brush passes through her hair with real friction and lifts the
+length as it goes; her free hand follows it and settles the hair
+after. The brush is lowered out of frame with a small true movement.
+Her turn in the armchair is a real weight shift, the chair frame
+taking it with a faint creak. The door has opened inward on real panel
+weight and stands open with him in it.
+
+LIGHTING
+The bulb-framed mirror on the vanity is the dominant source: warm
+practical bulbs carving her face bright and clean — mirrored in the
+installation shot, direct in her close-up, the bulbs edging that frame
+— falling off fast into the dark panelled room: the rack, the bed, the
+walls in warm shadow. A faint cooler spill from the corridor edges
+Daniel in the doorway, and his close-up is lit by that spill and by
+the mirror's warm light reaching him across the room. Identical light
+logic in all shots. White balance fixed at 3800K for the whole
+sequence.
+
+AUDIO
+Dialogue language: British English. REBECCA's voice: her natural
+off-stage voice — low, soft, tired, unprojected, dry. DANIEL's voice:
+his natural off-stage voice — mid-low, warm, quiet, unprojected.
+<sound effect: a hairbrush drawn through hair, close, several slow
+strokes> <sound effect: quiet room tone with a faint distant muffled
+murmur beyond the door>
+<sound effect: two knuckle knocks on a panelled wooden door,
+medium-soft>
+REBECCA, turned toward the closed door, tired and flat: {What do you
+want?}
+<sound effect: the door handle turning and the panel swinging inward
+on real hinges>
+DANIEL, from the doorway, quiet: {Drink?}
+Silence to the end of the video. SFX only. No music. No spoken voice
+other than the two scripted lines.
+
+STYLE
+1960s film stock look: naturalistic color, rich contrast, deep blacks,
+luminous highlights with gentle roll-off, fine film grain, stable
+picture.
+
+QUALITY
+Sharp, stable, cinematic image; clean rendering of the mirror
+reflection and the bulb highlights; consistent grain; readable warm
+light on skin against the dark panelling.
+
+POSITIVE CONSTRAINTS
+Exactly one person is visible until the last shot, then Daniel alone
+in the doorway — he stays in the doorway and does not step into the
+room in this video. REBECCA STAYS SEATED in the armchair for her whole
+time on screen: she brushes her hair, stops mid-stroke at the knocks,
+lowers the brush, turns her head and shoulders, and speaks from the
+chair. IN HER CLOSE-UP SHE TURNS TOWARD FRAME-RIGHT, where the door
+lies off-frame from that camera position; the door stays closed and
+out of frame while she speaks. Her hair stays uncovered and loose in
+every frame — no towel, no turban. The door is in the LEFT wall of the
+room and opens INWARD; it is the only door in the video. The mirror
+reflects only Rebecca and the soft room behind her: the door and
+Daniel never appear in the glass. Both characters 100% match their
+references in every frame. The camera never moves in any shot. The
+video ends on Daniel in the doorway; no third line is spoken.
+
+查看全部
+复制提示词
+重新创作
+
+Geography
+
+Every scene opens on a master shot — a wide of about one second, blocking fixed, no lines — so the model photographs the arrangement before anything moves. It is almost always cut in the edit; its job is to establish the geography, not to be seen. Under it sits the spatial map: the canonical geometry of the set, read off the plates once and pasted into every shot of the scene. It names the camera side, the 180° line that is never crossed, and every body tied to a landmark the model can see — never to a measurement, because two metres from the door means nothing to a generator while between the armchair and the glass means everything. And every location reference carries the same explicit line: it controls geometry, materials, light and atmosphere only, never framing. Without it, the model returns a near-copy of the plate instead of using it as a set. This is the observation room, as it is written in the registry:
+
+The camera is on the room side, the door end behind it. The leather ARMCHAIRS
+and the low table at FRAME-LEFT against the dark panelled wall; the GLAZED WALL
+runs down the RIGHT of the frame; BRIAN'S DESK against the glass at
+frame-centre-right, long side parallel to the glass. Beyond the glass, room 307
+in frontal symmetry: two pale couches, the rug-and-gramophone island between
+them, oxblood curtains framing the server bay at the back.
+
+The consequence is built into the set itself: from Brian's desk, the screen and the two sleeping bodies sit in the same eyeline. The measure and the measured in one frame — no line has to say it.
+
+Acting on the page
+
+What "behavior, not emotion" looks like in practice. This is the corridor scene, act one — Rebecca at a hotel-room door, Daniel calling from the far end. The direction reads: her hand misses the lock on his first call; she tries again, faster; she does not turn. Not one adjective of feeling anywhere in the block. The recognition is physical — the audience understands she knows that voice because her hand fails, two seconds before she says his name. And the dialogue carries the history in four words: "You always say please" replaces a page of backstory, because it says they have had this scene a hundred times. The beat closes on the only physical contact of the scene: the flat of her free hand against his chest, one short contained shove, and he gives ground by a step, hands down. Dialogue is written to the model's real clock — roughly four words a second, plus the written silences, plus one second of clean tail — because a clip that runs long gets filled with invented words.
+
+Continuity
+
+Continuity travels by reference, not by extension. A new generation reads the previous clip only for the state of the scene — positions, facing, wetness, breathing, weather, light — and rebuilds every frame from the registered references. State is preserved; image degradation is not inherited.
+
+And when a shot refuses to come, the answer is never to rephrase it. One linechanges at a time, the rest word for word; past twenty attempts, the shot itself is simplified — split in two, one action removed, the difficulty isolated. Every shot ever rescued was rescued by changing the shot, not the sentence.
+
+Status
+
+The film is complete and submitted. Theatre opening and film-set reveal; the dressing room; the night pursuit — studio gate, boulevard, alley, hotel corridor 307; the rooftop sequence with rain on command; the Pacific Research Lab sequence; the relaunched session and the final unbroken camera movement. Principal cast and location library, title design, original score and its variations.
+
+The edit was built in parallel with generation throughout, so missing inserts and transitions were identified while scenes could still be produced.
+
+Creative Note
+
+The audience is watching a generated film about characters whose reality is generated — and the film's vocabulary is the vocabulary of the tool that makes it: prompt, session, drift, stop. The medium's limitations are not hidden; they are the drama. When the generation drifts in the film, it drifts the way the real tool drifts — except here, the drift is directed.
+
+It is also a love letter to cinema's oldest trick: making us believe in worlds that do not exist. Satoshi Kon is the closest reference — fiction, memory and reality exchanged through a cut, a doorway, a change of space. Here, every door does that.
