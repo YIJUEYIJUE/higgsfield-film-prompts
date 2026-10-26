@@ -1158,5 +1158,116 @@
    "gemini_omni": 1
   },
   "note": "批次3；官方1452零丢失（双夹A=B验证）"
+ },
+ {
+  "project": "APEIROPHOBIA",
+  "type": "community",
+  "author": "seksifratello",
+  "url": "https://higgsfield.ai/zh/@seksifratello",
+  "theme": "比赛片（6,863 job 全库第一；nano_banana_2 5,633 单项目之王；996音乐件；kling3_0 63）",
+  "lang": "英文",
+  "prompts": 1684,
+  "assets_total": 6863,
+  "captured_at": "2026-10-27",
+  "likes": 315,
+  "official_count": 7769,
+  "byType": {
+   "image": 6260,
+   "video": 603
+  },
+  "byModel": {
+   "nano_banana_2": 5633,
+   "seedance_2_5": 538,
+   "gpt_image_2": 604,
+   "kling3_0": 63,
+   "soul_cinematic": 2,
+   "seedream_v5_pro": 21,
+   "cinematic_video_editor": 2
+  },
+  "note": "批次3（双智能体并行采集）；官方7769零丢失"
+ },
+ {
+  "project": "CHARLIE_BOY",
+  "type": "community",
+  "author": "gabrielbosisio",
+  "url": "https://higgsfield.ai/zh/@gabrielbosisio",
+  "theme": "比赛片（4,763 job 100%带prompt；text2image_soul_v2 2,663 单项目最大；recraft_v4_1 103 + gpt_image_2_5 37 新模型）",
+  "lang": "英文",
+  "prompts": 1721,
+  "assets_total": 4763,
+  "captured_at": "2026-10-27",
+  "likes": 291,
+  "official_count": 4778,
+  "byType": {
+   "video": 679,
+   "image": 4084
+  },
+  "byModel": {
+   "seedance_2_5": 678,
+   "seedream_v5_pro": 932,
+   "nano_banana_2": 341,
+   "recraft_v4_1": 103,
+   "text2image_soul_v2": 2663,
+   "gpt_image_2_5": 37,
+   "nano_banana_flash": 4,
+   "seedream_v4_5": 4,
+   "seedance_2_0": 1
+  },
+  "note": "批次3（双智能体并行采集）；官方4778零丢失"
+ },
+ {
+  "project": "KAI_CENAT_SU2_VFX",
+  "type": "community",
+  "author": "buralqy",
+  "url": "https://higgsfield.ai/zh/@buralqy",
+  "theme": "官方精选商业级VFX（267精确对账；seedance_2_0 130；gemini_omni 1 + kling_video_edit 1 新模型）",
+  "lang": "英文",
+  "prompts": 70,
+  "assets_total": 254,
+  "captured_at": "2026-10-27",
+  "likes": 284,
+  "official_count": 267,
+  "byType": {
+   "image": 122,
+   "video": 132
+  },
+  "byModel": {
+   "nano_banana_2": 89,
+   "seedance_2_0": 130,
+   "gpt_image_2": 33,
+   "gemini_omni": 1,
+   "kling_video_edit": 1
+  },
+  "note": "批次3（双智能体并行采集）；官方267零丢失"
+ },
+ {
+  "project": "AZTEC_REVOLT",
+  "type": "community",
+  "author": "graffitiavocado1127",
+  "url": "https://higgsfield.ai/zh/@graffitiavocado1127",
+  "theme": "阿兹特克历史史诗（17.9万播放；gpt_image_2 944 + seedance 815）",
+  "lang": "英文",
+  "prompts": 1066,
+  "assets_total": 1853,
+  "captured_at": "2026-10-27",
+  "likes": 251,
+  "official_count": 1924,
+  "byType": {
+   "image": 1027,
+   "video": 826
+  },
+  "byModel": {
+   "gpt_image_2": 944,
+   "nano_banana_2": 72,
+   "seedance_2_5": 815,
+   "seedance_2_0": 7,
+   "cinematic_studio_video_4_0": 1,
+   "seedream_v5_pro": 10,
+   "grok_image_2_0": 1,
+   "kling3_0": 1,
+   "cinematic_video_editor": 1,
+   "cinematic_video_relight": 1
+  },
+  "note": "批次3（双智能体并行采集）；官方1924零丢失"
  }
 ]
