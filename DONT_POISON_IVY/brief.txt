@@ -1,0 +1,91 @@
+LOGLINE
+
+In a town where everyone keeps a houseplant that is literally their soul, a mother who cannot tend her own keeps her daughter's on a shelf too high to reach - and spends eighteen years watering it perfectly.
+
+Stylized 3D animated. No dialogue.
+
+THE WORLD
+
+@cityview
+
+地点
+
+Somewhere in a small hillside town, at some point that could be the 1960s and could be now, everyone keeps a plant.
+
+Not as a hobby. The plant is you. Everyone has one, everyone knows it, nobody explains it. It sits on your windowsill and it tells the truth about you whether you want it to or not. When you are well it thrives. When you are not it thins. Children are taught to care for theirs the way they are taught to brush their teeth.
+
+The town has arranged itself around this completely. Plants crowd every stoop, every fire escape, every shop counter. There is a billboard over the main street that reads HAVE YOU WATERED YOURS? and underneath in smaller painted letters, remember to take care of yourself. Nobody looks up at it anymore.
+
+Nobody in the film explains any of this and nobody remarks on it.
+
+THE FILM
+
+A mother who is watching her own plant fail pours everything she has into her daughter's instead. She measures the water. She wipes each leaf individually. She keeps it on a shelf too high for a child to reach. And her daughter sits ten feet away in the same room, unwatered. Eighteen years later the daughter saves her mother's dying plant by potting it in the art box she spent her childhood hiding - the one thing that was ever hers. Neither of them ever says a word.
+
+THEME
+
+Care aimed at the symbol instead of the person.
+
+The mother is not a villain and never becomes one. Everything she does, she does out of fear. She was taught that a plant tells the truth about you, and she is watching her own fail, and she cannot bear it - so she pours everything she has into her daughter's instead. 
+
+The film's argument is that you cannot tend yourself alone.
+
+LOOK
+
+Stylized 3D animated feature rendering - warm, hand-made, lived-in. Cloth is the highest-fidelity element in every frame. No pure black anywhere, ever. The emotional argument is carried by saturation: golden and warm through childhood, draining across the middle, near-monochrome at the bottom, and full spectrum returning in the final act as literal spilled paint.
+
+@home-coda-plants
+
+地点
+
+BUILDING IT
+
+@living-room-reverse
+
+地点
+
+The film is generated, not modelled. No rigs, no sets, no lighting passes. Every frame comes out of an image or video model, and everything hard about the project comes from that one fact.
+
+Character sheets are built in Nano Banana Pro. Scene plates are built in Seedream 5.0 Pro, which is where the cinematic register actually lives - the low uneven ceilings, the raking window light, the atmospheric depth running from the lens to the far wall. That look was the thing we were chasing from the start and never quite got anywhere else. Video is Seedance 2.5.
+
+THE MEMOJI PROBLEM
+
+The first characters we built looked like Memojis. Smooth, symmetrical, weightless - big eyes and a small nose and nothing underneath. Every AI image model defaults to this and it kills a film instantly, because you cannot believe a face that has never had anything happen to it.
+
+What fixed it was giving every single character one exaggerated feature and building the rest of them around it.
+
+The daughter has a round face and large ears - ears that stay slightly too big for her head at every age, from the crib to eighteen. The mother has a long slim neck and sharp visible bone structure, a jaw and collarbones that read from across a room. Not prettier or uglier than a default face. Just decisively one thing, pushed past where a model would leave it.
+
+@girl-black-hoodie
+
+角色
+
+That rule applies to everyone, including people on screen for four seconds. The art teacher is built around an enormous cloud of curls. The two police officers are enormous in a car built for people a third their size. The old couple, the baker, the postman, the twelve kids in the classroom - every one of them carries something specific in the face or the body, and none of them share it. A town where twelve children have twelve different heads is a town. A town where they share a face is a screensaver.
+
+@classmates
+
+角色
+
+Two things followed from that.
+
+Fidelity moved out of the face. Faces stayed simple - large clear eyes, small nose, brows and mouth carrying the whole performance - while cloth became the highest-detail element in every frame. Real weight, real fold behaviour, visible weave and stitch, soft wear at cuffs and hems. A knitted cardigan that bunches where a sleeve is shoved up. Once the clothing had genuine physical presence, the simplified face stopped reading as unfinished and started reading as designed.
+
+Surfaces got made by hand rather than scanned. Paint holds brush direction. Wood holds carved grain. Clay holds thumb marks and hand-thrown ridges. Skin is matte and poreless with real subsurface warmth. Hair is a sculpted mass with carved separations, never strand-by-strand. Shadows are lifted and tinted, never crushed, and there is no pure black anywhere in the film at any depth. Every one of those is a rule written against the clean render the model wants to hand you.
+
+WHY THIS FILM
+
+Mothers are expected to tend everyone. Nobody asks who is tending them. This is a film about a woman whose own soul is dying on a windowsill upstairs while she pours everything she has into her daughter's. She isn't cruel and she isn't careless. She is depleted, and she is doing what depleted people do - giving from a well that ran dry years ago and hoping nobody notices. Her daughter pays for it. But so does she. You cannot tend anyone properly if you will not tend yourself first. That is the whole film. And the last image isn't a daughter forgiving her mother - it's two people finally watering each other, because neither of them could ever quite manage it alone.
+
+Credits
+
+Character Design
+KY
+
+Environment & Prop Design
+BYDANY
+
+Written by
+KY, BYDANY, MARYPAUL
+
+Directed by
+JOEY
