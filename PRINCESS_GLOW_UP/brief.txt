@@ -1,0 +1,32 @@
+This is a project brief for the series "Princess glow up"
+
+Logline: A bare-faced scholarship girl at an elite academy where every student dresses like a runway is invisible until the day she isn't — and the moment the school finally looks at her, so does the one boy she never wanted to be seen by.
+
+About the project 
+
+"Princess Glow Up" is a short drama series about a plain, painfully shy student inside a school where fashion is the social currency and everyone is dressed like an editorial. Its world is a single pastel palace of a school — a mint-and-gold cafeteria with orange lunch trays, a chandeliered marble atrium with twin staircases, corridors where students pass in coquette-doll and Y2K couture — plus one ordinary bedroom that grounds the whole thing in real life. The visual language stays consistent throughout: soft daylight, a pastel palette of peach, powder blue, cream and gold, low contrast, natural skin texture with nothing smoothed away, and a camera that stays close and calm so a shy glance is allowed to land. The drama is deliberately small-scale — a hidden watch, a business card slid across a lunch table, a friend calling your name across a hall — and every shot is tuned until the beat it carries earns its place.
+
+Reference assets
+
+Every character, prop and location in the series is locked to an actual reference photo — a three-view turntable of Enju bare-faced in her oversized hoodie, a second turntable of her styled glow-up look, Ryan in his black monogram cardigan, Chen in both of his looks, Jenny in both of hers, a mood board of the female student body, a group shot of Chen's friends, and the locations shot empty: the cafeteria, the atrium, the corridor, the bedroom. Every generated frame that later becomes a continuity anchor gets tagged too — the cafeteria master two-shot, the staircase group blocking — so a returning scene rebuilds from an image rather than from memory. Each is tagged (@image1 through @image19+) and pulled by tag into any prompt that needs it, with an explicit instruction never to re-describe or expand the environment beyond what the photo already shows. Location drift turned out to be the biggest single risk in this project: given a pastel palace, the model's instinct is to make it grander — adding chandeliers, widening the hall, re-plating school food as restaurant food — and the location lock is what stops it. The second biggest was wardrobe: with this many maximalist outfits on screen at once, an unlocked background extra will quietly borrow a named character's silhouette.
+
+For video prompts we write our system prompts in a Claude chat loaded with a custom Seedance 2.5 prompt-building skill, alongside the full script, so every prompt stays in-context with the plot — a shot knows what beat it's serving, what just happened, and what the character is feeling in that moment. For additional consistency, a stable "Style Prefix" and "Constraints" paragraph opens every prompt and stays fixed across the whole project.
+
+Style Prefix:
+
+Soft K-drama pastel look — bright diffused daylight, palette of peach, powder 
+blue, cream, gold and pink marble, gentle low contrast, natural skin texture 
+with visible pores and no beauty smoothing, very light grain, unhurried 
+stillness. 50mm lens feel, soft background bokeh. Naturalistic, intimate. 
+Steady, level, well-composed framing — flat true horizon, no tilt; the camera 
+holds still and lets a moment breathe.
+
+Visual Constraints:
+
+Photoreal live-action — no 3D render, no game-engine gloss, no cartoon or anime read. Hard positive locks in every prompt: headcounts, seating and screen geography, prop states, screen-direction, and wardrobe continuity are written into the prompt, not left to chance. Faces blink and breathe, never masklike; identities, hair, glasses and wardrobe match their @tag references every shot — Enju's round frames and Ryan's rectangular frames never swap. Locations render only what the location reference shows and are never widened, re-furnished or made grander; the cafeteria stays a school canteen with orange compartment trays inside a grand hall, never a restaurant. Background students stay in soft focus inside their own conversations and never look at camera. Enju's face stays bare and unretouched until the glow-up; after it, the styling is the only thing that changes about her. Ryan's watch stays an ordinary object in ordinary light — no glint, no bloom, no push-in. Slow motion appears only where scripted and returns to full speed on a hard cut, never a ramp. Dialogue is only the exact scripted lines, one voice at a time, delivered at ordinary conversational pace with real pauses. 4K UHD, sharp clarity, stable lighting, consistent frame rate, clean picture.
+
+It is important to include audio constraints such as "No music. Only SFX." to only have sound effects in our shots — fog-muffled ambience, a single distant rifle crack, breath, footsteps on wet ground, the low hum of a crowded corridor. Music was created during the post-production stage.
+
+Post-Production: Color, ,Music, Sound
+
+Sound design was treated as an essential storytelling tool. Every track was manually cleaned, refined and enhanced with carefully placed effects — cutlery and trays in the canteen, the low hum of a crowded hall, footsteps crossing marble, the soft rustle of organza — building a sonic space that makes an ordinary school day feel lived-in.

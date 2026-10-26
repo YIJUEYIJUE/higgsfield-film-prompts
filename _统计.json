@@ -549,5 +549,57 @@
    "nano_banana_flash": 1
   },
   "categories": 56
+ },
+ {
+  "project": "PRINCESS_GLOW_UP",
+  "type": "community",
+  "author": "ailaa",
+  "url": "https://higgsfield.ai/zh/@ailaa/projects/princess-glow-up",
+  "theme": "精英学院素颜奖学金女生变身短剧系列（5集+万圣节特辑，K-drama pastel 视觉，tag参考锁定防漂移工作流）",
+  "lang": "英文为主（少量俄语图像修饰）",
+  "prompts": 451,
+  "assets_total": 2298,
+  "captured_at": "2026-10-27",
+  "byType": {
+   "image": 94,
+   "video": 357
+  },
+  "byModel": {
+   "seedream_v5_pro": 14,
+   "seedance_2_5": 2149,
+   "text2image_soul_v2": 41,
+   "soul_cinema_1_5": 5,
+   "gpt_image_2": 38,
+   "nano_banana_2": 21,
+   "soul_cinematic": 22,
+   "cinematic_studio_video_4_0": 3,
+   "nano_banana_flash": 2,
+   "nano_banana_2_1": 3
+  },
+  "note": "官方生成记录2298全捕获（文件夹计数2310含8上传素材+4跨夹引用）；451唯一=同prompt多次抽卡去重"
+ },
+ {
+  "project": "MR_OTTER",
+  "type": "official",
+  "author": "fotachu",
+  "url": "https://higgsfield.ai/zh/@fotachu/projects/one-day-with-mr-otter-higgsfield-originals",
+  "theme": "22分钟动画动作喜剧《与水獭先生的一天》：动物间谍大片（Higgsfield Originals）",
+  "lang": "英文",
+  "prompts": 304,
+  "assets_total": 725,
+  "captured_at": "2026-10-26",
+  "byType": {
+   "?": 725
+  },
+  "byModel": {
+   "gpt_image_2": 317,
+   "seedance_2_5": 395,
+   "cinematic_studio_video_4_0": 1,
+   "nano_banana_2": 3,
+   "seedream_v5_pro": 2,
+   "hf_mult_motion_control": 4,
+   "hf_mult_replace_object": 3
+  },
+  "note": "官方725资产全捕获；304唯一去重"
  }
 ]
