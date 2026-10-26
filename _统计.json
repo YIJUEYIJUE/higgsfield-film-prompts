@@ -1269,5 +1269,121 @@
    "cinematic_video_relight": 1
   },
   "note": "批次3（双智能体并行采集）；官方1924零丢失"
+ },
+ {
+  "project": "COUNT_OF_THREE",
+  "type": "community",
+  "author": "shotbyhzee",
+  "url": "https://higgsfield.ai/zh/@shotbyhzee",
+  "theme": "比赛片（1.9万播放）",
+  "lang": "英文",
+  "prompts": 723,
+  "assets_total": 1032,
+  "captured_at": "2026-10-27",
+  "likes": 250,
+  "official_count": 1127,
+  "byType": {
+   "video": 395,
+   "image": 637
+  },
+  "byModel": {
+   "seedance_2_5": 386,
+   "seedream_v5_pro": 255,
+   "nano_banana_2": 215,
+   "gpt_image_2": 137,
+   "nano_banana_flash": 13,
+   "cinematic_video_editor": 9,
+   "gpt_image_2_5": 17
+  },
+  "note": "批次3（双智能体并行第2轮）；官方1127零丢失"
+ },
+ {
+  "project": "DOMINIO",
+  "type": "community",
+  "author": "jun_pabon",
+  "url": "https://higgsfield.ai/zh/@jun_pabon",
+  "theme": "比赛片（100%带prompt，72 media_input）",
+  "lang": "英文",
+  "prompts": 521,
+  "assets_total": 746,
+  "captured_at": "2026-10-27",
+  "likes": 247,
+  "official_count": 795,
+  "byType": {
+   "video": 280,
+   "image": 466
+  },
+  "byModel": {
+   "seedance_2_5": 244,
+   "seedream_v5_pro": 206,
+   "nano_banana_2": 105,
+   "gpt_image_2": 154,
+   "cinematic_studio_video_4_0": 1,
+   "flux_2": 1,
+   "cinematic_studio_video_3_5": 34,
+   "minimax_h3": 1
+  },
+  "note": "批次3（双智能体并行第2轮）；官方795零丢失"
+ },
+ {
+  "project": "HALVER",
+  "type": "community",
+  "author": "derartawalbeh",
+  "url": "https://higgsfield.ai/zh/@derartawalbeh",
+  "theme": "比赛片（226音乐件，72个快照子夹单项目最多，topaz_video 31）",
+  "lang": "英文",
+  "prompts": 573,
+  "assets_total": 1040,
+  "captured_at": "2026-10-27",
+  "likes": 216,
+  "official_count": 1194,
+  "byType": {
+   "video": 417,
+   "image": 623
+  },
+  "byModel": {
+   "seedance_2_5": 384,
+   "gpt_image_2": 177,
+   "seedream_v5_pro": 404,
+   "topaz_video": 31,
+   "nano_banana_2": 26,
+   "cinematic_video_editor": 1,
+   "text2image_soul_v2": 2,
+   "cinematic_studio_soul_location": 4,
+   "soul_cinematic": 5,
+   "nano_banana_flash": 5,
+   "hf_mult_replace_object": 1
+  },
+  "note": "批次3（双智能体并行第2轮）；官方1194零丢失"
+ },
+ {
+  "project": "GIRLS_DEMONS",
+  "type": "community",
+  "author": "tambv",
+  "url": "https://higgsfield.ai/zh/@tambv",
+  "theme": "比赛片（62唯一=强模板复用极致样本；soul_cinematic 272；gpt_image_2_5 52）",
+  "lang": "英文",
+  "prompts": 62,
+  "assets_total": 468,
+  "captured_at": "2026-10-27",
+  "likes": 211,
+  "official_count": 504,
+  "byType": {
+   "image": 374,
+   "video": 94
+  },
+  "byModel": {
+   "soul_cinematic": 272,
+   "gpt_image_2": 25,
+   "seedance_2_5": 3,
+   "cinematic_studio_video_4_0": 15,
+   "seedream_v5_pro": 4,
+   "text2image_soul_v2": 20,
+   "gemini_omni_flash_1_1": 1,
+   "nano_banana_2": 1,
+   "seedance_2_0": 75,
+   "gpt_image_2_5": 52
+  },
+  "note": "批次3（双智能体并行第2轮）；官方504零丢失"
  }
 ]
