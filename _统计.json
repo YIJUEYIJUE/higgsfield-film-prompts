@@ -1497,5 +1497,125 @@
    "seedream_v4_5": 1
   },
   "note": "批次3（双智能体并行第3轮）；官方3118零丢失"
+ },
+ {
+  "project": "BALLAST",
+  "type": "community",
+  "author": "lejardinier",
+  "url": "https://higgsfield.ai/zh/@lejardinier",
+  "theme": "比赛片（1.2万播放，cinematic_studio_soul_location 70）",
+  "lang": "英文",
+  "prompts": 286,
+  "assets_total": 638,
+  "captured_at": "2026-10-27",
+  "likes": 166,
+  "official_count": 670,
+  "byType": {
+   "image": 454,
+   "video": 184
+  },
+  "byModel": {
+   "recraft_v4_1": 11,
+   "nano_banana_flash": 68,
+   "seedance_2_0": 2,
+   "seedream_v5_pro": 52,
+   "seedance_2_5": 182,
+   "nano_banana_2": 103,
+   "soul_cinematic": 143,
+   "cinematic_studio_soul_location": 70,
+   "text2image_soul_v2": 4,
+   "gpt_image_2": 3
+  },
+  "note": "批次3（双智能体并行第4轮）；官方670零丢失"
+ },
+ {
+  "project": "THIS_ISNT_ART",
+  "type": "community",
+  "author": "blackgogobg",
+  "url": "https://higgsfield.ai/zh/@blackgogobg",
+  "theme": "比赛片（nano_banana初代98全库最大用户，10条audio结果）",
+  "lang": "英文",
+  "prompts": 168,
+  "assets_total": 337,
+  "captured_at": "2026-10-27",
+  "likes": 158,
+  "official_count": 387,
+  "byType": {
+   "video": 66,
+   "audio": 10,
+   "image": 261
+  },
+  "byModel": {
+   "cinematic_studio_video_4_0": 64,
+   "seed_audio": 10,
+   "nano_banana_2": 46,
+   "nano_banana": 98,
+   "image_auto": 2,
+   "nano_banana_flash": 6,
+   "soul_cinematic": 2,
+   "cinematic_video_editor": 1,
+   "cinematic_studio_soul_location": 75,
+   "gpt_image_2": 2,
+   "cinematic_studio_soul_cast": 23,
+   "seedance_2_5": 1,
+   "gpt_image_2_5": 6,
+   "cinematic_studio_3_0_image_edit": 1
+  },
+  "note": "批次3（双智能体并行第4轮）；官方387零丢失"
+ },
+ {
+  "project": "CANE_MAN",
+  "type": "community",
+  "author": "noah_01",
+  "url": "https://higgsfield.ai/zh/@noah_01",
+  "theme": "赞低量大反差（157赞/2,046 job视频流，seedance_2_5 1,561）",
+  "lang": "英文",
+  "prompts": 1365,
+  "assets_total": 2046,
+  "captured_at": "2026-10-27",
+  "likes": 157,
+  "official_count": 2070,
+  "byType": {
+   "image": 484,
+   "video": 1562
+  },
+  "byModel": {
+   "seedream_v5_pro": 474,
+   "seedance_2_5": 1561,
+   "cinematic_video_editor": 1,
+   "nano_banana_2": 5,
+   "gpt_image_2": 2,
+   "gpt_image_2_5": 3
+  },
+  "note": "批次3（双智能体并行第4轮）；官方2070零丢失"
+ },
+ {
+  "project": "THE_LAST_RIDE",
+  "type": "community",
+  "author": "santanando",
+  "url": "https://higgsfield.ai/zh/@santanando",
+  "theme": "比赛片（bytedance_video_upscale 43新模型+seedance_2_0_mini，46音乐件）",
+  "lang": "英文",
+  "prompts": 228,
+  "assets_total": 611,
+  "captured_at": "2026-10-27",
+  "likes": 150,
+  "official_count": 643,
+  "byType": {
+   "video": 416,
+   "image": 195
+  },
+  "byModel": {
+   "seedance_2_5": 337,
+   "seedream_v5_pro": 172,
+   "seedance_2_0": 35,
+   "gpt_image_2_5": 7,
+   "seedream_v5_lite": 14,
+   "bytedance_video_upscale": 43,
+   "seedance_2_0_mini": 1,
+   "gpt_image_2": 1,
+   "nano_banana_2": 1
+  },
+  "note": "批次3（双智能体并行第4轮）；官方643零丢失"
  }
 ]
