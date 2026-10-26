@@ -48,7 +48,9 @@
    "cinematic_studio_video_3_5": 1,
    "seedance_2_5": 10
   },
-  "categories": 1
+  "categories": 1,
+  "assets_total": 4847,
+  "note": "；仓内assets_full为整文件数组格式（早期版本），02区另有all_assets增量版更全"
  },
  {
   "project": "RED_FLAG",
@@ -75,7 +77,9 @@
    "cinematic_studio_3_0_image_edit": 9,
    "seedance_2_5": 217
   },
-  "categories": 6
+  "categories": 6,
+  "assets_total": 3527,
+  "note": "；仓内assets_full为整文件数组格式（早期版本），02区另有all_assets增量版更全"
  },
  {
   "project": "KOK_BORU",
@@ -95,7 +99,9 @@
    "cinematic_studio_video_3_5": 1,
    "nano_banana_flash": 2
   },
-  "categories": 11
+  "categories": 11,
+  "assets_total": 2716,
+  "note": "；仓内assets_full为整文件数组格式（早期版本），02区另有all_assets增量版更全"
  },
  {
   "project": "KOK_BORU_FILM",
@@ -256,7 +262,9 @@
    "seedance_2_5": 15,
    "minimax_h3": 28
   },
-  "categories": 48
+  "categories": 48,
+  "assets_total": 4203,
+  "note": "；仓内assets_full为整文件数组格式（早期版本），02区另有all_assets增量版更全"
  },
  {
   "project": "THE_TRIGGER",
@@ -282,7 +290,9 @@
    "cinematic_studio_3_0": 1,
    "kling3_0": 1
   },
-  "categories": 25
+  "categories": 25,
+  "assets_total": 5429,
+  "note": "；仓内assets_full为整文件数组格式（早期版本），02区另有all_assets增量版更全"
  },
  {
   "project": "HUNTRESS_TALE",
