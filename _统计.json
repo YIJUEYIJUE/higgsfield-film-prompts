@@ -1617,5 +1617,566 @@
    "nano_banana_2": 1
   },
   "note": "批次3（双智能体并行第4轮）；官方643零丢失"
+ },
+ {
+  "project": "BUZKASHI",
+  "type": "community",
+  "author": "sqr_studio",
+  "url": "https://higgsfield.ai/zh/@sqr_studio/projects/buzkashi",
+  "theme": "中亚马术（KOK_BORU同源，92历史子夹，95上传件）",
+  "lang": "英文",
+  "prompts": 532,
+  "assets_total": 1982,
+  "captured_at": "2026-10-27",
+  "likes": 148,
+  "official_count": 2032,
+  "byType": {
+   "image": 1736,
+   "video": 246
+  },
+  "byModel": {
+   "nano_banana_2": 1725,
+   "seedance_2_5": 195,
+   "kling3_0": 32,
+   "cinematic_video_editor": 19,
+   "seedream_v4_5": 4,
+   "text2image_gpt": 3,
+   "image_auto": 4
+  },
+  "note": "批次3收官轮（4智能体并行）；官方2032零丢失"
+ },
+ {
+  "project": "PROPHECY_IN_2047",
+  "type": "community",
+  "author": "narasimhamurthyg",
+  "url": "https://higgsfield.ai/zh/@narasimhamurthyg/projects/2047",
+  "theme": "科幻预言（2.7万播放）",
+  "lang": "英文",
+  "prompts": 759,
+  "assets_total": 1054,
+  "captured_at": "2026-10-27",
+  "likes": 148,
+  "official_count": 1056,
+  "byType": {
+   "image": 706,
+   "video": 348
+  },
+  "byModel": {
+   "seedream_v5_pro": 193,
+   "seedance_2_5": 259,
+   "cinematic_video_editor": 8,
+   "kling3_0": 6,
+   "nano_banana_2": 24,
+   "gpt_image_2": 280,
+   "recraft_v4_1": 85,
+   "seedream_v4_5": 1,
+   "kling_omni_image": 1,
+   "nano_banana_flash": 6,
+   "text2image_soul_v2": 8,
+   "cinematic_studio_soul_cast": 6,
+   "seedream_v5_lite": 2,
+   "image_auto": 2,
+   "seedance_2_unlimited": 70,
+   "gpt_image_2_unlimited": 81,
+   "seedance_2_0": 2,
+   "soul_cinematic": 8,
+   "cinematic_studio_soul_location": 4,
+   "wan3_0": 2,
+   "flux_3_video": 1,
+   "gpt_image_2_5": 2,
+   "cinematic_studio_image": 3
+  },
+  "note": "批次3收官轮（4智能体并行）；官方1056零丢失"
+ },
+ {
+  "project": "KAGEROU",
+  "type": "community",
+  "author": "webbinc_0722",
+  "url": "https://higgsfield.ai/zh/@webbinc_0722/projects/kagerou",
+  "theme": "日系（210历史子夹）",
+  "lang": "英文",
+  "prompts": 234,
+  "assets_total": 489,
+  "captured_at": "2026-10-27",
+  "likes": 133,
+  "official_count": 578,
+  "byType": {
+   "image": 217,
+   "video": 272
+  },
+  "byModel": {
+   "gpt_image_2": 7,
+   "nano_banana_flash": 55,
+   "seedance_2_5": 243,
+   "soul_cinematic": 69,
+   "cinematic_studio_soul_location": 72,
+   "kling3_0": 16,
+   "cinematic_video_editor": 10,
+   "seedream_v5_pro": 3,
+   "text2image_soul_v2": 3,
+   "wan3_0": 1,
+   "cinematic_studio_soul_cast": 3,
+   "gpt_image_2_5": 4,
+   "minimax_h3_max": 1,
+   "nano_banana_2": 1,
+   "seedance_2_0": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方578零丢失"
+ },
+ {
+  "project": "CTRL_HOLD_MV",
+  "type": "community",
+  "author": "joeysnoisygroup",
+  "url": "https://higgsfield.ai/zh/@joeysnoisygroup/projects/ctrl-hold-mv",
+  "theme": "精选MV（45job全带prompt）",
+  "lang": "英文",
+  "prompts": 45,
+  "assets_total": 45,
+  "captured_at": "2026-10-27",
+  "likes": 128,
+  "official_count": 88,
+  "byType": {
+   "video": 29,
+   "image": 16
+  },
+  "byModel": {
+   "seedance_2_5": 29,
+   "seedream_v5_pro": 15,
+   "nano_banana_2": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方88零丢失"
+ },
+ {
+  "project": "OTTO",
+  "type": "community",
+  "author": "hasbroki",
+  "url": "https://higgsfield.ai/zh/@hasbroki/projects/otto",
+  "theme": "256条源站无prompt如实保留",
+  "lang": "英文",
+  "prompts": 84,
+  "assets_total": 377,
+  "captured_at": "2026-10-27",
+  "likes": 120,
+  "official_count": 382,
+  "byType": {
+   "video": 81,
+   "image": 296
+  },
+  "byModel": {
+   "seedance_2_5": 77,
+   "cinematic_studio_soul_location": 250,
+   "gpt_image_2_5": 7,
+   "cinematic_studio_soul_cast": 3,
+   "soul_cinematic": 32,
+   "cinematic_video_editor": 3,
+   "gpt_image_2": 4,
+   "kling3_0": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方382零丢失"
+ },
+ {
+  "project": "THE_COMPANION",
+  "type": "community",
+  "author": "grabho",
+  "url": "https://higgsfield.ai/zh/@grabho/projects/the-companion",
+  "theme": "韩文项目（100%带prompt）",
+  "lang": "英文",
+  "prompts": 39,
+  "assets_total": 54,
+  "captured_at": "2026-10-27",
+  "likes": 118,
+  "official_count": 57,
+  "byType": {
+   "video": 37,
+   "image": 17
+  },
+  "byModel": {
+   "seedance_2_5": 37,
+   "nano_banana_2": 9,
+   "gpt_image_2": 8
+  },
+  "note": "批次3收官轮（4智能体并行）；官方57零丢失"
+ },
+ {
+  "project": "BEYOND_THE_RIFT_A",
+  "type": "community",
+  "author": "khaledalali",
+  "url": "https://higgsfield.ai/zh/@khaledalali/projects/beyond-the-rift-a",
+  "theme": "（100%带prompt）",
+  "lang": "英文",
+  "prompts": 39,
+  "assets_total": 47,
+  "captured_at": "2026-10-27",
+  "likes": 112,
+  "official_count": 76,
+  "byType": {
+   "video": 39,
+   "image": 8
+  },
+  "byModel": {
+   "seedance_2_5": 39,
+   "gpt_image_2": 8
+  },
+  "note": "批次3收官轮（4智能体并行）；官方76零丢失"
+ },
+ {
+  "project": "THE_COAT",
+  "type": "community",
+  "author": "davidacfilm",
+  "url": "https://higgsfield.ai/zh/@davidacfilm/projects/the-coat",
+  "theme": "1,578 job",
+  "lang": "英文",
+  "prompts": 840,
+  "assets_total": 1578,
+  "captured_at": "2026-10-27",
+  "likes": 110,
+  "official_count": 1622,
+  "byType": {
+   "image": 1091,
+   "video": 487
+  },
+  "byModel": {
+   "seedream_v5_pro": 566,
+   "seedance_2_5": 486,
+   "nano_banana_2": 465,
+   "nano_banana_flash": 38,
+   "seedream_v4_5": 13,
+   "gpt_image_2": 9,
+   "cinematic_video_editor": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方1622零丢失"
+ },
+ {
+  "project": "ILL_SLEEP_EARLY",
+  "type": "community",
+  "author": "synthwavejuice1602",
+  "url": "https://higgsfield.ai/zh/@synthwavejuice1602/projects/@id__ce38bfb3-f4c6-4315-b1e7-befc65369c95",
+  "theme": "@id占位符slug形态",
+  "lang": "英文",
+  "prompts": 93,
+  "assets_total": 104,
+  "captured_at": "2026-10-27",
+  "likes": 107,
+  "official_count": 111,
+  "byType": {
+   "image": 51,
+   "video": 53
+  },
+  "byModel": {
+   "gpt_image_2": 12,
+   "seedance_2_5": 53,
+   "gpt_image_2_5": 39
+  },
+  "note": "批次3收官轮（4智能体并行）；官方111零丢失"
+ },
+ {
+  "project": "DAGON",
+  "type": "community",
+  "author": "jacob_everett",
+  "url": "https://higgsfield.ai/zh/@jacob_everett/projects/dagon",
+  "theme": "100%带prompt",
+  "lang": "英文",
+  "prompts": 305,
+  "assets_total": 619,
+  "captured_at": "2026-10-27",
+  "likes": 105,
+  "official_count": 664,
+  "byType": {
+   "image": 427,
+   "video": 192
+  },
+  "byModel": {
+   "gpt_image_2": 427,
+   "kling3_0": 126,
+   "seedance_2_5": 65,
+   "minimax_h3": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方664零丢失"
+ },
+ {
+  "project": "STRAWBERRY_SUMMER",
+  "type": "community",
+  "author": "kniga6767",
+  "url": "https://higgsfield.ai/zh/@kniga6767/projects/strawberry-summer",
+  "theme": "小体量样本",
+  "lang": "英文",
+  "prompts": 13,
+  "assets_total": 18,
+  "captured_at": "2026-10-27",
+  "likes": 97,
+  "official_count": 20,
+  "byType": {
+   "image": 7,
+   "video": 11
+  },
+  "byModel": {
+   "text2image_soul_v2": 5,
+   "seedance_2_0": 11,
+   "seedream_v5_pro": 2
+  },
+  "note": "批次3收官轮（4智能体并行）；官方20零丢失"
+ },
+ {
+  "project": "EVERYTHING_NICE",
+  "type": "community",
+  "author": "joeysnoisygroup",
+  "url": "https://higgsfield.ai/zh/@joeysnoisygroup/projects/everything-nice-happens-when-i-sleep",
+  "theme": "小体量样本（15job全带prompt）",
+  "lang": "英文",
+  "prompts": 15,
+  "assets_total": 15,
+  "captured_at": "2026-10-27",
+  "likes": 95,
+  "official_count": 16,
+  "byType": {
+   "video": 9,
+   "image": 6
+  },
+  "byModel": {
+   "seedance_2_5": 7,
+   "cinematic_studio_video_4_0": 1,
+   "cinematic_studio_video_3_5": 1,
+   "seedream_v5_pro": 2,
+   "nano_banana_2": 4
+  },
+  "note": "批次3收官轮（4智能体并行）；官方16零丢失"
+ },
+ {
+  "project": "I_HATE_SCIENCE",
+  "type": "community",
+  "author": "abz94",
+  "url": "https://higgsfield.ai/zh/@abz94/projects/i-hate-science",
+  "theme": "1,227 job（928带prompt）",
+  "lang": "英文",
+  "prompts": 451,
+  "assets_total": 1227,
+  "captured_at": "2026-10-27",
+  "likes": 94,
+  "official_count": 1262,
+  "byType": {
+   "image": 741,
+   "video": 486
+  },
+  "byModel": {
+   "seedream_v5_pro": 217,
+   "seedance_2_5": 406,
+   "nano_banana_flash": 88,
+   "seedream_v4_5": 55,
+   "nano_banana_2": 70,
+   "cinematic_video_editor": 12,
+   "cinematic_studio_soul_location": 126,
+   "seedream_v5_lite": 16,
+   "gpt_image_2": 6,
+   "cinematic_studio_video_4_0": 43,
+   "text2image_soul_v2": 2,
+   "cinematic_studio_video_3_5": 8,
+   "seedance_2_0": 6,
+   "cinematic_studio_3_0": 8,
+   "seedance_2_0_mini": 2,
+   "cinematic_studio_soul_cast": 161,
+   "gemini_omni": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方1262零丢失"
+ },
+ {
+  "project": "DEATHS_FIRST_DAY",
+  "type": "community",
+  "author": "nirina",
+  "url": "https://higgsfield.ai/zh/@nirina/projects/death-s-first-day",
+  "theme": "220音乐件",
+  "lang": "英文",
+  "prompts": 708,
+  "assets_total": 866,
+  "captured_at": "2026-10-27",
+  "likes": 92,
+  "official_count": 1125,
+  "byType": {
+   "image": 600,
+   "video": 265,
+   "image_3d": 1
+  },
+  "byModel": {
+   "seedream_v5_pro": 388,
+   "nano_banana_2": 161,
+   "cinematic_studio_soul_location": 20,
+   "soul_cinematic": 2,
+   "seedance_2_5": 245,
+   "seedance_2_0": 2,
+   "kling3_0": 8,
+   "nano_banana_flash": 11,
+   "kling_o3_image_reference": 4,
+   "cinematic_video_editor": 1,
+   "cinematic_studio_video_4_0": 3,
+   "cinematic_studio_image_3d": 1,
+   "seedream_v4_5": 3,
+   "kling_video_edit": 1,
+   "seedream_v5_lite": 1,
+   "gpt_image_2": 1,
+   "recraft_v4_1": 13,
+   "cinematic_studio_video_v2": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方1125零丢失"
+ },
+ {
+  "project": "TYANPA",
+  "type": "community",
+  "author": "sandstonevfx26",
+  "url": "https://higgsfield.ai/zh/@sandstonevfx26/projects/tyanpa",
+  "theme": "VFX团队（1,793带prompt）",
+  "lang": "英文",
+  "prompts": 960,
+  "assets_total": 1809,
+  "captured_at": "2026-10-27",
+  "likes": 91,
+  "official_count": 1879,
+  "byType": {
+   "video": 512,
+   "image": 1297
+  },
+  "byModel": {
+   "cinematic_studio_video_4_0": 319,
+   "seedream_v5_pro": 1126,
+   "gpt_image_2": 46,
+   "seedance_2_5": 169,
+   "cinematic_video_editor": 10,
+   "dubbing_lipsync": 1,
+   "nano_banana_flash": 1,
+   "seedance_2_0": 6,
+   "nano_banana_2": 53,
+   "nano_banana_2_lite": 1,
+   "flux_3_video": 1,
+   "soul_cinematic": 36,
+   "gpt_image_2_5": 34,
+   "hf_mult_motion_control": 2,
+   "kling3_0": 3,
+   "video_scene_edit": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方1879零丢失"
+ },
+ {
+  "project": "RACER18",
+  "type": "community",
+  "author": "racer18",
+  "url": "https://higgsfield.ai/zh/@racer18/projects/racer-18",
+  "theme": "63.2万播放全队列之最（100%带prompt）",
+  "lang": "英文",
+  "prompts": 178,
+  "assets_total": 207,
+  "captured_at": "2026-10-27",
+  "likes": 89,
+  "official_count": 207,
+  "byType": {
+   "video": 146,
+   "image": 61
+  },
+  "byModel": {
+   "cinematic_studio_video_4_0": 146,
+   "gpt_image_2": 61
+  },
+  "note": "批次3收官轮（4智能体并行）；官方207零丢失"
+ },
+ {
+  "project": "RORAIMA",
+  "type": "community",
+  "author": "mousai",
+  "url": "https://higgsfield.ai/zh/@mousai/projects/roraima",
+  "theme": "（888带prompt）",
+  "lang": "英文",
+  "prompts": 585,
+  "assets_total": 908,
+  "captured_at": "2026-10-27",
+  "likes": 86,
+  "official_count": 987,
+  "byType": {
+   "video": 340,
+   "image": 568
+  },
+  "byModel": {
+   "seedance_2_5": 330,
+   "gpt_image_2": 522,
+   "cinematic_video_editor": 4,
+   "cinematic_studio_video_4_0": 3,
+   "grok_video_v15": 2,
+   "seedance_2_0": 1,
+   "gpt_image_2_5": 1,
+   "topaz_image": 16,
+   "soul_cinematic": 28,
+   "nano_banana_flash": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方987零丢失"
+ },
+ {
+  "project": "SOULLESS",
+  "type": "community",
+  "author": "yoav_yariv",
+  "url": "https://higgsfield.ai/zh/@yoav_yariv/projects/soulless",
+  "theme": "1,929 job（1,822带prompt）",
+  "lang": "英文",
+  "prompts": 960,
+  "assets_total": 1929,
+  "captured_at": "2026-10-27",
+  "likes": 86,
+  "official_count": 2046,
+  "byType": {
+   "video": 586,
+   "image": 1343
+  },
+  "byModel": {
+   "seedance_2_5": 466,
+   "seedream_v5_pro": 986,
+   "topaz_video": 105,
+   "gpt_image_2": 230,
+   "seedance_2_0": 8,
+   "seedance_2_0_mini": 6,
+   "nano_banana_2": 48,
+   "recraft_v4_1": 16,
+   "seedream_v4_5": 4,
+   "nano_banana_flash": 44,
+   "grok_image_2_0": 1,
+   "image_auto": 1,
+   "cinematic_video_editor": 1,
+   "cinematic_studio_image": 4,
+   "soul_cinematic": 1,
+   "nano_banana_2_1": 4,
+   "gpt_image_2_5": 4
+  },
+  "note": "批次3收官轮（4智能体并行）；官方2046零丢失"
+ },
+ {
+  "project": "CLEAR_INTENTION",
+  "type": "community",
+  "author": "cyr4x",
+  "url": "https://higgsfield.ai/zh/@cyr4x/projects/ai-film-festival-clear-intention",
+  "theme": "（791带prompt）",
+  "lang": "英文",
+  "prompts": 464,
+  "assets_total": 821,
+  "captured_at": "2026-10-27",
+  "likes": 83,
+  "official_count": 823,
+  "byType": {
+   "image": 459,
+   "video": 362
+  },
+  "byModel": {
+   "gpt_image_2": 17,
+   "seedance_2_5": 354,
+   "text2image_soul_v2": 268,
+   "seedream_v5_pro": 16,
+   "seedream_v4_5": 3,
+   "seedance_2_0": 2,
+   "cinematic_video_editor": 4,
+   "cinematic_studio_3_0_image_edit": 4,
+   "cinematic_studio_soul_location": 23,
+   "nano_banana_2": 76,
+   "nano_banana_flash": 9,
+   "cinematic_studio_video_4_0": 2,
+   "image_auto": 4,
+   "nano_banana_2_relight": 1,
+   "grok_image": 3,
+   "soul_cinematic": 34,
+   "soul_cinema_studio": 1
+  },
+  "note": "批次3收官轮（4智能体并行）；官方823零丢失"
  }
 ]
