@@ -1385,5 +1385,117 @@
    "gpt_image_2_5": 52
   },
   "note": "批次3（双智能体并行第2轮）；官方504零丢失"
+ },
+ {
+  "project": "AND_WHERE_ARE_WE_GOING",
+  "type": "community",
+  "author": "odngr",
+  "url": "https://higgsfield.ai/zh/@odngr",
+  "theme": "比赛片（voice_change_merge语音合成新模型）",
+  "lang": "英文",
+  "prompts": 251,
+  "assets_total": 522,
+  "captured_at": "2026-10-27",
+  "likes": 257,
+  "official_count": 570,
+  "byType": {
+   "video": 304,
+   "image": 218
+  },
+  "byModel": {
+   "seedance_2_5": 295,
+   "gpt_image_2": 218,
+   "cinematic_video_editor": 5,
+   "voice_change_merge": 3,
+   "video_scene_edit": 1
+  },
+  "note": "批次3（双智能体并行第3轮）；官方570零丢失"
+ },
+ {
+  "project": "ONE_SMALL_BITE",
+  "type": "community",
+  "author": "davidjuanseelos",
+  "url": "https://higgsfield.ai/zh/@davidjuanseelos",
+  "theme": "《大奶酪追逐》喜剧（39子夹，seedream_v4_5 443）",
+  "lang": "英文",
+  "prompts": 586,
+  "assets_total": 1548,
+  "captured_at": "2026-10-27",
+  "likes": 209,
+  "official_count": 1566,
+  "byType": {
+   "video": 630,
+   "image": 918
+  },
+  "byModel": {
+   "seedance_2_5": 623,
+   "nano_banana_2": 448,
+   "gpt_image_2": 17,
+   "seedream_v4_5": 443,
+   "text2image_gpt": 4,
+   "topaz_video": 3,
+   "cinematic_studio_soul_location": 2,
+   "nano_banana_2_lite": 1,
+   "soul_cinematic": 3,
+   "seedance_2_0": 3,
+   "bytedance_video_upscale": 1
+  },
+  "note": "批次3（双智能体并行第3轮）；官方1566零丢失"
+ },
+ {
+  "project": "UNPROMPTED",
+  "type": "community",
+  "author": "shestak",
+  "url": "https://higgsfield.ai/zh/@shestak",
+  "theme": "比赛片（95条图生视频无prompt，seedream_v5_pro 742）",
+  "lang": "英文",
+  "prompts": 475,
+  "assets_total": 1417,
+  "captured_at": "2026-10-27",
+  "likes": 202,
+  "official_count": 1423,
+  "byType": {
+   "video": 128,
+   "image": 1289
+  },
+  "byModel": {
+   "cinematic_studio_video_4_0": 128,
+   "seedream_v5_pro": 742,
+   "soul_cinematic": 320,
+   "cinematic_studio_soul_location": 75,
+   "text2image_soul_v2": 8,
+   "gpt_image_2_5": 81,
+   "gpt_image_2": 57,
+   "nano_banana_2": 3,
+   "kling_omni_image": 3
+  },
+  "note": "批次3（双智能体并行第3轮）；官方1423零丢失"
+ },
+ {
+  "project": "FUKUSHIMA",
+  "type": "community",
+  "author": "aist",
+  "url": "https://higgsfield.ai/zh/@aist",
+  "theme": "DETOUR作者出品（3,104 job精确对账3,118；全中文视频复刻长prompt，seedream_v5_pro 2,031）",
+  "lang": "中文",
+  "prompts": 365,
+  "assets_total": 3104,
+  "captured_at": "2026-10-27",
+  "likes": 172,
+  "official_count": 3118,
+  "byType": {
+   "video": 255,
+   "image": 2849
+  },
+  "byModel": {
+   "seedance_2_5": 252,
+   "hf_mult_replace_object": 3,
+   "gpt_image_2": 430,
+   "seedream_v5_pro": 2031,
+   "gpt_image_2_5": 291,
+   "nano_banana_2": 96,
+   "seedream_v4_5": 1
+  },
+  "note": "批次3（双智能体并行第3轮）；官方3118零丢失"
  }
 ]
